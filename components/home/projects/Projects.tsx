@@ -66,7 +66,7 @@ const projects = [
     title: "Primeproperties",
     imgSrc: "/project-imgs/primeproperties.png",
     code: "https://github.com/ShahSau/prime-properties",
-    projectLink: "",
+    projectLink: "https://prime-properties.onrender.com",
     tech: ["Redux Thunk", "React", "NextJS", "ExpressJS", "NodeJS", "MongoDB", "JSON Web Token (JWT)", "Firebase"],
     description:
       "A MERN stack website for real estate. Designed and built on my own.",
