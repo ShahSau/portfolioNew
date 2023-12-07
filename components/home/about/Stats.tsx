@@ -35,10 +35,10 @@ export const Stats = () => {
             <span className="chip">TypeScript</span>
             <span className="chip">Angular</span>
             <span className="chip">NextJS</span>
-            <span className="chip">TailwindCSS</span>
             <span className="chip">Gatsby</span>
-            <span className="chip">Jest</span>
+            <span className="chip">TailwindCSS</span>
             <span className="chip">Material UI</span>
+            <span className="chip">Jest</span>
             <span className="chip">Cypress</span>
             <span className="chip">React Native</span>
           </div>
@@ -54,15 +54,16 @@ export const Stats = () => {
             <span className="chip">Node</span>
             <span className="chip">Express</span>
             <span className="chip">Django</span>
+            <span className="chip">Django REST</span>
             <span className="chip">Redis</span>
             <span className="chip">JWT</span>
             <span className="chip">GraphQL</span>
-            <span className="chip">Rest</span>
+            <span className="chip">REST</span>
             <span className="chip">MongoDB</span>
             <span className="chip">PostGres</span>
             <span className="chip">FireBase</span>
-            <span className="chip">Redis</span>
             <span className="chip">Prisma</span>
+            <span className="chip">Redis</span>
           </div>
         </div>
       </Reveal>
