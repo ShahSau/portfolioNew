@@ -17,6 +17,7 @@ export const Stats = () => {
             <span className="chip">JavascriptScript</span>
             <span className="chip">Python</span>
             <span className="chip">C</span>
+            <span className="chip">Go</span>
           </div>
         </div>
       </Reveal>
@@ -56,6 +57,7 @@ export const Stats = () => {
             <span className="chip">Redis</span>
             <span className="chip">JWT</span>
             <span className="chip">GraphQL</span>
+            <span className="chip">Rest</span>
             <span className="chip">MongoDB</span>
             <span className="chip">PostGres</span>
             <span className="chip">FireBase</span>
