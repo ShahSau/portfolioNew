@@ -4,7 +4,7 @@ import { ExperienceItem } from "./ExperienceItem";
 export const Experience = () => {
   return (
     <section className="section-wrapper" id="experience">
-      <SectionHeader title="Experience" dir="l" />
+      <SectionHeader title="Experience" dir="r" />
       {experience.map((item) => (
         <ExperienceItem key={item.title} {...item} />
       ))}

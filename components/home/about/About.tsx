@@ -15,22 +15,18 @@ export const About = () => {
             */}
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-              Hey! I&apos;m Shahriar, if you haven&apos;t already gathered that by
-              now. I&apos;m a physicists turned software engineer with a passion for building scalable robust web applications.
+              Welcome to my digital realm! I'm Shahriar, an accomplished Full Stack Developer with a passion for turning complex challenges into elegant solutions. With a robust background in both frontend and backend development, I thrive in crafting seamless, user-centric applications.
+              I am currently working as a developer in the Electronics Manufacturing industry. 
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-            I am experienced in JavaScript, Python, React, NextJs, Gatsby, Angular, Nodejs, Expressjs, Django, and MongoDB. 
-            I am currently working as a developer in the Electronics Manufacturing industry. 
-            Strong understanding of database design and API integration.
+              My journey in the tech realm has equipped me with a versatile skill set, spanning from crafting pixel-perfect user interfaces to architecting resilient server-side systems. Whether it's building intuitive user experiences, optimizing database performance, or orchestrating seamless integrations, I relish the challenge of creating cohesive and cutting-edge applications.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-            I am committed to writing clean, efficient, 
-            and maintainable code. Open to collaboration and always learning something new. 
-            I have strong interpersonal skills and can handle pressure and meet deadlines.
+            My commitment to staying on the pulse of technological advancements drives me to continuously refine my skills. I'm a firm believer in the power of clean code, agile methodologies, and collaborative development practices. Let's connect and explore the endless possibilities of transforming ideas into tangible, tech-driven realities.
             </p>
           </Reveal>
           <Reveal>

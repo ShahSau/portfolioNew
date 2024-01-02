@@ -23,14 +23,12 @@ export const Contact = () => {
       )
       .then(
         (result) => {
-          // console.log(result.text);
           setSuccess(true)
           setTimeout(() => {
             setSuccess(false)
           }, 5000);
         },
         (error) => {
-          // console.log(error.text);
           setError(true)
           setErrorMsg('Sorry, something went wrong. Please try again.')
           setTimeout(() => {
@@ -85,8 +83,8 @@ export const Contact = () => {
               onSubmit={sendEmail}
             >
             <div className={styles.formInput}>
-                    <input type='text' placeholder='name' id="name" name="name" className={styles.inputS} />
-                    <input type='text' placeholder='email' id="email" name="email" className={styles.inputS} />
+              <input type='text' placeholder='name' id="name" name="name" className={styles.inputS} />
+              <input type='text' placeholder='email' id="email" name="email" className={styles.inputS} />
             </div>
             <input type='text' placeholder='subject'id="subject" name="subject" className={styles.inputS} />
             <textarea placeholder='message' className={styles.textArea} id="textarea" name="message"></textarea>
