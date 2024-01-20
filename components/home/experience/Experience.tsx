@@ -18,8 +18,7 @@ const experience = [
     position: "Web Engineer",
     time: "January, 2023 - Present",
     location: "Finland",
-    // description:
-    //   "I help build and scale Google Photos. Increased throughput of our primary services by 70%. Migrated backend service from Java to Go. Also helped make it look prettier.",
+    // description: "",
     tech: [
       "JavaScript",
       "React",
@@ -33,27 +32,29 @@ const experience = [
       "Tailwind",
       "GraphQL",
       "RxJS",
-      "GatsbyJS"
+      "GatsbyJS",
+      "Cypress
     ],
   },
   {
     title: "Mentura Group Oy",
     position: "Software Developer",
-    time: "February, 2022 - January, 2023",
+    time: "October, 2021 - January, 2023",
     location: "Finland",
-    // description:
-    //   "Data Engineer for store front. Built data pipelines with Spark and Airflow. Saw Bezos one time. He said he liked my paintings. I said I liked his hair.",
+    // description: "",
     tech: [
       "JavaScript",
       "TypeScript",
       "React",
       "Express",
+      "Python"
       "Node",
       "MongoDB",
       "Material UI",
       "Kafka",
       "Redis",
       "RxJS",
+      "Cypress"
     ],
   },
   {
@@ -61,8 +62,7 @@ const experience = [
     position: "Junior Software Engineer",
     time: "April, 2020 - July, 2021",
     location: "Finland",
-    // description:
-    //   "Data Engineer for store front. Built data pipelines with Spark and Airflow. Saw Bezos one time. He said he liked my paintings. I said I liked his hair.",
+    // description:""
     tech: [
       "JavaScript",
       "React",
