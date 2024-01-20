@@ -82,5 +82,24 @@ const projects = [
       </>
     ),
   },
+  {
+    title: "Turbo",
+    imgSrc: "/project-imgs/turbo.png",
+    code: "https://github.com/ShahSau/turbo",
+    projectLink: "https://turbo-flax.vercel.app",
+    tech: [ "React", "NextJS", "ExpressJS", "NodeJS", "MongoDB", "JSON Web Token (JWT)", "Zustand", "Stripe"],
+    description:
+      "A car rental website. Designed and built on my own.",
+    modalContent: (
+      <>
+        <p>
+          Turbo is a car rental website.
+        </p>
+        <p>
+          The tech stack is based on top of React, NextJS, ExpressJS, NodeJS, with Zustand for state management. MongoDB is used for database.
+        </p>
+      </>
+    ),
+  },
 
 ];

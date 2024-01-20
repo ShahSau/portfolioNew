@@ -47,7 +47,7 @@ const experience = [
       "TypeScript",
       "React",
       "Express",
-      "Python"
+      "Python",
       "Node",
       "MongoDB",
       "Material UI",
