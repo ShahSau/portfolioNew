@@ -60,7 +60,7 @@ const experience = [
   {
     title: "Integrify",
     position: "Junior Software Engineer",
-    time: "April, 2020 - July, 2021",
+    time: "April, 2020 - September, 2021",
     location: "Finland",
     // description:""
     tech: [
