@@ -33,7 +33,7 @@ const experience = [
       "GraphQL",
       "RxJS",
       "GatsbyJS",
-      "Cypress
+      "Cypress"
     ],
   },
   {
