@@ -38,6 +38,16 @@ export const ProjectModal = ({
     }
   }, [isOpen]);
 
+  useEffect(() => {
+    const close = (e: { keyCode: number; }) => {
+      if(e.keyCode === 27){
+        setIsOpen(false)
+      }
+    }
+    window.addEventListener('keydown', close)
+  return () => window.removeEventListener('keydown', close)
+},[])
+
   const content = (
     <div className={styles.modal} onClick={() => setIsOpen(false)}>
       <button className={styles.closeModalBtn}>
