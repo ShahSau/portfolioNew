@@ -87,16 +87,52 @@ const projects = [
     imgSrc: "/project-imgs/turbo.png",
     code: "https://github.com/ShahSau/turbo",
     projectLink: "https://turbo-flax.vercel.app",
-    tech: [ "React", "NextJS", "ExpressJS", "NodeJS", "MongoDB", "JSON Web Token (JWT)", "Zustand", "Stripe"],
+    tech: [ "React", "NextJS", "ExpressJS", "NodeJS", "MongoDB", "JSON Web Token (JWT)", "Zustand", "Stripe", "Typescript", "Prisma", "Leaflet"],
     description:
-      "A car rental website. Designed and built on my own.",
+      "Seamless User Experience and Comprehensive Business Solutions with NextAuth, Stripe Integration, and Multi-Language Support. ",
     modalContent: (
       <>
         <p>
-          Turbo is a car rental website.
+          Elevate your platform's functionality with a feature-rich set designed to enhance user experience and empower businesses. Our solution integrates NextAuth for secure Google and GitHub logins, Stripe for seamless payments, and offers multi-currency and multi-language support. Whether you're renting cars, booking car repair services, or selling car equipment, our platform provides a unified and user-friendly experience.
         </p>
         <p>
-          The tech stack is based on top of React, NextJS, ExpressJS, NodeJS, with Zustand for state management. MongoDB is used for database.
+          NextAuth with Google and GitHub Login: Secure and efficient authentication with NextAuth, supporting both Google and GitHub logins.
+        </p>
+        <p>
+          Multi-Language Support: Switch between languages effortlessly with support for Finnish, Swedish, English, and German.
+        </p>
+        <p>
+          Stripe Integration for Payments: Streamline transactions with Stripe integration, providing a seamless and secure payment experience for users.
+        </p>
+        <p>
+          Multi-Currency Support: Cater to a global audience with support for multiple currencies.
+        </p>
+        <p>
+          Car Rental Services: Offer a comprehensive car rental solution, allowing users to easily browse, select, and rent vehicles.
+        </p>
+        <p>
+          Car Repair Shop Booking: Facilitate convenient booking of car repair services through your platform.
+        </p>
+        <p>
+          Car Equipment Sales: Create an additional revenue stream by enabling users to purchase car equipment directly from your platform.
+        </p>
+        <p>
+          All Reserved Cars: Access a centralized list of all reserved cars, allowing for efficient management and tracking of reservations.
+        </p>
+        <p>
+          All Reserved Services: Keep track of all booked car repair services, providing a comprehensive overview for both users.
+        </p>
+        <p>
+          All Bought Equipments: Maintain a record of all purchased car equipment.
+        </p>
+        <p>
+          All Advertized Cars: Keep track of your advertized cars in one centralized location.
+        </p>
+        <p>
+          All Offered Services: Stay organized by accessing a comprehensive overview of all your offered services.
+        </p>
+        <p>
+          All Equipment for Sell: Keep a record of your sold car equipment with a detailed history.
         </p>
       </>
     ),
