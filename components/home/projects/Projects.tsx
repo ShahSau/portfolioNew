@@ -69,7 +69,7 @@ const projects = [
     projectLink: "https://prime-properties.onrender.com",
     tech: ["Javascript", "React", "ExpressJS", "NodeJS", "TailwindCss",  "Firebase", "Redux Thunk", "JSON Web Token (JWT)", "i18next", "Framer motion", "MongoDB", "Swiper", "JSON", "EsLint", "Cloudinary"],
     description:
-      "A MERN stack website for real estate. Designed and built on my own.",
+      "Elevated User Experience and Robust Security: A Feature-Packed MERN app with Multilingual Support, JWT Authentication, and Role-Based Authorization ",
     modalContent: (
       <>
         <p>
