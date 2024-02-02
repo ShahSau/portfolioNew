@@ -164,5 +164,35 @@ const projects = [
       </>
     ),
   },
+  {
+    title: "Dev Insta",
+    imgSrc: "/project-imgs/devinsta.png",
+    code: "https://github.com/ShahSau/Dev-Insta",
+    projectLink: "",
+    tech: [  "React", "Redux", "Node", "Express", "JWT", "MongoDb", "Axios", "REST api", "JSON"],
+    description:
+      "Elevate Your Developer Experience with a Cutting-Edge Social Network Platform",
+    modalContent: (
+      <>
+        <p>
+        Welcome to the next generation of developer networking. Our social network website is tailored specifically for developers, offering a seamless platform to connect, collaborate, and share insights. Whether you're looking to expand your professional network, showcase your projects, or engage with like-minded peers, our platform provides the perfect environment for fostering growth and innovation. Powered by the latest technologies including React, Redux, Node, Express, JWT, MongoDB, and Axios, our platform offers a robust and feature-rich experience for developers worldwide.
+        </p>
+        <ul>
+        <li>
+        Developers can easily create accounts, providing basic information and preferences to customize their experience.
+        </li>
+        <li>
+        Seamlessly connect GitHub accounts to import repositories, showcase projects, and highlight contributions within the developer community.
+        </li>
+        <li>
+        Share insights, updates, and project progress through posts, facilitating knowledge sharing and community engagement.
+        </li>
+        <li>
+        Engage in meaningful discussions by commenting on posts, providing feedback, asking questions, and sharing insights with other developers.
+        </li>
+        </ul>
+      </>
+    ),
+  },
 
 ];

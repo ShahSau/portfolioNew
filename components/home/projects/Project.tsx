@@ -92,9 +92,9 @@ export const Project = ({
                 <AiFillGithub size="2.8rem" />
               </Link>
 
-              <Link href={projectLink} target="_blank" rel="nofollow">
+              {projectLink!=="" && <Link href={projectLink} target="_blank" rel="nofollow">
                 <AiOutlineExport size="2.8rem" />
-              </Link>
+              </Link>}
             </div>
           </Reveal>
           <Reveal>
