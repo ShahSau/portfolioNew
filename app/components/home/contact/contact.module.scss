@@ -1,0 +1,138 @@
+.contactWrapper {
+  max-width: 700px;
+  margin: auto;
+  z-index: 10;
+  border-radius: 1.2rem;
+}
+
+.contactTitle {
+  font-size: var(--text-2xl);
+  text-align: center;
+  font-weight: 900;
+  line-height: 1;
+
+  span {
+    color: var(--brand);
+  }
+
+  @media (max-width: 768px) {
+    font-size: var(--text-xl);
+  }
+}
+
+.contactCopy {
+  text-align: center;
+  font-weight: 200;
+  margin: 2.4rem 0;
+
+  a {
+    color: var(--brand);
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+// .contactEmail {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   gap: 0.8rem;
+
+//   width: fit-content;
+
+//   font-size: var(--text-md);
+
+//   margin: auto;
+
+//   transition: 0.25s color;
+// }
+
+// .contactEmail:hover {
+//   color: var(--brand);
+// }
+
+// new style
+.formFirst{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.formS{
+  display: flex;
+  flex-direction: column;
+  width: 150%;
+  gap: 1.5rem;
+  flex: 1 1 0%;
+}
+.formInput{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  gap: 1.5rem;
+}
+.inputS{
+  width: 97%;
+  height: 3rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  outline: none;
+  transition: 0.25s border-color;
+  color:black;
+}
+.inputS:focus{
+  border-color:var(--brand);
+}
+.textArea{
+  width: 100%;
+  height: 5rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  outline: none;
+  transition: 0.25s border-color;
+  color:black;
+}
+.textArea:focus{
+  border-color:var(--brand);
+}
+
+.buttonS{
+  max-width: 170px;
+  height: 3rem;
+  transition: all;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+.buttonS:hover{
+  background-color: var(--brand);
+  color: var(--white);
+
+}
+.success{
+  width: 100%;
+  height: 5rem;
+  background-color: aquamarine;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+.error{
+  width: 100%;
+  height: 5rem;
+  background-color: rgb(151, 54, 54);
+  color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+}
