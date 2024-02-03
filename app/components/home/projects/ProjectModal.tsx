@@ -84,13 +84,13 @@ function ProjectModal({
                 {' '}
                 source code
               </Link>
-              {projectLink !== '' && (
+              {/* {projectLink !== '' && ( */}
               <Link target="_blank" rel="nofollow" href={projectLink}>
                 <AiOutlineExport />
                 {' '}
                 live project
               </Link>
-              )}
+              
             </div>
           </div>
         </div>

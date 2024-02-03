@@ -36,18 +36,25 @@ const projects = [
     imgSrc: '/project-imgs/alphacore.png',
     code: 'https://github.com/ShahSau/alphaCore',
     projectLink: 'https://alpha-core.vercel.app/',
-    tech: ['Zustand', 'Prisma', 'OpenAI', 'React', 'TypeScript', 'NextJS', 'TailwindCSS'],
+    tech: ['React', 'TypeScript', 'NextJS', 'TailwindCSS','Zustand', 'Prisma', 'OpenAI', 'Axios', 'JSON', 'Zod', 'Stripe', 'Clerk', 'Replicate', 'ESlint'],
     description:
       "A SASS platform depecting the power of AI. This platform uses OpenAI's GPT-3 and other AI models to generate contents.",
     modalContent: (
       <>
         <p>
-          The Alpha Core is a SASS platform for the next generation of AI features.
+        Elevate your platform to new heights with our comprehensive suite of AI-powered features and seamless payment integration
         </p>
-        <p>
-          The tech stack is based on top of React, TypeScript and NextJS, with TailwindCSS for styling.
-          Prisma is used for data fetching and Zustand for state management.
-        </p>
+        <ul>
+          <li>Generate unique and personalized music compositions using advanced AI algorithms, catering to diverse musical preferences.</li>
+          <li>Automatically generate high-quality images and videos based on user inputs or predefined templates, simplifying content creation.</li>
+          <li>Convert natural language queries into SQL queries, streamlining database interactions and enhancing user productivity.</li>
+          <li>Summarize lengthy text documents and correct grammar errors to improve readability and coherence.</li>
+          <li>Automatically generate code snippets based on specific requirements or programming tasks, accelerating development workflows.</li>
+          <li>Generate concise summaries of large textual documents or articles, enabling users to extract key insights efficiently.</li>
+          <li>Plan educational lessons and generate interview questions tailored to specific topics or subjects.</li>
+          <li>Create professional-grade logos, customized email templates, and digital portraits effortlessly.</li>
+          <li>Facilitate convenient periodic payments for subscriptions or services through Stripe, ensuring reliability and security.</li>
+        </ul>
       </>
     ),
   },
@@ -101,7 +108,7 @@ const projects = [
     imgSrc: '/project-imgs/turbo.png',
     code: 'https://github.com/ShahSau/turbo',
     projectLink: 'https://turbo-flax.vercel.app',
-    tech: ['Javascript', 'Sharp', 'React', 'Axios', 'NextJS', 'Typescript', 'ExpressJS', 'NodeJS', 'MongoDB', 'ESLint', 'Stripe', 'Cloudinary', 'Prisma', 'Leaflet', 'JSON', 'JSON Web Token (JWT)', 'Zustand'],
+    tech: ['Javascript', 'Sharp', 'React', 'Axios', 'NextJS', 'Typescript', 'ExpressJS', 'NodeJS', 'MongoDB', 'ESLint', 'Stripe', 'Cloudinary', 'Prisma', 'Leaflet', 'JSON', 'JSON Web Token (JWT)', 'Zustand', 'i18next'],
     description:
       'Seamless User Experience and Comprehensive Business Solutions with NextAuth, Stripe Integration, and Multi-Language Support. ',
     modalContent: (
