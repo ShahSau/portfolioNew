@@ -6,31 +6,7 @@ import Project from './Project';
 import styles from './projects.module.scss';
 
 const projects = [
-  {
-    title: 'gameboy',
-    imgSrc: '/project-imgs/gameboy.png',
-    code: 'https://github.com/ShahSau/gameboy',
-    projectLink: 'https://gameboy-ruddy.vercel.app/',
-    tech: ['React', 'NextJS', 'RestApi', 'ChakraUI'],
-    description:
-      'A website to get details of free to play games. Designed and built on my own.',
-    modalContent: (
-      <>
-        <p>
-          Gameboy is a website showcasing details of free to play games.
-          This app is my baby, designed and built on my own.
-        </p>
-        <p>
-          The tech stack is based on top of React and NextJS, with ChakraUI for styling.
-          The data is provided by RapidAPI and is fetched using axios.
-        </p>
-        <p>
-          The site is hosted on Vercel.
-        </p>
-
-      </>
-    ),
-  },
+  
   {
     title: 'Alpha Core',
     imgSrc: '/project-imgs/alphacore.png',
@@ -54,51 +30,6 @@ const projects = [
           <li>Plan educational lessons and generate interview questions tailored to specific topics or subjects.</li>
           <li>Create professional-grade logos, customized email templates, and digital portraits effortlessly.</li>
           <li>Facilitate convenient periodic payments for subscriptions or services through Stripe, ensuring reliability and security.</li>
-        </ul>
-      </>
-    ),
-  },
-  {
-    title: 'Primeproperties',
-    imgSrc: '/project-imgs/primeproperties.png',
-    code: 'https://github.com/ShahSau/prime-properties',
-    projectLink: 'https://prime-properties.onrender.com',
-    tech: ['Javascript', 'React', 'ExpressJS', 'NodeJS', 'TailwindCss', 'Firebase', 'Redux Thunk', 'JSON Web Token (JWT)', 'i18next', 'Framer motion', 'MongoDB', 'Swiper', 'JSON', 'EsLint', 'Cloudinary'],
-    description:
-      'Elevated User Experience and Robust Security: A Feature-Packed MERN app with Multilingual Support, JWT Authentication, and Role-Based Authorization ',
-    modalContent: (
-      <>
-        <p>
-          Enhanced User Experience and Secure Authentication with Multi-Language Support, JWT, Firebase, and Advanced UI Animations
-        </p>
-        <ul>
-          <li>
-            Seamlessly switch between English, German, and Finnish to provide users with a personalized and comfortable experience in their preferred language.
-          </li>
-          <li>
-            Ensure robust security with JSON Web Token (JWT) authentication and Firebase. Safeguard user data and transactions with state-of-the-art encryption and secure access control. and Firebase.
-          </li>
-          <li>
-            Streamline user onboarding with the convenience of Google Login. Enhance user adoption by simplifying the registration process and improving overall accessibility.
-          </li>
-          <li>
-            Optimize the efficiency of your application with Redux, a powerful state management tool. Centralize and manage application state for smoother user interactions.
-          </li>
-          <li>
-            Allow users to curate their personalized experience by creating and managing a favorites list.
-          </li>
-          <li>
-            Implement a secure and granular access control system based on user roles. Define specific permissions for different user types, ensuring a tailored and secure user experience.
-          </li>
-          <li>
-            Emailing the landlord about the listing.
-          </li>
-          <li>
-            Elevate the visual appeal of your platform with Framer Motion, a powerful motion design library.
-          </li>
-          <li>
-            Enable users to seamlessly upload images through Firebase
-          </li>
         </ul>
       </>
     ),
@@ -161,35 +92,76 @@ const projects = [
     ),
   },
   {
-    title: 'Dev Insta',
-    imgSrc: '/project-imgs/devinsta.png',
-    code: 'https://github.com/ShahSau/Dev-Insta',
-    projectLink: '',
-    tech: ['React', 'Redux', 'Node', 'Express', 'JWT', 'MongoDb', 'Axios', 'REST api', 'JSON'],
+    title: 'Primeproperties',
+    imgSrc: '/project-imgs/primeproperties.png',
+    code: 'https://github.com/ShahSau/prime-properties',
+    projectLink: 'https://prime-properties.onrender.com',
+    tech: ['Javascript', 'React', 'ExpressJS', 'NodeJS', 'TailwindCss', 'Firebase', 'Redux Thunk', 'JSON Web Token (JWT)', 'i18next', 'Framer motion', 'MongoDB', 'Swiper', 'JSON', 'EsLint', 'Cloudinary'],
     description:
-      'Elevate Your Developer Experience with a Cutting-Edge Social Network Platform',
+      'Elevated User Experience and Robust Security: A Feature-Packed MERN app with Multilingual Support, JWT Authentication, and Role-Based Authorization ',
     modalContent: (
       <>
         <p>
-          Welcome to the next generation of developer networking. Our social network website is tailored specifically for developers, offering a seamless platform to connect, collaborate, and share insights. Whether you&apos;re looking to expand your professional network, showcase your projects, or engage with like-minded peers, our platform provides the perfect environment for fostering growth and innovation. Powered by the latest technologies including React, Redux, Node, Express, JWT, MongoDB, and Axios, our platform offers a robust and feature-rich experience for developers worldwide.
+          Enhanced User Experience and Secure Authentication with Multi-Language Support, JWT, Firebase, and Advanced UI Animations
         </p>
         <ul>
           <li>
-            Developers can easily create accounts, providing basic information and preferences to customize their experience.
+            Seamlessly switch between English, German, and Finnish to provide users with a personalized and comfortable experience in their preferred language.
           </li>
           <li>
-            Seamlessly connect GitHub accounts to import repositories, showcase projects, and highlight contributions within the developer community.
+            Ensure robust security with JSON Web Token (JWT) authentication and Firebase. Safeguard user data and transactions with state-of-the-art encryption and secure access control. and Firebase.
           </li>
           <li>
-            Share insights, updates, and project progress through posts, facilitating knowledge sharing and community engagement.
+            Streamline user onboarding with the convenience of Google Login. Enhance user adoption by simplifying the registration process and improving overall accessibility.
           </li>
           <li>
-            Engage in meaningful discussions by commenting on posts, providing feedback, asking questions, and sharing insights with other developers.
+            Optimize the efficiency of your application with Redux, a powerful state management tool. Centralize and manage application state for smoother user interactions.
+          </li>
+          <li>
+            Allow users to curate their personalized experience by creating and managing a favorites list.
+          </li>
+          <li>
+            Implement a secure and granular access control system based on user roles. Define specific permissions for different user types, ensuring a tailored and secure user experience.
+          </li>
+          <li>
+            Emailing the landlord about the listing.
+          </li>
+          <li>
+            Elevate the visual appeal of your platform with Framer Motion, a powerful motion design library.
+          </li>
+          <li>
+            Enable users to seamlessly upload images through Firebase
           </li>
         </ul>
       </>
     ),
   },
+  {
+    title: 'gameboy',
+    imgSrc: '/project-imgs/gameboy.png',
+    code: 'https://github.com/ShahSau/gameboy',
+    projectLink: 'https://gameboy-ruddy.vercel.app/',
+    tech: ['React', 'NextJS', 'RestApi', 'ChakraUI'],
+    description:
+      'A website to get details of free to play games. Designed and built on my own.',
+    modalContent: (
+      <>
+        <p>
+          Gameboy is a website showcasing details of free to play games.
+          This app is my baby, designed and built on my own.
+        </p>
+        <p>
+          The tech stack is based on top of React and NextJS, with ChakraUI for styling.
+          The data is provided by RapidAPI and is fetched using axios.
+        </p>
+        <p>
+          The site is hosted on Vercel.
+        </p>
+
+      </>
+    ),
+  },
+  
 
 ];
 

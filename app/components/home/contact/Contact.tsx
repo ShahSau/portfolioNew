@@ -91,7 +91,7 @@ function Contact() {
               </div>
               <input type="text" placeholder="subject" id="subject" name="subject" className={styles.inputS} />
               <textarea placeholder="message" className={styles.textArea} id="textarea" name="message" />
-              <button className={styles.buttonS} type="button">
+              <button className={styles.buttonS} type="submit">
                 <span>
                   Let&apos;s talk
                 </span>

@@ -33,27 +33,6 @@
     text-decoration: underline;
   }
 }
-
-// .contactEmail {
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   gap: 0.8rem;
-
-//   width: fit-content;
-
-//   font-size: var(--text-md);
-
-//   margin: auto;
-
-//   transition: 0.25s color;
-// }
-
-// .contactEmail:hover {
-//   color: var(--brand);
-// }
-
-// new style
 .formFirst{
   height: 100%;
   display: flex;
@@ -86,7 +65,9 @@
   outline: none;
   transition: 0.25s border-color;
   color:black;
+  background-color: #d2c3c3;
 }
+
 .inputS:focus{
   border-color:var(--brand);
 }
@@ -99,6 +80,7 @@
   outline: none;
   transition: 0.25s border-color;
   color:black;
+  background-color: #d2c3c3;
 }
 .textArea:focus{
   border-color:var(--brand);
@@ -131,7 +113,7 @@
 .error{
   width: 100%;
   height: 5rem;
-  background-color: rgb(151, 54, 54);
+  background-color: rgb(241, 48, 36);
   color: #f0f0f0;
   display: flex;
   justify-content: center;
