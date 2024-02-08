@@ -4,7 +4,7 @@ import ExperienceItem from './ExperienceItem';
 
 const experience = [
   {
-    title: 'Grundium',
+    title: 'Grundium Oy',
     position: 'Web Engineer',
     time: 'January, 2023 - Present',
     location: 'Finland',

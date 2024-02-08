@@ -92,6 +92,33 @@ const projects = [
     ),
   },
   {
+    title: 'Job Hunt',
+    imgSrc: '/project-imgs/alphacore.png',
+    code: 'https://github.com/ShahSau/jobhunt',
+    projectLink: '',
+    tech:['Javascript', 'Python', 'React', 'NextJS', 'TailwindCSS', 'Django', 'Django REST' , 'Axios', 'JSON', 'JSON Web Token', 'PostgreSQL', 'Cookie', 'Mapbox'],
+    description:
+      "A job portal is build on Next.js (production-ready react framework), Django REST framework (a powerful and flexible framework for building Web APIs) and postgres.",
+    modalContent: (
+      <>
+        <p>
+        Empower your job recruitment and candidate management process with our cutting-edge feature set, seamlessly integrated into your platform. With a focus on JWT and cookies for secure authentication, dynamic map functionality, real-time updates, and comprehensive job statistics, our solution offers an unparalleled experience for employers and candidates.
+        </p>
+        <ul>
+        <li>Login process is secured by JWT and Cookies</li>
+        <li>Curate your personalized job list with our Favorite Jobs feature. Save and revisit positions that catch your eye, making it easy to prioritize and organize your applications.</li>
+        <li>Access a comprehensive history of all your applied jobs in one place.</li>
+        <li>Take control of your job search by adding and deleting jobs as needed.</li>
+        <li>Leverage an intuitive map interface to visualize job locations and gain insights into geographical distribution.</li>
+        <li>Real-time tracking of the number of applicants for each job.</li>
+        <li>Personalize your job search experience with the ability to change between dark and light mode.</li>
+        <li>Access comprehensive statistics on various aspects of your job listings.</li>
+        <li>Provide details of each candidates who applied for the job.</li>
+        </ul>
+      </>
+    ),
+  },
+  {
     title: 'Primeproperties',
     imgSrc: '/project-imgs/primeproperties.png',
     code: 'https://github.com/ShahSau/prime-properties',
@@ -133,6 +160,50 @@ const projects = [
             Enable users to seamlessly upload images through Firebase
           </li>
         </ul>
+      </>
+    ),
+  },
+  {
+    title: 'chitChat Connect',
+    imgSrc: '/project-imgs/primeproperties.png',
+    code: 'https://github.com/ShahSau/prime-properties',
+    projectLink: '',
+    tech: ['Javascript', 'React Native', 'Django', 'Django REST', 'Zustand', 'Django Channels', 'webhook', 'expo', 'redis', 'SQLite', 'JSON Web Token (JWT)'],
+    description:
+      'A chatting app using react native and Django rest framework. This app is designed to connect people and chat with them.',
+    modalContent: (
+      <>
+        <p>
+          A Chat Application with Real-Time Messaging, Webhooks, and Secure Authentication
+        </p>
+        <ul>
+          <li>Leveraging the flexibility and versatility of JavaScript along with the power of React Native to build captivating user interfaces</li>
+          <li>Utilizing Django, a high-level Python web framework, along with its RESTful API framework, for developing scalable and maintainable backend services.</li>
+          <li>Simplifing state management in the applications with Zustand, a lightweight and straightforward state management library that offers efficiency and flexibility.</li>
+          <li>Implementing Django Channels, a powerful and flexible tool for handling WebSockets and asynchronous communication, to enable real-time messaging and chat functionality.</li>
+          <li>Enhancing the application with webhooks, allowing for seamless integration of third-party services and real-time data updates.</li>
+          <li>Utilizing Redis, an in-memory data structure store, to provide a high-performance and scalable caching solution.</li>
+          <li>Using SQLite, a lightweight and embedded relational database, for local data storage and management, providing a reliable solution for applications requiring offline capabilities</li>
+          <li>Securing user data and interactions with JSON Web Token (JWT) authentication, ensuring a safe and reliable user experience.</li>
+
+        </ul>
+        
+      </>
+    ),
+  },
+  {
+    title: 'eStore',
+    imgSrc: '/project-imgs/turbo.png',
+    code: 'https://github.com/ShahSau/TechHive',
+    projectLink: '',
+    tech: ['Javascript', 'Angular', 'Axios', 'Typescript', 'ExpressJS', 'NodeJS', 'MongoDB', 'Stripe', 'Cloudinary', 'JSON', 'JSON Web Token (JWT)', 'RxJS', 'TailwindCSS', 'Angular Material'],
+    description:
+      'A full-stack e-commerce platform built with Angular, Express, and MongoDB.',
+    modalContent: (
+      <>
+        <p>
+          A Full-Stack E-Commerce Platform with Angular, Express, and MongoDB, Featuring Stripe Integration, Cloudinary Image Uploads, and JWT Authentication.
+        </p>
       </>
     ),
   },
