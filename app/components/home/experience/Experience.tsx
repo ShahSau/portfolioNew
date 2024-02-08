@@ -31,7 +31,7 @@ const experience = [
     position: 'Software Developer',
     time: 'October, 2021 - January, 2023',
     location: 'Finland',
-    // description: "",
+    description: "Implemented software solutions to optimize network coverage and performance for TETRA, mobile, and LTE devices. Utilized Recoil for efficient state management and RxJS for intricate data streams. Crafted resilient backend infrastructure with Node.js and Express.js. Elevated user experience with React.js and Material UI. Integrated MongoDB, Redis, and Kafka Streams for data management and real-time processing. Employed Cypress and Jest for automated testing, ensuring high-quality, seamless performance.",
     tech: [
       'JavaScript',
       'TypeScript',
@@ -52,7 +52,7 @@ const experience = [
     position: 'Junior Software Engineer',
     time: 'April, 2020 - September, 2021',
     location: 'Finland',
-    // description:""
+    description:"As a consultant Full-stack developer, I collaborate on diverse client projects, ensuring applications are customer-centric and exceptional. Utilizing React, Express, Jest, Redux, TypeScript, Node.js, AWS, and Terraform, I enhance functionality and scalability. My focus remains on crafting solutions that exceed client expectations, delivering excellence in every aspect of development."
     tech: [
       'JavaScript',
       'React',
