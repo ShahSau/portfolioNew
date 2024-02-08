@@ -8,7 +8,7 @@ const experience = [
     position: 'Web Engineer',
     time: 'January, 2023 - Present',
     location: 'Finland',
-    description: "Led the initiative in crafting cutting-edge device testing software tailored to evaluate both performance and usability metrics. Leveraging a sophisticated tech stack including React, Next.js, Express, Cypress, TypeScript, Zod, Jenkins, Recoil, and AWS, the robust solutions poised to elevate the standards of clean code and DRY methodologies. Continuously enhancing and refining the functionality of the current microscope user software, our team diligently integrates new features while ensuring seamless maintenance. Employing Angular, RxJS, OpenLayers, Express, MongoDB, and Jest, fortifying the capabilities of this software, enabling smooth control over portable microscopes. Played a pivotal role in the development of the forthcoming microscope user software, employing a cutting-edge tech stack consisting of Next.js, Express, Node.js, Cypress, Jest, Recoil, and TypeScript. This involvement contributed significantly to shaping an advanced platform poised to revolutionize user experiences in microscopy.",
+    description: "Pioneered advanced device testing software, tailored for performance and usability metrics. Employing React, Next.js, Express, Cypress, TypeScript, Zod, Jenkins, Recoil, and AWS, it elevates clean code standards. Enhancing microscope user software with Angular, RxJS, OpenLayers, Express, MongoDB, and Jest, empowering smooth control. Spearheaded the development of upcoming microscope software with Next.js, Express, Node.js, Cypress, Jest, Recoil, and TypeScript, revolutionizing microscopy experiences.",
     tech: [
       'JavaScript',
       'React',
