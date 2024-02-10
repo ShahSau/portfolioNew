@@ -95,7 +95,7 @@ const projects = [
     title: 'Job Hunt',
     imgSrc: '/project-imgs/jobhunt.png',
     code: 'https://github.com/ShahSau/jobhunt',
-    projectLink: 'https://jobhunt-amber.vercel.app/',
+    projectLink: 'https://jobhunt-sfsp.vercel.app/',
     tech:['Javascript', 'Python', 'React', 'NextJS', 'TailwindCSS', 'Django', 'Django REST' , 'Axios', 'JSON', 'JSON Web Token', 'PostgreSQL', 'Cookie', 'Mapbox'],
     description:
       "A job portal is build on Next.js (production-ready react framework), Django REST framework (a powerful and flexible framework for building Web APIs) and postgres.",
