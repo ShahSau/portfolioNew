@@ -24,8 +24,7 @@ function Hero() {
         </Reveal>
         <Reveal>
           <p className={styles.aboutCopy}>
-            Building Solutions for a Digital Future by bridging the Gap
-            Between Frontend Magic and Backend Wizardry.
+            Innovative, task-driven experienced fullstack developer  with a passion for turning complex challenges into elegant solutions. With a robust background in both frontend and backend development, I thrive in crafting seamless, user-centric applications, troubleshooting simple/complex issues.
             <br />
             Let&apos;s connect!
           </p>
