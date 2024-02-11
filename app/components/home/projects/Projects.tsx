@@ -18,18 +18,36 @@ const projects = [
     modalContent: (
       <>
         <p>
-        Elevate your platform to new heights with our comprehensive suite of AI-powered features and seamless payment integration
+          Take your platform to new heights with our comprehensive suite of AI-powered features and seamless payment integration.
         </p>
         <ul>
-          <li>Generate unique and personalized music compositions using advanced AI algorithms, catering to diverse musical preferences.</li>
-          <li>Automatically generate high-quality images and videos based on user inputs or predefined templates, simplifying content creation.</li>
-          <li>Convert natural language queries into SQL queries, streamlining database interactions and enhancing user productivity.</li>
-          <li>Summarize lengthy text documents and correct grammar errors to improve readability and coherence.</li>
-          <li>Automatically generate code snippets based on specific requirements or programming tasks, accelerating development workflows.</li>
-          <li>Generate concise summaries of large textual documents or articles, enabling users to extract key insights efficiently.</li>
-          <li>Plan educational lessons and generate interview questions tailored to specific topics or subjects.</li>
-          <li>Create professional-grade logos, customized email templates, and digital portraits effortlessly.</li>
-          <li>Facilitate convenient periodic payments for subscriptions or services through Stripe, ensuring reliability and security.</li>
+          <li>
+            Produce unique and personalized music compositions utilizing advanced AI algorithms tailored to diverse musical preferences.
+          </li>
+          <li>
+            Automatically generate high-quality images and videos based on user inputs, simplifying content creation processes.
+          </li>
+          <li>
+            Streamline database interactions and enhance user productivity by converting natural language queries into SQL queries.
+          </li>
+          <li>
+            Enhance readability and coherence by summarizing lengthy text documents and correcting grammar errors.
+          </li>
+          <li>
+            Accelerate development workflows by automatically generating code snippets based on specific requirements or programming tasks.
+          </li>
+          <li>
+            Efficiently extract key insights from large textual documents or articles with concise summaries.
+          </li>
+          <li>
+            Plan educational lessons and tailor interview questions to specific topics or subjects.
+          </li>
+          <li>
+            Effortlessly create professional-grade logos, customized email templates, and digital portraits.
+          </li>
+          <li>
+            Ensure reliability and security with convenient periodic payments for subscriptions through Stripe.
+          </li>
         </ul>
       </>
     ),
@@ -45,47 +63,47 @@ const projects = [
     modalContent: (
       <>
         <p>
-          Elevate your platform&apos;s functionality with a feature-rich set designed to enhance user experience and empower businesses. Our solution integrates NextAuth for secure Google and GitHub logins, Stripe for seamless payments, and offers multi-currency and multi-language support. Whether you&apos;re renting cars, booking car repair services, or selling car equipment, our platform provides a unified and user-friendly experience.
+          Enhance your platform&apos;s functionality with a feature-rich set designed to elevate user experience and empower businesses. Our solution seamlessly integrates NextAuth for secure Google and GitHub logins, Stripe for smooth payments, and offers multi-currency and multi-language support. Whether you&apos;re renting cars, booking car repair services, or selling car equipment, our platform provides a unified and user-friendly experience.
         </p>
         <ul>
           <li>
-            Secure and efficient authentication with NextAuth, supporting both Google and GitHub logins.
+            Experience secure and efficient authentication with NextAuth, supporting both Google and GitHub logins.
           </li>
           <li>
-            Switch between languages effortlessly with support for Finnish, Swedish, English, and German.
+            Effortlessly switch between languages with support for Finnish, Swedish, English, and German.
           </li>
           <li>
-            Streamline transactions with Stripe integration, providing a seamless and secure payment experience for users.
+            Streamline transactions with Stripe integration, ensuring a seamless and secure payment experience for users.
           </li>
           <li>
             Cater to a global audience with support for multiple currencies.
           </li>
           <li>
-            Offer a comprehensive car rental solution, allowing users to easily browse, select, and rent vehicles.
+            Enjoy a comprehensive car rental solution, enabling users to easily browse, select, and rent vehicles.
           </li>
           <li>
             Facilitate convenient booking of car repair services through your platform.
           </li>
           <li>
-            Create an additional revenue stream by enabling users to purchase car equipment directly from your platform.
+            Unlock an additional revenue stream by enabling users to purchase car equipment directly from our platform.
           </li>
           <li>
             Access a centralized list of all reserved cars, allowing for efficient management and tracking of reservations.
           </li>
           <li>
-            Keep track of all booked car repair services, providing a comprehensive overview for both users.
+            Stay informed about all booked car repair services, providing a comprehensive overview for both users.
           </li>
           <li>
-            Maintain a record of all purchased car equipment.
+            Maintain detailed records of all purchased car equipment.
           </li>
           <li>
-            Keep track of your advertized cars in one centralized location.
+            Efficiently manage and track your advertised cars from one centralized location.
           </li>
           <li>
-            Stay organized by accessing a comprehensive overview of all your offered services.
+            Stay organized with a comprehensive overview of all offered services.
           </li>
           <li>
-            Keep a record of your sold car equipment with a detailed history.
+            Keep detailed records of sold car equipment, ensuring a thorough history.
           </li>
         </ul>
       </>
@@ -102,18 +120,36 @@ const projects = [
     modalContent: (
       <>
         <p>
-        Empower your job recruitment and candidate management process with our cutting-edge feature set, seamlessly integrated into your platform. With a focus on JWT and cookies for secure authentication, dynamic map functionality, real-time updates, and comprehensive job statistics, our solution offers an unparalleled experience for employers and candidates.
+          Revolutionize your job recruitment and candidate management process with our state-of-the-art web app. With a focus on JWT and cookies for secure authentication, dynamic map functionality, real-time updates, and comprehensive job statistics, our solution offers an unparalleled experience for both employers and candidates.
         </p>
         <ul>
-        <li>Login process is secured by JWT and Cookies</li>
-        <li>Curate your personalized job list with our Favorite Jobs feature. Save and revisit positions that catch your eye, making it easy to prioritize and organize your applications.</li>
-        <li>Access a comprehensive history of all your applied jobs in one place.</li>
-        <li>Take control of your job search by adding and deleting jobs as needed.</li>
-        <li>Leverage an intuitive map interface to visualize job locations and gain insights into geographical distribution.</li>
-        <li>Real-time tracking of the number of applicants for each job.</li>
-        <li>Personalize your job search experience with the ability to change between dark and light mode.</li>
-        <li>Access comprehensive statistics on various aspects of your job listings.</li>
-        <li>Provide details of each candidates who applied for the job.</li>
+        <li>
+          Secure your login process with JWT and Cookies.
+        </li>
+        <li>
+        Curate your personalized job list with our Favorite Jobs feature. Easily save and revisit positions that pique your interest, facilitating prioritization and organization of your applications.
+        </li>
+        <li>
+          Access a comprehensive history of all your applied jobs in one centralized location.
+        </li>
+        <li>
+          Take full control of your job search by adding and deleting jobs as needed.
+        </li>
+        <li>
+          Leverage an intuitive map interface to visualize job locations and gain insights into geographical distribution.
+        </li>
+        <li>
+          Track the number of applicants for each job in real-time.
+        </li>
+        <li>
+          Personalize your job search experience with the ability to change between dark and light mode.
+        </li>
+        <li>
+          Access comprehensive statistics on various aspects of your job listings.
+        </li>
+        <li>
+         Provide detailed information on each candidate who applied for the job.
+        </li>
         </ul>
       </>
     ),
@@ -129,84 +165,100 @@ const projects = [
     modalContent: (
       <>
         <p>
-          Enhanced User Experience and Secure Authentication with Multi-Language Support, JWT, Firebase, and Advanced UI Animations
+          Elevated User Experience and Ensure Secure Authentication with Multi-Language Support, JWT, Firebase, and Advanced UI Animations.
         </p>
         <ul>
           <li>
-            Seamlessly switch between English, German, and Finnish to provide users with a personalized and comfortable experience in their preferred language.
+          Seamlessly switch between English, German, and Finnish to provide users with a personalized and comfortable experience in their preferred language.
           </li>
           <li>
-            Ensure robust security with JSON Web Token (JWT) authentication and Firebase. Safeguard user data and transactions with state-of-the-art encryption and secure access control. and Firebase.
+            Ensure robust security with JSON Web Token (JWT) authentication and Firebase, safeguarding user data and transactions through state-of-the-art encryption and secure access control.
           </li>
           <li>
-            Streamline user onboarding with the convenience of Google Login. Enhance user adoption by simplifying the registration process and improving overall accessibility.
+            Streamline user onboarding with the convenience of Google Login, enhancing user adoption by simplifying the registration process and improving overall accessibility.
           </li>
           <li>
-            Optimize the efficiency of your application with Redux, a powerful state management tool. Centralize and manage application state for smoother user interactions.
+            Optimize the efficiency of your application with Redux, a powerful state management tool that centralizes and manages application state for smoother user interactions.
           </li>
           <li>
-            Allow users to curate their personalized experience by creating and managing a favorites list.
+            Empower users to curate their personalized experience by creating and managing a favorites list.
           </li>
           <li>
-            Implement a secure and granular access control system based on user roles. Define specific permissions for different user types, ensuring a tailored and secure user experience.
+            Implement a secure and granular access control system based on user roles, defining specific permissions for different user types and ensuring a tailored and secure user experience.
           </li>
           <li>
-            Emailing the landlord about the listing.
+            Facilitate communication with landlords through an integrated email feature about property listings.
           </li>
           <li>
             Elevate the visual appeal of your platform with Framer Motion, a powerful motion design library.
           </li>
           <li>
-            Enable users to seamlessly upload images through Firebase
+            Enable users to seamlessly upload images through Cloudinary, a cloud-based image and video management solution, ensuring a smooth and efficient image upload process.
           </li>
         </ul>
       </>
     ),
   },
-  {
-    title: 'chitChat Connect',
-    imgSrc: '/project-imgs/primeproperties.png',
-    code: 'https://github.com/ShahSau/prime-properties',
-    projectLink: '',
-    tech: ['Javascript', 'React Native', 'Django', 'Django REST', 'Zustand', 'Django Channels', 'webhook', 'expo', 'redis', 'SQLite', 'JSON Web Token (JWT)'],
-    description:
-      'A chatting app using react native and Django rest framework. This app is designed to connect people and chat with them.',
-    modalContent: (
-      <>
-        <p>
-          A Chat Application with Real-Time Messaging, Webhooks, and Secure Authentication
-        </p>
-        <ul>
-          <li>Leveraging the flexibility and versatility of JavaScript along with the power of React Native to build captivating user interfaces</li>
-          <li>Utilizing Django, a high-level Python web framework, along with its RESTful API framework, for developing scalable and maintainable backend services.</li>
-          <li>Simplifing state management in the applications with Zustand, a lightweight and straightforward state management library that offers efficiency and flexibility.</li>
-          <li>Implementing Django Channels, a powerful and flexible tool for handling WebSockets and asynchronous communication, to enable real-time messaging and chat functionality.</li>
-          <li>Enhancing the application with webhooks, allowing for seamless integration of third-party services and real-time data updates.</li>
-          <li>Utilizing Redis, an in-memory data structure store, to provide a high-performance and scalable caching solution.</li>
-          <li>Using SQLite, a lightweight and embedded relational database, for local data storage and management, providing a reliable solution for applications requiring offline capabilities</li>
-          <li>Securing user data and interactions with JSON Web Token (JWT) authentication, ensuring a safe and reliable user experience.</li>
+  // {
+  //   title: 'chitChat Connect',
+  //   imgSrc: '/project-imgs/primeproperties.png',
+  //   code: 'https://github.com/ShahSau/prime-properties',
+  //   projectLink: '',
+  //   tech: ['Javascript', 'React Native', 'Django', 'Django REST', 'Zustand', 'Django Channels', 'webhook', 'expo', 'redis', 'SQLite', 'JSON Web Token (JWT)'],
+  //   description:
+  //     'A chatting app using react native and Django rest framework. This app is designed to connect people and chat with them.',
+  //   modalContent: (
+  //     <>
+  //       <p>
+  //         Crafting a Chat Application with Real-Time Messaging, Webhooks, and Secure Authentication.
+  //       </p>
+  //       <ul>
+  //         <li>
+  //           Harnessing the flexibility and versatility of JavaScript alongside the power of React Native to create captivating user interfaces.
+  //         </li>
+  //         <li>
+  //           Employing Django, a high-level Python web framework, in tandem with its RESTful API framework to develop scalable and maintainable backend services.
+  //         </li>
+  //         <li>
+  //           Simplifying state management in applications with Zustand, a lightweight and straightforward state management library offering efficiency and flexibility.
+  //         </li>
+  //         <li>
+  //           Implementing Django Channels, a powerful and flexible tool for handling WebSockets and asynchronous communication, to enable real-time messaging and chat functionality.
+  //         </li>
+  //         <li>
+  //           Enhancing the application with webhooks, enabling seamless integration of third-party services and real-time data updates.
+  //         </li>
+  //         <li>
+  //           Leveraging Redis, an in-memory data structure store, to provide high-performance and scalable caching solutions.
+  //         </li>
+  //         <li>
+  //           Utilizing SQLite, a lightweight and embedded relational database, for local data storage and management, ensuring a reliable solution for applications requiring offline capabilities.
+  //         </li>
+  //         <li>
+  //           Securing user data and interactions with JSON Web Token (JWT) authentication, guaranteeing a safe and reliable user experience.
+  //         </li>
 
-        </ul>
+  //       </ul>
         
-      </>
-    ),
-  },
-  {
-    title: 'eStore',
-    imgSrc: '/project-imgs/turbo.png',
-    code: 'https://github.com/ShahSau/TechHive',
-    projectLink: '',
-    tech: ['Javascript', 'Angular', 'Axios', 'Typescript', 'ExpressJS', 'NodeJS', 'MongoDB', 'Stripe', 'Cloudinary', 'JSON', 'JSON Web Token (JWT)', 'RxJS', 'TailwindCSS', 'Angular Material'],
-    description:
-      'A full-stack e-commerce platform built with Angular, Express, and MongoDB.',
-    modalContent: (
-      <>
-        <p>
-          A Full-Stack E-Commerce Platform with Angular, Express, and MongoDB, Featuring Stripe Integration, Cloudinary Image Uploads, and JWT Authentication.
-        </p>
-      </>
-    ),
-  },
+  //     </>
+  //   ),
+  // },
+  // {
+  //   title: 'eStore',
+  //   imgSrc: '/project-imgs/turbo.png',
+  //   code: 'https://github.com/ShahSau/TechHive',
+  //   projectLink: '',
+  //   tech: ['Javascript', 'Angular', 'Axios', 'Typescript', 'ExpressJS', 'NodeJS', 'MongoDB', 'Stripe', 'Cloudinary', 'JSON', 'JSON Web Token (JWT)', 'RxJS', 'TailwindCSS', 'Angular Material'],
+  //   description:
+  //     'A full-stack e-commerce platform built with Angular, Express, and MongoDB.',
+  //   modalContent: (
+  //     <>
+  //       <p>
+  //         A Full-Stack E-Commerce Platform with Angular, Express, and MongoDB, Featuring Stripe Integration, Cloudinary Image Uploads, and JWT Authentication.
+  //       </p>
+  //     </>
+  //   ),
+  // },
   {
     title: 'gameboy',
     imgSrc: '/project-imgs/gameboy.png',
@@ -249,3 +301,9 @@ function Projects() {
 }
 
 export default Projects;
+
+
+
+
+// 
+// 

@@ -17,26 +17,22 @@ function About() {
             */}
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-              Welcome to my digital realm! I&apos;m Shahriar, an accomplished Full Stack Developer with a passion for turning complex challenges into elegant solutions. With a robust background in both frontend and backend development, I thrive in crafting seamless, user-centric applications.
-              I am currently working as a developer in the Electronics Manufacturing industry.
+              Welcome to my digital realm! I&apos;m Shahriar, an accomplished FullStack Developer passionate about transforming complex challenges into elegant solutions. With a robust background in both frontend and backend development, I excel in crafting seamless, user-centric applications. Currently, I am engaged as a developer in the Electronics Manufacturing industry.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              My journey in the tech realm has equipped me with a versatile skill set, spanning from crafting pixel-perfect user interfaces to architecting resilient server-side systems. Whether it&apos;s building intuitive user experiences, optimizing database performance, or orchestrating seamless integrations, I relish the challenge of creating cohesive and cutting-edge applications.
+              My journey in the tech realm has equipped me with a versatile skill set, ranging from crafting pixel-perfect user interfaces to architecting resilient server-side systems. Whether it&apos;s building intuitive user experiences, optimizing database performance, or orchestrating seamless integrations, I embrace the challenge of creating cohesive and cutting-edge applications.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              My commitment to staying on the pulse of technological advancements drives me to continuously refine my skills. I&apos;m a firm believer in the power of clean code, agile methodologies, and collaborative development practices. Let&apos;s connect and explore the endless possibilities of transforming ideas into tangible, tech-driven realities.
+              My commitment to staying abreast of technological advancements drives me to continuously refine my skills. I firmly believe in the power of clean code, agile methodologies, and collaborative development practices. Let&apos;s connect and explore the myriad possibilities of transforming ideas into tangible, tech-driven realities.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              I&apos;m passively looking for new positions where I can merge my
-              love for code. If you think
-              you&apos;ve got an opening that I might like, let&apos;s connect
-              🔗
+              I am open to new exciting opportunities that align with my passion for coding. If you believe you have an opening that resonates with my interests, let&apos;s connect 🔗.
             </p>
           </Reveal>
           <Reveal>
