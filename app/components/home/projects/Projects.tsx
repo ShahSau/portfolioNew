@@ -260,6 +260,49 @@ const projects = [
   //   ),
   // },
   {
+    title: 'Ethnic Elegance',
+    imgSrc: '/project-imgs/ethnicelegance.png',
+    code: 'https://github.com/ShahSau/EthnicElegance',
+    projectLink: 'https://ethnicelegance.onrender.com/v1/ecommerce/swagger/index.html',
+    tech: ['Go lang','Gin', 'Swagger','JSON Web Token (JWT)', 'MongoDB', 'JSON'],
+    description:
+      'A robust and scalable backend system built using Go and the Gin framework, designed to support a comprehensive eCommerce platform. The system is structured to provide secure authentication, user management, and administrative functionalities',
+    modalContent: (
+      <>
+        <p>
+          Implements JWT (JSON Web Token) for secure user authentication and authorization.
+        </p>
+        <p>
+          Generates tokens upon successful login, ensuring secure and stateless user sessions.
+        </p>
+        <p>
+          Validates tokens for each request to ensure that only authenticated users can access protected routes.
+        </p>
+        <p>
+          Allows new users to register with the platform by providing necessary details.
+        </p>
+        <p>
+          Enables registered users to log in and receive a JWT for session management.
+        </p>
+        <p>
+          Lets users view and update their profile information.
+        </p>
+        <p>
+          Users can place new orders, view their order history, and track order statuses.
+        </p>
+        <p>
+          Users can browse through the catalog of available products, view product details, and search for specific items.
+        </p>
+        <p>
+          Admin-specific authentication to access the admin dashboard and perform administrative tasks.
+        </p>
+        <p>
+          Admins can view all orders, update order statuses, and manage the order fulfillment process.
+      </p>
+      </>
+    ),
+  },
+  {
     title: 'gameboy',
     imgSrc: '/project-imgs/gameboy.png',
     code: 'https://github.com/ShahSau/gameboy',
