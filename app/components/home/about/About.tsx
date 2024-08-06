@@ -17,17 +17,17 @@ function About() {
             */}
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-              Welcome to my digital realm! I&apos;m Shahriar, an accomplished FullStack Developer passionate about transforming complex challenges into elegant solutions. With a robust background in both frontend and backend development, I excel in crafting seamless, user-centric applications. Currently, I am engaged as a developer in the Electronics Manufacturing industry.
+              Welcome to my digital realm! I&apos;m Shahriar, an experienced Full Stack Developer with a Master's degree in Materials Science from the University of Helsinki. I'm passionate about creating elegant and user-centric digital solutions that leverage cutting-edge technologies and best practices.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              My journey in the tech realm has equipped me with a versatile skill set, ranging from crafting pixel-perfect user interfaces to architecting resilient server-side systems. Whether it&apos;s building intuitive user experiences, optimizing database performance, or orchestrating seamless integrations, I embrace the challenge of creating cohesive and cutting-edge applications.
+            Currently, I'm a Web Engineer at Grundium, where I develop device testing software for portable microscopes, using a sophisticated tech stack that includes React, Next.js, Express, Cypress, TypeScript, Zod, Jenkins, Recoil, and AWS. I also enhance and refine the functionality of our current microscope user software, employing Angular, RxJS, OpenLayers, Express, MongoDB, and Jest. Previously, I worked as a consultant software engineer at Mentura Group Oy and Integrify, implementing software solutions for optimizing network coverage and performance, and collaborating on diverse client projects. 
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              My commitment to staying abreast of technological advancements drives me to continuously refine my skills. I firmly believe in the power of clean code, agile methodologies, and collaborative development practices. Let&apos;s connect and explore the myriad possibilities of transforming ideas into tangible, tech-driven realities.
+            I have a versatile skill set, ranging from crafting pixel-perfect user interfaces to architecting resilient server-side systems. I excel in frontend and backend development, using frameworks and tools such as HTML5, CSS3, Javascript, Python, Django, PostgreSQL, GraphQL, RestAPI, Jest, Cypress, Docker, React Native, Linux, and C. I'm always eager to learn new skills and stay abreast of technological advancements. I believe in the power of clean code, agile methodologies, and collaborative development practices. 
             </p>
           </Reveal>
           <Reveal>
@@ -37,10 +37,10 @@ function About() {
           </Reveal>
           <Reveal>
             <div className={styles.links}>
-              <div className={styles.linksText}>
+              {/* <div className={styles.linksText}>
                 <span>My links</span>
                 <AiOutlineArrowRight />
-              </div>
+              </div> */}
               <MyLinks />
             </div>
           </Reveal>

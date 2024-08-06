@@ -53,6 +53,58 @@ const projects = [
     ),
   },
   {
+    title: 'Culinary Bliss',
+    imgSrc: '/project-imgs/CulinaryBliss.png',
+    code: 'https://github.com/ShahSau/culinary-bliss',
+    projectLink: 'https://culinary-bliss.onrender.com/swagger/index.html',
+    tech: ['Go lang','Gin', 'Swagger','JSON Web Token (JWT)', 'MongoDB', 'JSON'],
+    description:'a robust and scalable backend system built using Go and the Gin framework, designed to support a comprehensive restaurant management platform. The system is structured to provide secure authentication, user management, and administrative functionalities, ensuring a seamless and efficient operation of a restaurant.',
+    modalContent: (
+      <>
+        <p>
+        Secure Authentication: Implemented JWT (JSON Web Token) for secure and stateless user authentication.
+        </p>
+        <p>
+        Token Generation: Generate tokens for user sessions upon successful login.
+        </p>
+        <p>
+          Token Verification: Verify tokens for protected routes to ensure only authenticated users can access certain endpoints.
+          </p>
+        <p>
+        Reservation Booking: Users can book, view, and cancel reservations.
+        </p>
+        <p>
+          Profile Management: Users can update their profiles, including personal details and preferences.
+          </p>
+        <p>
+          User Registration and Login: Allow users to register and log in securely.
+          </p>
+        <p>
+          Table Management: Manage table assignments, statuses, and seating arrangements to optimize dining space.
+          </p>
+        <p>
+          Reservation Management: Handle customer reservations, including booking, updating, and canceling reservations.
+          </p>
+        <p>
+          Menu Management: CRUD operations for managing the restaurant menu, including categories, items, prices, and availability.
+          </p>
+        <p>
+          Restaurant Management: Manage restaurant details, including name, location, hours of operation, and more.
+        </p>
+        <p>
+          Role Management: Assign and manage roles (e.g., admin, staff) to control access levels and permissions.
+        </p>
+        <p>
+          User Management: Create, read, update, and delete (CRUD) operations for managing user accounts.
+        </p>
+        <p>
+          Refresh Tokens: Support for refreshing tokens to maintain secure sessions.
+        </p>
+
+      </>
+    ),
+  },
+  {
     title: 'Turbo',
     imgSrc: '/project-imgs/turbo.png',
     code: 'https://github.com/ShahSau/turbo',
@@ -326,59 +378,7 @@ const projects = [
 
       </>
     ),
-  },
-  {
-    title: 'Culinary Bliss',
-    imgSrc: '/project-imgs/CulinaryBliss.png',
-    code: 'https://github.com/ShahSau/culinary-bliss',
-    projectLink: 'https://culinary-bliss.onrender.com/swagger/index.html',
-    tech: ['Go lang','Gin', 'Swagger','JSON Web Token (JWT)', 'MongoDB', 'JSON'],
-    description:'a robust and scalable backend system built using Go and the Gin framework, designed to support a comprehensive restaurant management platform. The system is structured to provide secure authentication, user management, and administrative functionalities, ensuring a seamless and efficient operation of a restaurant.',
-    modalContent: (
-      <>
-        <p>
-        Secure Authentication: Implemented JWT (JSON Web Token) for secure and stateless user authentication.
-        </p>
-        <p>
-        Token Generation: Generate tokens for user sessions upon successful login.
-        </p>
-        <p>
-          Token Verification: Verify tokens for protected routes to ensure only authenticated users can access certain endpoints.
-          </p>
-        <p>
-        Reservation Booking: Users can book, view, and cancel reservations.
-        </p>
-        <p>
-          Profile Management: Users can update their profiles, including personal details and preferences.
-          </p>
-        <p>
-          User Registration and Login: Allow users to register and log in securely.
-          </p>
-        <p>
-          Table Management: Manage table assignments, statuses, and seating arrangements to optimize dining space.
-          </p>
-        <p>
-          Reservation Management: Handle customer reservations, including booking, updating, and canceling reservations.
-          </p>
-        <p>
-          Menu Management: CRUD operations for managing the restaurant menu, including categories, items, prices, and availability.
-          </p>
-        <p>
-          Restaurant Management: Manage restaurant details, including name, location, hours of operation, and more.
-        </p>
-        <p>
-          Role Management: Assign and manage roles (e.g., admin, staff) to control access levels and permissions.
-        </p>
-        <p>
-          User Management: Create, read, update, and delete (CRUD) operations for managing user accounts.
-        </p>
-        <p>
-          Refresh Tokens: Support for refreshing tokens to maintain secure sessions.
-        </p>
-
-      </>
-    ),
-  },
+  }
   
 
 ];

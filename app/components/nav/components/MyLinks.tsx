@@ -17,7 +17,7 @@ function MyLinks() {
         transition={{ duration: 0.5, delay: 0.0 }}
       >
         <Link href="https://www.linkedin.com/in/shahriar-saurov/" target="_blank" rel="nofollow">
-          <AiFillLinkedin size="2.4rem" />
+          <AiFillLinkedin size="2.8rem" />
         </Link>
       </motion.span>
 
@@ -27,7 +27,7 @@ function MyLinks() {
         transition={{ duration: 0.5, delay: 0.1 }}
       >
         <Link href="https://github.com/ShahSau" target="_blank" rel="nofollow">
-          <AiFillGithub size="2.4rem" />
+          <AiFillGithub size="2.8rem" />
         </Link>
       </motion.span>
 
@@ -37,7 +37,7 @@ function MyLinks() {
         transition={{ duration: 0.5, delay: 0.2 }}
       >
         <Link href="https://twitter.com/saurov_shahriar" target="_blank" rel="nofollow">
-          <AiFillTwitterCircle size="2.4rem" />
+          <AiFillTwitterCircle size="2.8rem" />
         </Link>
       </motion.span>
     </div>
