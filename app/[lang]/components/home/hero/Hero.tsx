@@ -1,17 +1,26 @@
+
 import React from 'react';
 import StandardButton from '../../buttons/StandardButton';
 import Reveal from '../../utils/Reveal';
 import ParticlesContainer from './ParticlesContainer';
 import styles from './hero.module.scss';
+import { Locale } from '@/i18n.config';
+import { getDictionary } from '@/dictionary';
 
-function Hero() {
+
+const Hero = async({
+  params,
+}: {
+  params: { lang: Locale }
+})=> {
+  const dictionary = await getDictionary(params.lang);
   return (
     <section className={`section-wrapper ${styles.hero}`}>
       <div className={styles.copyWrapper}>
         <ParticlesContainer />
         <Reveal>
           <h1 className={styles.title}>
-            Hey, I&apos;m Shahriar
+            {dictionary.Hero.title}
             <span>.</span>
           </h1>
         </Reveal>
@@ -25,8 +34,6 @@ function Hero() {
         <Reveal>
           <p className={styles.aboutCopy}>
             Innovative, task-driven experienced fullstack developer  with a passion for turning complex challenges into elegant solutions. With a robust background in both frontend and backend development, I thrive in crafting seamless, user-centric applications, troubleshooting simple/complex issues.
-            <br />
-            Let&apos;s connect!
           </p>
         </Reveal>
         <Reveal>

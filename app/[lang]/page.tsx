@@ -9,15 +9,20 @@ import Experience from './components/home/experience/Experience';
 import Projects from './components/home/projects/Projects';
 import Contact from './components/home/contact/Contact';
 import styles from './home.module.scss';
+import { Locale } from '@/i18n.config';
 
 
-function Home() {
+async function Home({
+  params,
+}: {
+  params: { lang: Locale }
+}) {
   return (
     <div className={styles.home}>
       <SideBar />
       <main>
         <Heading />
-        <Hero />
+        <Hero params={params}/>
         <About />
         <Experience />
         <Projects />
