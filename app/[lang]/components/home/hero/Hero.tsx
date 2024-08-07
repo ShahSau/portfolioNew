@@ -26,21 +26,21 @@ const Hero = async({
         </Reveal>
         <Reveal>
           <h2 className={styles.subTitle}>
-            I&apos;m a
+            {dictionary.Hero.subtitle1}
             {' '}
-            <span>Full Stack Developer</span>
+            <span>{dictionary.Hero.subtitle2}</span>
           </h2>
         </Reveal>
         <Reveal>
           <p className={styles.aboutCopy}>
-            Innovative, task-driven experienced fullstack developer  with a passion for turning complex challenges into elegant solutions. With a robust background in both frontend and backend development, I thrive in crafting seamless, user-centric applications, troubleshooting simple/complex issues.
+            {dictionary.Hero.about}
           </p>
         </Reveal>
         <Reveal>
           <StandardButton
             onClick={() => document.getElementById('contact')?.scrollIntoView()}
           >
-            Contact me
+            {dictionary.Hero.contact}
           </StandardButton>
         </Reveal>
       </div>

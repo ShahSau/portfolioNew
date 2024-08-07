@@ -19,11 +19,11 @@ async function Home({
 }) {
   return (
     <div className={styles.home}>
-      <SideBar />
+      <SideBar/>
       <main>
         <Heading />
         <Hero params={params}/>
-        <About />
+        <About params={params}/>
         <Experience />
         <Projects />
         <Contact />

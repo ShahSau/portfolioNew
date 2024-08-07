@@ -1,7 +1,8 @@
 import React from 'react';
 import SectionHeader from '../../utils/SectionHeader';
 import ExperienceItem from './ExperienceItem';
-
+import { Locale } from '@/i18n.config';
+import { getDictionary } from '@/dictionary';
 const experience = [
   {
     title: 'Grundium Oy',
@@ -98,7 +99,12 @@ const experience = [
   },
 ];
 
-function Experience() {
+const Experience = async({
+  params,
+}: {
+  params: { lang: Locale };
+})=> {
+  const dictionary = await getDictionary(params.lang);
   return (
     <section className="section-wrapper" id="experience">
       <SectionHeader title="Experience" dir="r" />

@@ -29,7 +29,7 @@ export default function LocaleSwitcher() {
   };
 
   return (
-    <Menu as="div" className="relative inline-block text-left m-6">
+    <Menu as="div" className="relative inline-block text-left mr-8">
       <div>
         <Menu.Button className="mt-12 inline-flex w-full justify-center gap-x-1.5 rounded-md bg-black px-3 py-1 text-sm font-semibold text-red-600 shadow-sm ring-1 ring-inset ring-red-500 hover:bg-red-600 hover:text-black">
           <TfiWorld className="h-20 w-16" />
@@ -46,13 +46,13 @@ export default function LocaleSwitcher() {
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-        <Menu.Items className="absolute right-0 z-10 mt-2 w-32 origin-top-right rounded-md bg-gray-100 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+        <Menu.Items className="absolute right-0 z-10 h-[130px] w-full origin-top-right rounded-lg bg-black shadow-lg ring-1 ring-red-600 ring-opacity-5 focus:outline-none">
           <div className="">
             {i18n.locales.map((locale) => (
               <Menu.Item key={locale}>
                 <Link
                   href={redirectedPathName(locale)}
-                  className="text-gray-700  px-4 py-2 text-sm flex flex-column gap-6 hover:bg-gray-300"
+                  className={` px-4 py-4 text-[16px] flex flex-column gap-6 hover:bg-gray-500 ${locale === language ? 'bg-red-600 text-white' : 'text-gray-600'}`}
                 >
 
                   {
@@ -61,7 +61,7 @@ export default function LocaleSwitcher() {
                   {
                     locale === 'en' ? 'US' : locale === 'de' ? 'DE' : 'FI'
                   }
-                  {locale === language ? <div className="w-full h-full text-blue-700"><IoCheckmarkSharp /></div> : null}
+                  {/* {locale === language ? <div className="w-[200px] h-full text-red-600"><IoCheckmarkSharp /></div> : null} */}
                 </Link>
               </Menu.Item>
             ))}

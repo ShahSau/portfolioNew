@@ -1,5 +1,22 @@
 {
     "Hero": {
-      "title": "Hey, ich bin Shahriar"
+      "title": "Hey, ich bin Shahriar",
+        "subtitle1": "Ich bin",
+        "subtitle2": "Full Stack Entwickler",
+        "about":"Innovativer, aufgabenorientierter erfahrener Fullstack-Entwickler mit Leidenschaft, komplexe Herausforderungen in elegante Lösungen zu verwandeln. Mit fundierten Kenntnissen in der Frontend- und Backend-Entwicklung bin ich in der Lage, nahtlose, benutzerzentrierte Anwendungen zu erstellen und einfache/komplexe Probleme zu lösen.",
+        "contact": "Kontaktiere mich"
+    },
+    "Sidebar":{
+        "about": "Über",
+        "experience":"Erfahrung",
+        "projects": "Projekte",
+        "contact": "Kontakt"
+    },
+    "About":{
+        "title": "Über",
+        "text1":"Willkommen in meinem digitalen Reich! Ich bin Shahriar, ein erfahrener Full Stack Entwickler mit einem Master-Abschluss in Materialwissenschaften von der Universität Helsinki. Ich bin leidenschaftlich daran interessiert, elegante und benutzerzentrierte digitale Lösungen zu schaffen, die modernste Technologien und bewährte Verfahren nutzen.",
+        "text2":"Derzeit bin ich Web Engineer bei Grundium, wo ich Testsoftware für tragbare Mikroskope entwickle und dabei einen anspruchsvollen Technologie-Stack verwende, der React, Next.js, Express, Cypress, TypeScript, Zod, Jenkins, Recoil und AWS umfasst. Ich verbessere und verfeinere auch die Funktionalität unserer aktuellen Mikroskop-Software für Benutzer, indem ich Angular, RxJS, OpenLayers, Express, MongoDB und Jest einsetze. Zuvor war ich als Berater-Softwareentwickler bei Mentura Group Oy und Integrify tätig und implementierte Softwarelösungen zur Optimierung der Netzabdeckung und -leistung sowie zur Zusammenarbeit an vielfältigen Kundenprojekten.",
+        "text3":"Ich verfüge über ein vielseitiges Fähigkeiten-Set, das von der Gestaltung pixelgenauer Benutzeroberflächen bis zur Architektur robuster serverseitiger Systeme reicht. Ich bin spezialisiert auf die Frontend- und Backend-Entwicklung unter Verwendung von Frameworks und Tools wie HTML5, CSS3, Javascript, Python, Django, PostgreSQL, GraphQL, RestAPI, Jest, Cypress, Docker, React Native, Linux und C. Ich bin immer bestrebt, neue Fähigkeiten zu erlernen und über technologische Fortschritte auf dem Laufenden zu bleiben. Ich glaube an die Kraft von sauberem Code, agilen Methoden und kollaborativen Entwicklungspraktiken.",
+        "text4":"Ich bin offen für neue spannende Möglichkeiten, die mit meiner Leidenschaft fürs Coden übereinstimmen. Wenn Sie der Meinung sind, dass Sie eine Stelle haben, die mit meinen Interessen im Einklang steht, lassen Sie uns in Verbindung treten 🔗."
     }
   }

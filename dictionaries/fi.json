@@ -1,5 +1,22 @@
 {
     "Hero": {
-      "title": "Hei, olen Shahriar"
+      "title": "Hei, olen Shahriar",
+      "subtitle1": "Olen",
+        "subtitle2": "Full Stack -kehittäjä",
+        "about":"Innovatiivinen, tehtäväkeskeinen kokenut fullstack-kehittäjä, jolla on intohimo monimutkaisten haasteiden muuttamiseen elegantiksi ratkaisuksi. Vankka tausta sekä frontend- että backend-kehityksessä auttaa minua luomaan saumattomia, käyttäjäkeskeisiä sovelluksia ja ratkaisemaan yksinkertaisia ja monimutkaisia ongelmia.",
+        "contact": "Ota yhteyttä"
+    },
+    "Sidebar":{
+        "about": "Tietoja",
+        "experience":"Kokemus",
+        "projects": "Projektit",
+        "contact": "Yhteystiedot"
+    },
+    "About":{
+        "title": "Tietoja",
+        "text1":"Tervetuloa digitaaliseen valtakuntaani! Olen Shahriar, kokenut Full Stack -kehittäjä, jolla on maisterin tutkinto materiaalitieteestä Helsingin yliopistosta. Olen intohimoinen eleganttien ja käyttäjäkeskeisten digitaalisten ratkaisujen luomisesta, jotka hyödyntävät viimeisimpiä teknologioita ja parhaita käytäntöjä.",
+        "text2":"Tällä hetkellä toimin Web Engineerina Grundiumilla, jossa kehitän kannettaville mikroskoopeille laiteohjelmistoja käyttäen monimutkaista teknologiaa, johon kuuluvat React, Next.js, Express, Cypress, TypeScript, Zod, Jenkins, Recoil ja AWS. Lisäksi parannan ja hienosäädän nykyisten mikroskooppien käyttäjäohjelmiston toiminnallisuutta käyttäen Angularia, RxJS:ää, OpenLayersia, Expressia, MongoDB:tä ja Jestia. Aiemmin työskentelin konsulttina ohjelmistokehittäjänä Mentura Group Oy:ssä ja Integrifyssa, toteuttaen ohjelmistoratkaisuja verkkojen kattavuuden ja suorituskyvyn optimoimiseksi ja osallistuen erilaisiin asiakasprojekteihin.",
+        "text3":"Minulla on monipuolinen taitojoukko, joka ulottuu pikselintarkkojen käyttöliittymien luomisesta joustavien palvelinpuolen järjestelmien arkkitehtuurin suunnitteluun. Olen erikoistunut frontend- ja backend-kehitykseen käyttäen kehyksiä ja työkaluja, kuten HTML5, CSS3, Javascript, Python, Django, PostgreSQL, GraphQL, RestAPI, Jest, Cypress, Docker, React Native, Linux ja C. Olen aina innokas oppimaan uusia taitoja ja pysymään ajan tasalla teknologisista edistysaskeleista. Uskon puhtaan koodin, ketterien menetelmien ja yhteistyöhön perustuvan kehityksen voimaan.",
+        "text4":"Olen avoin uusille mielenkiintoisille mahdollisuuksille, jotka vastaavat intohimoani koodaamiseen. Jos uskot, että sinulla on avoin paikka, joka resonoi kiinnostukseni kanssa, yhdistetään 🔗."
     }
   }
