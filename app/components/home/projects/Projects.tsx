@@ -378,6 +378,35 @@ const projects = [
 
       </>
     ),
+  },
+  {
+    title: 'SuperStore Dashboard',
+    imgSrc: '/project-imgs/superstore_dashboard.png',
+    code: 'https://github.com/ShahSau/superstore_dashboard',
+    projectLink: 'https://superstore-dashboard.vercel.app/',
+    tech: ['React', 'Typescript', 'TailwindCSS', 'ChakraUI', 'RechartJs', 'JSON', 'ESLint', 'Prettier', 'Vercel' ],
+    description:
+      'A dashboard to visualize the sales data of a superstore. This dashboard is designed to provide insights into the sales data of a superstore.',
+    modalContent: (
+      <>
+        <p>
+          High Performance & Scalability: Leveraging Vite's blazing-fast build toolchain and React's efficient rendering, the dashboard handles large datasets with ease, ensuring quick loading times and a smooth user experience.
+        </p>
+        <p>
+          Interactive Data Visualization: Powered by Recharts, the dashboard provides a variety of customizable charts and graphs, allowing users to interact with their data dynamically. Whether it's line charts, bar graphs, pie charts, or more complex visualizations, the data is presented clearly and effectively.
+        </p>
+        <p>
+          Type Safety & Reliability: With TypeScript, the dashboard ensures type safety across the application, reducing the risk of bugs and making the codebase more maintainable. This enhances the reliability and predictability of the dashboard, especially when dealing with complex data structures.
+        </p>
+        <p>
+          Responsive & Modern UI: TailwindCSS ensures a clean, modern, and fully responsive user interface that adapts seamlessly to different screen sizes and devices. The dashboard’s design prioritizes usability and accessibility, offering a user-friendly experience for both novice and expert users.
+        </p>
+        <p>
+        Modular & Extensible Architecture: The dashboard's architecture is modular, allowing easy integration of new features and custom components. This extensibility makes it adaptable to various use cases, from business intelligence to data science and beyond.
+        </p>
+
+      </>
+    ),
   }
   
 
