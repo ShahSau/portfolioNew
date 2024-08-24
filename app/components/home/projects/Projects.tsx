@@ -361,20 +361,20 @@ const projects = [
     projectLink: 'https://gameboy-ruddy.vercel.app/',
     tech: ['React', 'NextJS', 'RestApi', 'ChakraUI'],
     description:
-      'A website to get details of free to play games. Designed and built on my own.',
+      'Gameboy is a vibrant and engaging free-to-play gaming platform info webapp crafted using modern web technologies like JavaScript, Next.js, React, Framer Motion, and Chakra UI..',
     modalContent: (
       <>
         <p>
-          Gameboy is a website showcasing details of free to play games.
-          This app is my baby, designed and built on my own.
+          Welcome to Gameboy, a dynamic and immersive free-to-play gaming platform info webapp built with cutting-edge technologies including JavaScript, Next.js, React, and Framer Motion. Our app is designed to deliver a seamless gaming experience, offering a diverse selection of games that are accessible anytime, anywhere.
         </p>
-        <p>
-          The tech stack is based on top of React and NextJS, with ChakraUI for styling.
-          The data is provided by RapidAPI and is fetched using axios.
-        </p>
-        <p>
-          The site is hosted on Vercel.
-        </p>
+
+         <p>
+           Leveraging the power of Next.js for server-side rendering and React for a responsive and interactive user interface, Gameboy ensures that users enjoy fast load times and smooth gameplay. Framer Motion adds an extra layer of engagement, with fluid animations and transitions that bring the gaming experience to life.
+          </p>
+
+         <p>
+           Whether you're a casual gamer or a dedicated player, Gameboy provides an exciting and user-friendly environment where fun is just a click away. Join us and dive into a world of endless entertainment—no downloads, no hassle, just pure gaming pleasure!
+         </p>
 
       </>
     ),
