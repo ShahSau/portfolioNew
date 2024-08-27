@@ -12,6 +12,8 @@ const projects = [
     imgSrc: '/project-imgs/alphacore.png',
     code: 'https://github.com/ShahSau/alphaCore',
     projectLink: 'https://alpha-core.vercel.app/',
+    featured: true,
+    type: 'FullStack',
     tech: ['React', 'TypeScript', 'NextJS', 'TailwindCSS','Zustand', 'Prisma', 'OpenAI', 'Axios', 'JSON', 'Zod', 'Stripe', 'Clerk', 'Replicate', 'ESlint'],
     description:
       "A SASS platform depecting the power of AI. This platform uses OpenAI's GPT-3 and other AI models to generate contents.",
@@ -57,6 +59,8 @@ const projects = [
     imgSrc: '/project-imgs/CulinaryBliss.png',
     code: 'https://github.com/ShahSau/culinary-bliss',
     projectLink: 'https://culinary-bliss.onrender.com/swagger/index.html',
+    featured: false,
+    type: 'Backend',
     tech: ['Go lang','Gin', 'Swagger','JSON Web Token (JWT)', 'MongoDB', 'JSON'],
     description:'a robust and scalable backend system built using Go and the Gin framework, designed to support a comprehensive restaurant management platform. The system is structured to provide secure authentication, user management, and administrative functionalities, ensuring a seamless and efficient operation of a restaurant.',
     modalContent: (
@@ -109,6 +113,8 @@ const projects = [
     imgSrc: '/project-imgs/turbo.png',
     code: 'https://github.com/ShahSau/turbo',
     projectLink: 'https://turbo-flax.vercel.app',
+    featured: true,
+    type: 'FullStack',
     tech: ['Javascript', 'Sharp', 'React', 'Axios', 'NextJS', 'Typescript', 'ExpressJS', 'NodeJS', 'MongoDB', 'ESLint', 'Stripe', 'Cloudinary', 'Prisma', 'Leaflet', 'JSON', 'JSON Web Token (JWT)', 'Zustand', 'i18next'],
     description:
       'Seamless User Experience and Comprehensive Business Solutions with NextAuth, Stripe Integration, and Multi-Language Support. ',
@@ -166,6 +172,8 @@ const projects = [
     imgSrc: '/project-imgs/jobhunt.png',
     code: 'https://github.com/ShahSau/jobhunt',
     projectLink: 'https://jobhunt-sfsp.vercel.app/',
+    featured: true,
+    type: 'FullStack',
     tech:['Javascript', 'Python', 'React', 'NextJS', 'TailwindCSS', 'Django', 'Django REST' , 'Axios', 'JSON', 'JSON Web Token', 'PostgreSQL', 'Cookie', 'Mapbox'],
     description:
       "A job portal is build on Next.js (production-ready react framework), Django REST framework (a powerful and flexible framework for building Web APIs) and postgres.",
@@ -211,6 +219,8 @@ const projects = [
     imgSrc: '/project-imgs/primeproperties.png',
     code: 'https://github.com/ShahSau/prime-properties',
     projectLink: 'https://prime-properties.onrender.com',
+    featured: true,
+    type: 'FullStack',
     tech: ['Javascript', 'React', 'ExpressJS', 'NodeJS', 'TailwindCss', 'Firebase', 'Redux Thunk', 'JSON Web Token (JWT)', 'i18next', 'Framer motion', 'MongoDB', 'Swiper', 'JSON', 'EsLint', 'Cloudinary'],
     description:
       'Elevated User Experience and Robust Security: A Feature-Packed MERN app with Multilingual Support, JWT Authentication, and Role-Based Authorization ',
@@ -256,6 +266,8 @@ const projects = [
   //   imgSrc: '/project-imgs/primeproperties.png',
   //   code: 'https://github.com/ShahSau/prime-properties',
   //   projectLink: '',
+  //  featured: true,
+  //  type: 'Mobile',
   //   tech: ['Javascript', 'React Native', 'Django', 'Django REST', 'Zustand', 'Django Channels', 'webhook', 'expo', 'redis', 'SQLite', 'JSON Web Token (JWT)'],
   //   description:
   //     'A chatting app using react native and Django rest framework. This app is designed to connect people and chat with them.',
@@ -300,6 +312,8 @@ const projects = [
   //   imgSrc: '/project-imgs/turbo.png',
   //   code: 'https://github.com/ShahSau/TechHive',
   //   projectLink: '',
+  //   featured: true,
+  //   type: 'FullStack',
   //   tech: ['Javascript', 'Angular', 'Axios', 'Typescript', 'ExpressJS', 'NodeJS', 'MongoDB', 'Stripe', 'Cloudinary', 'JSON', 'JSON Web Token (JWT)', 'RxJS', 'TailwindCSS', 'Angular Material'],
   //   description:
   //     'A full-stack e-commerce platform built with Angular, Express, and MongoDB.',
@@ -316,6 +330,8 @@ const projects = [
     imgSrc: '/project-imgs/ethnicelegance.png',
     code: 'https://github.com/ShahSau/EthnicElegance',
     projectLink: 'https://ethnicelegance.onrender.com/v1/ecommerce/swagger/index.html',
+    featured: false,
+    type: 'Backend',
     tech: ['Go lang','Gin', 'Swagger','JSON Web Token (JWT)', 'MongoDB', 'JSON'],
     description:
       'A robust and scalable backend system built using Go and the Gin framework, designed to support a comprehensive eCommerce platform. The system is structured to provide secure authentication, user management, and administrative functionalities',
@@ -359,6 +375,8 @@ const projects = [
     imgSrc: '/project-imgs/gameboy.png',
     code: 'https://github.com/ShahSau/gameboy',
     projectLink: 'https://gameboy-ruddy.vercel.app/',
+    featured: false,
+    type: 'Frontend',
     tech: ['React', 'NextJS', 'RestApi', 'ChakraUI'],
     description:
       'Gameboy is a vibrant and engaging free-to-play gaming platform info webapp crafted using modern web technologies like JavaScript, Next.js, React, Framer Motion, and Chakra UI..',
@@ -384,6 +402,8 @@ const projects = [
     imgSrc: '/project-imgs/superstore_dashboard.png',
     code: 'https://github.com/ShahSau/superstore_dashboard',
     projectLink: 'https://superstore-dashboard.vercel.app/',
+    featured: false,
+    type: 'Frontend',
     tech: ['React', 'Typescript', 'TailwindCSS', 'ChakraUI', 'RechartJs', 'JSON', 'ESLint', 'Prettier', 'Vercel' ],
     description:
       'A dashboard to visualize the sales data of a superstore. This dashboard is designed to provide insights into the sales data of a superstore.',
