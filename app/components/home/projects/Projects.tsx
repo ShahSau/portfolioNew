@@ -427,6 +427,37 @@ const projects = [
 
       </>
     ),
+  },
+  {
+    title: 'Entertainment Vibe',
+    imgSrc: '/project-imgs/Entertainmentvibe.png',
+    code: 'https://github.com/ShahSau/entertainment-vibe',
+    projectLink: 'https://entertainment-vibe.vercel.app/',
+    featured: false,
+    type: 'Frontend',
+    tech: ['React', 'JavaScript', 'ChakraUI', 'Axios', 'JSON', 'ESLint', 'Prettier', 'Vercel', 'Vite', 'TMDB API'],
+    description:
+      'Entertainment Vibe is a web app that is designed to provide a seamless user experience, the app allows users to explore an extensive collection of movies with detailed information, including synopses, ratings, and cast details.',
+    modalContent: (
+      <>
+        <p>
+          Seamless User Experience: Entertainment Vibe offers a user-friendly interface that allows users to easily navigate and explore a vast collection of movies. The app provides detailed information on each movie, including synopses, ratings, and cast details, ensuring an engaging and informative experience.
+        </p>
+        <p>
+          Comprehensive Movie Database: Powered by the TMDB API, Entertainment Vibe offers access to a wide range of movies, enabling users to discover new releases, popular titles, and trending films. With a diverse selection of genres and categories, users can find movies that cater to their preferences and interests.
+        </p>
+        <p>
+          Dynamic Search Functionality: Entertainment Vibe features a robust search functionality that allows users to quickly find movies based on specific criteria. Users can search by title, genre, release year, and more, making it easy to locate movies that match their preferences.
+        </p>
+        <p>
+          Responsive Design: Built with Chakra UI, Entertainment Vibe offers a responsive and visually appealing design that adapts to different screen sizes and devices. The app's layout is optimized for usability and accessibility, ensuring a seamless experience for users across various platforms.
+        </p>
+        <p>
+          Fast & Efficient Performance: Leveraging Vite's fast build toolchain, Entertainment Vibe delivers high performance and efficient rendering, ensuring quick loading times and smooth interactions. The app's lightweight and optimized codebase enhances user experience and responsiveness.
+        </p>
+
+      </>
+    ),
   }
   
 
