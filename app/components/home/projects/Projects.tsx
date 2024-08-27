@@ -377,7 +377,7 @@ const projects = [
     projectLink: 'https://gameboy-ruddy.vercel.app/',
     featured: false,
     type: 'Frontend',
-    tech: ['React', 'NextJS', 'RestApi', 'ChakraUI'],
+    tech: ['React', 'NextJS', 'RestApi', 'ChakraUI', 'Jest', 'Framer Motion', 'ESLint', 'Prettier', 'Vercel'],
     description:
       'Gameboy is a vibrant and engaging free-to-play gaming platform info webapp crafted using modern web technologies like JavaScript, Next.js, React, Framer Motion, and Chakra UI..',
     modalContent: (
