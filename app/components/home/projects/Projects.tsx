@@ -430,7 +430,7 @@ const projects = [
   },
   {
     title: 'Entertainment Vibe',
-    imgSrc: '/project-imgs/Entertainmentvibe.png',
+    imgSrc: '/project-imgs/Entertainmentvibe.jpg',
     code: 'https://github.com/ShahSau/entertainment-vibe',
     projectLink: 'https://entertainment-vibe.vercel.app/',
     featured: false,
@@ -456,6 +456,38 @@ const projects = [
           Fast & Efficient Performance: Leveraging Vite's fast build toolchain, Entertainment Vibe delivers high performance and efficient rendering, ensuring quick loading times and smooth interactions. The app's lightweight and optimized codebase enhances user experience and responsiveness.
         </p>
 
+      </>
+    ),
+  },
+  {
+    title: 'Pulse Fit',
+    imgSrc: '/project-imgs/pulsefit.png',
+    code: 'https://github.com/ShahSau/pulsefit',
+    projectLink: 'https://pulsefit-snowy.vercel.app/',
+    featured: false,
+    type: 'Frontend',
+    tech: ['React', 'JavaScript', 'TailwindCss', 'Axios', 'JSON', 'ESLint', 'Framer Motion', 'Vercel', 'Vite', 'Exercise Db API', 'Youtube search & download API'],
+    description:'Pulse Fit is a web app that provides users with a wide range of exercise. The app is designed to help users stay active and healthy by offering a diverse selection of exercises and fitness programs.',
+    modalContent: (
+      <>
+        <p>
+          Our Gym App is built with modern technologies to deliver a seamless and engaging user experience. Below is an overview of the key features and technologies used in the development:
+        </p>
+        <p>
+          The app is built using React, enabling the creation of modular and reusable UI components for enhanced maintainability, scalability, and performance across various views. React hooks (like useState and useEffect) are used for efficient local and global state management, making the app responsive and interactive. Additionally, React Router is implemented to facilitate seamless navigation between pages such as Home, Workouts.
+        </p>
+        <p>
+          The app uses TypeScript for static type-checking, improving code quality, error detection, and development efficiency with IntelliSense.
+        </p>
+        <p>
+          We use ESLint to enforce coding standards and Prettier for automatic formatting, ensuring consistent, high-quality, readable code.
+        </p>
+        <p>
+          We use Vite for fast builds and instant hot module replacement, optimizing performance and development speed. The app is fully responsive, adapting smoothly across mobile, tablet, and desktop devices.
+        </p>
+        <p>
+          Framer Motion provides smooth, dynamic animations for UI elements, enhancing user experience with fluid transitions and immersive interactions.
+        </p>
       </>
     ),
   }
