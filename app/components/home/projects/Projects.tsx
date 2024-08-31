@@ -461,7 +461,7 @@ const projects = [
   },
   {
     title: 'Pulse Fit',
-    imgSrc: '/project-imgs/pulsefit.png',
+    imgSrc: '/project-imgs/pulseFit.png',
     code: 'https://github.com/ShahSau/pulsefit',
     projectLink: 'https://pulsefit-snowy.vercel.app/',
     featured: false,
