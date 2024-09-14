@@ -1,9 +1,11 @@
 /* eslint-disable react/jsx-props-no-spreading */
 /* eslint-disable max-len */
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import SectionHeader from '../../utils/SectionHeader';
 import Project from './Project';
 import styles from './projects.module.scss';
+import OutlineButton from '../../buttons/OutlineButton';
+import ProjectButton from '../../buttons/ProjectButton';
 
 const projects = [
   
@@ -59,7 +61,7 @@ const projects = [
     imgSrc: '/project-imgs/CulinaryBliss.png',
     code: 'https://github.com/ShahSau/culinary-bliss',
     projectLink: 'https://culinary-bliss.onrender.com/swagger/index.html',
-    featured: false,
+    featured: true,
     type: 'Backend',
     tech: ['Go lang','Gin', 'Swagger','JSON Web Token (JWT)', 'MongoDB', 'JSON'],
     description:'a robust and scalable backend system built using Go and the Gin framework, designed to support a comprehensive restaurant management platform. The system is structured to provide secure authentication, user management, and administrative functionalities, ensuring a seamless and efficient operation of a restaurant.',
@@ -172,7 +174,7 @@ const projects = [
     imgSrc: '/project-imgs/jobhunt.png',
     code: 'https://github.com/ShahSau/jobhunt',
     projectLink: 'https://jobhunt-sfsp.vercel.app/',
-    featured: true,
+    featured: false,
     type: 'FullStack',
     tech:['Javascript', 'Python', 'React', 'NextJS', 'TailwindCSS', 'Django', 'Django REST' , 'Axios', 'JSON', 'JSON Web Token', 'PostgreSQL', 'Cookie', 'Mapbox'],
     description:
@@ -219,7 +221,7 @@ const projects = [
     imgSrc: '/project-imgs/primeproperties.png',
     code: 'https://github.com/ShahSau/prime-properties',
     projectLink: 'https://prime-properties.onrender.com',
-    featured: true,
+    featured: false,
     type: 'FullStack',
     tech: ['Javascript', 'React', 'ExpressJS', 'NodeJS', 'TailwindCss', 'Firebase', 'Redux Thunk', 'JSON Web Token (JWT)', 'i18next', 'Framer motion', 'MongoDB', 'Swiper', 'JSON', 'EsLint', 'Cloudinary'],
     description:
@@ -261,70 +263,6 @@ const projects = [
       </>
     ),
   },
-  // {
-  //   title: 'chitChat Connect',
-  //   imgSrc: '/project-imgs/primeproperties.png',
-  //   code: 'https://github.com/ShahSau/prime-properties',
-  //   projectLink: '',
-  //  featured: true,
-  //  type: 'Mobile',
-  //   tech: ['Javascript', 'React Native', 'Django', 'Django REST', 'Zustand', 'Django Channels', 'webhook', 'expo', 'redis', 'SQLite', 'JSON Web Token (JWT)'],
-  //   description:
-  //     'A chatting app using react native and Django rest framework. This app is designed to connect people and chat with them.',
-  //   modalContent: (
-  //     <>
-  //       <p>
-  //         Crafting a Chat Application with Real-Time Messaging, Webhooks, and Secure Authentication.
-  //       </p>
-  //       <ul>
-  //         <li>
-  //           Harnessing the flexibility and versatility of JavaScript alongside the power of React Native to create captivating user interfaces.
-  //         </li>
-  //         <li>
-  //           Employing Django, a high-level Python web framework, in tandem with its RESTful API framework to develop scalable and maintainable backend services.
-  //         </li>
-  //         <li>
-  //           Simplifying state management in applications with Zustand, a lightweight and straightforward state management library offering efficiency and flexibility.
-  //         </li>
-  //         <li>
-  //           Implementing Django Channels, a powerful and flexible tool for handling WebSockets and asynchronous communication, to enable real-time messaging and chat functionality.
-  //         </li>
-  //         <li>
-  //           Enhancing the application with webhooks, enabling seamless integration of third-party services and real-time data updates.
-  //         </li>
-  //         <li>
-  //           Leveraging Redis, an in-memory data structure store, to provide high-performance and scalable caching solutions.
-  //         </li>
-  //         <li>
-  //           Utilizing SQLite, a lightweight and embedded relational database, for local data storage and management, ensuring a reliable solution for applications requiring offline capabilities.
-  //         </li>
-  //         <li>
-  //           Securing user data and interactions with JSON Web Token (JWT) authentication, guaranteeing a safe and reliable user experience.
-  //         </li>
-
-  //       </ul>
-        
-  //     </>
-  //   ),
-  // },
-  // {
-  //   title: 'eStore',
-  //   imgSrc: '/project-imgs/turbo.png',
-  //   code: 'https://github.com/ShahSau/TechHive',
-  //   projectLink: '',
-  //   featured: true,
-  //   type: 'FullStack',
-  //   tech: ['Javascript', 'Angular', 'Axios', 'Typescript', 'ExpressJS', 'NodeJS', 'MongoDB', 'Stripe', 'Cloudinary', 'JSON', 'JSON Web Token (JWT)', 'RxJS', 'TailwindCSS', 'Angular Material'],
-  //   description:
-  //     'A full-stack e-commerce platform built with Angular, Express, and MongoDB.',
-  //   modalContent: (
-  //     <>
-  //       <p>
-  //         A Full-Stack E-Commerce Platform with Angular, Express, and MongoDB, Featuring Stripe Integration, Cloudinary Image Uploads, and JWT Authentication.
-  //       </p>
-  //     </>
-  //   ),
-  // },
   {
     title: 'Ethnic Elegance',
     imgSrc: '/project-imgs/ethnicelegance.png',
@@ -402,7 +340,7 @@ const projects = [
     imgSrc: '/project-imgs/superstore_dashboard.png',
     code: 'https://github.com/ShahSau/superstore_dashboard',
     projectLink: 'https://superstore-dashboard.vercel.app/',
-    featured: false,
+    featured: true,
     type: 'Frontend',
     tech: ['React', 'Typescript', 'TailwindCSS', 'ChakraUI', 'RechartJs', 'JSON', 'ESLint', 'Prettier', 'Vercel' ],
     description:
@@ -496,21 +434,55 @@ const projects = [
 ];
 
 function Projects() {
+  const [displayedProjects, setDisplayedProjects] = useState(projects.slice(0, 3));
+  const [selected, setSelected] = useState('Feature');
+  useEffect(() => {
+    return setDisplayedProjects(projects.filter((project) => project.featured));
+  }, []);
   return (
     <section className="section-wrapper" id="projects">
       <SectionHeader title="Projects" dir="l" />
+        <ul role="list" className="mt-3 grid grid-cols-2 gap-5 sm:grid-cols-2 sm:gap-6 lg:grid-cols-5 mb-12">
+          {
+            ['Feature', 'FullStack', 'Backend', 'Frontend', 'Mobile'].map((type) => (
+              <li key={type} className="col-span-1 flex rounded-md shadow-sm">
+                {
+                  selected === type ? (
+                    <ProjectButton onClick={() => {
+                      setSelected(type);
+                      if (type === 'Feature') {
+                        setDisplayedProjects(projects.filter((project) => project.featured));
+                      } else {
+                        setDisplayedProjects(projects.filter((project) => project.type === type));
+                      }
+                    }}
+                    
+                    >
+                      {type}
+                    </ProjectButton>
+                  ) : (
+                    <OutlineButton onClick={() => {
+                      setSelected(type);
+                      if (type === 'Feature') {
+                        setDisplayedProjects(projects.filter((project) => project.featured));
+                      } else {
+                        setDisplayedProjects(projects.filter((project) => project.type === type));
+                      }
+                    }}>
+                      {type}
+                    </OutlineButton>
+                  )
+                }
+              </li>
+            ))
+          }
+        </ul>
 
       <div className={styles.projects}>
-        {projects.map((project) => <Project key={project.title} {...project} />)}
+        {displayedProjects.map((project) => <Project key={project.title} {...project} />)}
       </div>
     </section>
   );
 }
 
 export default Projects;
-
-
-
-
-// 
-// 
