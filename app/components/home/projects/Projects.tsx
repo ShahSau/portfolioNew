@@ -394,7 +394,7 @@ const projects = [
     code: 'https://github.com/ShahSau/FitTrackr',
     projectLink:'https://expo.dev/preview/update?message=small%20cleanup&updateRuntimeVersion=1.0.0&createdAt=2024-09-15T15%3A58%3A14.624Z&slug=exp&projectId=565f15fa-79c3-4ff6-8e3b-2b0eebbae44c&group=f7e476a2-beaf-4804-a922-9b2b8ceace4d',
     type: 'Mobile',
-    tech: ['React Native', 'Expo', 'Firebase', 'Redux', 'Redux Thunk', 'Axios', 'JSON', 'ESLint', 'Prettier'],
+    tech: ['React Native', 'Expo', 'Axios', 'JSON', 'ESLint', 'Prettier', 'MongoDb', 'TailwindCSS', 'Typescript', 'Node', 'Express'],
     description: 'FitTrackr is a mobile app designed to help users track their fitness progress and achieve their health goals. The app offers a range of features, including workout tracking, goal setting, and progress visualization, to support users on their fitness journey.',
     modalContent:(
       <>
