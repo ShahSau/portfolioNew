@@ -14,7 +14,6 @@ const projects = [
     imgSrc: '/project-imgs/alphacore.png',
     code: 'https://github.com/ShahSau/alphaCore',
     projectLink: 'https://alpha-core.vercel.app/',
-    featured: true,
     type: 'FullStack',
     tech: ['React', 'TypeScript', 'NextJS', 'TailwindCSS','Zustand', 'Prisma', 'OpenAI', 'Axios', 'JSON', 'Zod', 'Stripe', 'Clerk', 'Replicate', 'ESlint'],
     description:
@@ -61,7 +60,6 @@ const projects = [
     imgSrc: '/project-imgs/CulinaryBliss.png',
     code: 'https://github.com/ShahSau/culinary-bliss',
     projectLink: 'https://culinary-bliss.onrender.com/swagger/index.html',
-    featured: true,
     type: 'Backend',
     tech: ['Go lang','Gin', 'Swagger','JSON Web Token (JWT)', 'MongoDB', 'JSON'],
     description:'a robust and scalable backend system built using Go and the Gin framework, designed to support a comprehensive restaurant management platform. The system is structured to provide secure authentication, user management, and administrative functionalities, ensuring a seamless and efficient operation of a restaurant.',
@@ -115,7 +113,6 @@ const projects = [
     imgSrc: '/project-imgs/turbo.png',
     code: 'https://github.com/ShahSau/turbo',
     projectLink: 'https://turbo-flax.vercel.app',
-    featured: true,
     type: 'FullStack',
     tech: ['Javascript', 'Sharp', 'React', 'Axios', 'NextJS', 'Typescript', 'ExpressJS', 'NodeJS', 'MongoDB', 'ESLint', 'Stripe', 'Cloudinary', 'Prisma', 'Leaflet', 'JSON', 'JSON Web Token (JWT)', 'Zustand', 'i18next'],
     description:
@@ -174,7 +171,6 @@ const projects = [
     imgSrc: '/project-imgs/jobhunt.png',
     code: 'https://github.com/ShahSau/jobhunt',
     projectLink: 'https://jobhunt-sfsp.vercel.app/',
-    featured: false,
     type: 'FullStack',
     tech:['Javascript', 'Python', 'React', 'NextJS', 'TailwindCSS', 'Django', 'Django REST' , 'Axios', 'JSON', 'JSON Web Token', 'PostgreSQL', 'Cookie', 'Mapbox'],
     description:
@@ -221,7 +217,6 @@ const projects = [
     imgSrc: '/project-imgs/primeproperties.png',
     code: 'https://github.com/ShahSau/prime-properties',
     projectLink: 'https://prime-properties.onrender.com',
-    featured: false,
     type: 'FullStack',
     tech: ['Javascript', 'React', 'ExpressJS', 'NodeJS', 'TailwindCss', 'Firebase', 'Redux Thunk', 'JSON Web Token (JWT)', 'i18next', 'Framer motion', 'MongoDB', 'Swiper', 'JSON', 'EsLint', 'Cloudinary'],
     description:
@@ -268,7 +263,6 @@ const projects = [
     imgSrc: '/project-imgs/ethnicelegance.png',
     code: 'https://github.com/ShahSau/EthnicElegance',
     projectLink: 'https://ethnicelegance.onrender.com/v1/ecommerce/swagger/index.html',
-    featured: false,
     type: 'Backend',
     tech: ['Go lang','Gin', 'Swagger','JSON Web Token (JWT)', 'MongoDB', 'JSON'],
     description:
@@ -313,7 +307,6 @@ const projects = [
     imgSrc: '/project-imgs/gameboy.png',
     code: 'https://github.com/ShahSau/gameboy',
     projectLink: 'https://gameboy-ruddy.vercel.app/',
-    featured: false,
     type: 'Frontend',
     tech: ['React', 'NextJS', 'RestApi', 'ChakraUI', 'Jest', 'Framer Motion', 'ESLint', 'Prettier', 'Vercel'],
     description:
@@ -340,7 +333,6 @@ const projects = [
     imgSrc: '/project-imgs/superstore_dashboard.png',
     code: 'https://github.com/ShahSau/superstore_dashboard',
     projectLink: 'https://superstore-dashboard.vercel.app/',
-    featured: true,
     type: 'Frontend',
     tech: ['React', 'Typescript', 'TailwindCSS', 'ChakraUI', 'RechartJs', 'JSON', 'ESLint', 'Prettier', 'Vercel' ],
     description:
@@ -371,7 +363,6 @@ const projects = [
     imgSrc: '/project-imgs/Entertainmentvibe.jpg',
     code: 'https://github.com/ShahSau/entertainment-vibe',
     projectLink: 'https://entertainment-vibe.vercel.app/',
-    featured: false,
     type: 'Frontend',
     tech: ['React', 'JavaScript', 'ChakraUI', 'Axios', 'JSON', 'ESLint', 'Prettier', 'Vercel', 'Vite', 'TMDB API'],
     description:
@@ -397,64 +388,57 @@ const projects = [
       </>
     ),
   },
-  //{
-   // title: 'Pulse Fit',
-     // imgSrc: '/project-imgs/pulseFit.png',
-     // code: 'https://github.com/ShahSau/pulsefit',
-     // projectLink: 'https://pulsefit-snowy.vercel.app/',
-     // featured: false,
-     // type: 'Frontend',
-     // tech: ['React', 'JavaScript', 'TailwindCss', 'Axios', 'JSON', 'ESLint', 'Framer Motion', 'Vercel', 'Vite', 'Exercise Db API', 'Youtube search & download API'],
-     // description:'Pulse Fit is a web app that provides users with a wide range of exercise. The app is designed to help users stay active and healthy by offering a diverse selection of exercises and fitness programs.',
-     // modalContent: (
-       // <>
-         // <p>
-           // Our Gym App is built with modern technologies to deliver a seamless and engaging user experience. Below is an overview of the key features and technologies used in the development:
-         // </p>
-         // <p>
-           // The app is built using React, enabling the creation of modular and reusable UI components for enhanced maintainability, scalability, and performance across various views. React hooks (like useState and useEffect) are used for efficient local and global state management, making the app responsive and interactive. Additionally, React Router is implemented to facilitate seamless navigation between pages such as Home, Workouts.
-         // </p>
-         // <p>
-           // The app uses TypeScript for static type-checking, improving code quality, error detection, and development efficiency with IntelliSense.
-         // </p>
-         // <p>
-           // We use ESLint to enforce coding standards and Prettier for automatic formatting, ensuring consistent, high-quality, readable code.
-         // </p>
-         // <p>
-           // We use Vite for fast builds and instant hot module replacement, optimizing performance and development speed. The app is fully responsive, adapting smoothly across mobile, tablet, and desktop devices.
-         // </p>
-         // <p>
-           // Framer Motion provides smooth, dynamic animations for UI elements, enhancing user experience with fluid transitions and immersive interactions.
-         // </p>
-       // </>
-     // ),
-   // }
+  {
+    title:'FitTrackr',
+    imgSrc: '/project-imgs/FitTracker.png',
+    code: 'https://github.com/ShahSau/FitTrackr',
+    projectLink:'https://expo.dev/preview/update?message=small%20cleanup&updateRuntimeVersion=1.0.0&createdAt=2024-09-15T15%3A58%3A14.624Z&slug=exp&projectId=565f15fa-79c3-4ff6-8e3b-2b0eebbae44c&group=f7e476a2-beaf-4804-a922-9b2b8ceace4d',
+    type: 'Mobile',
+    tech: ['React Native', 'Expo', 'Firebase', 'Redux', 'Redux Thunk', 'Axios', 'JSON', 'ESLint', 'Prettier'],
+    description: 'FitTrackr is a mobile app designed to help users track their fitness progress and achieve their health goals. The app offers a range of features, including workout tracking, goal setting, and progress visualization, to support users on their fitness journey.',
+    modalContent:(
+      <>
+        <p>
+          Workout Logging: Track and log exercises with detailed information, including sets, reps, duration, and intensity.
+        </p>
+        <p>
+          Progress Tracking: Visualize your fitness progress over time with charts, stats, and summaries of logged workouts.
+        </p>
+        <p>
+          Custom Workout Plans: Create personalized workout routines tailored to your goals, and modify them as you progress.
+        </p>
+        <p>
+          User Authentication: Secure signup and login system, ensuring that user data remains private and accessible only to them.
+        </p>
+        <p>
+          Cross-Platform Support: Built using React Native, FitTrackr works seamlessly on both Android and iOS devices.
+        </p>
+
+      </>
+    )
+  }
   
 
 ];
 
 function Projects() {
   const [displayedProjects, setDisplayedProjects] = useState(projects.slice(0, 3));
-  const [selected, setSelected] = useState('Feature');
+  const [selected, setSelected] = useState('FullStack');
   useEffect(() => {
-    return setDisplayedProjects(projects.filter((project) => project.featured));
+    return setDisplayedProjects(projects.filter((project) => project.type === 'FullStack'));
   }, []);
   return (
     <section className="section-wrapper" id="projects">
       <SectionHeader title="Projects" dir="l" />
-        <ul role="list" className="mt-3 grid grid-cols-2 gap-5 sm:grid-cols-2 sm:gap-6 lg:grid-cols-5 mb-12">
+        <ul role="list" className="mt-3 grid grid-cols-2 gap-5 md:grid-cols-4 lg:grid-cols-4 mb-12">
           {
-            ['Feature', 'FullStack', 'Backend', 'Frontend', 'Mobile'].map((type) => (
+            ['FullStack', 'Backend', 'Frontend', 'Mobile'].map((type) => (
               <li key={type} className="col-span-1 flex rounded-md shadow-sm">
                 {
                   selected === type ? (
                     <ProjectButton onClick={() => {
                       setSelected(type);
-                      if (type === 'Feature') {
-                        setDisplayedProjects(projects.filter((project) => project.featured));
-                      } else {
-                        setDisplayedProjects(projects.filter((project) => project.type === type));
-                      }
+                      setDisplayedProjects(projects.filter((project) => project.type === type));
                     }}
                     
                     >
@@ -463,11 +447,7 @@ function Projects() {
                   ) : (
                     <OutlineButton onClick={() => {
                       setSelected(type);
-                      if (type === 'Feature') {
-                        setDisplayedProjects(projects.filter((project) => project.featured));
-                      } else {
-                        setDisplayedProjects(projects.filter((project) => project.type === type));
-                      }
+                      setDisplayedProjects(projects.filter((project) => project.type === type));
                     }}>
                       {type}
                     </OutlineButton>
