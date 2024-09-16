@@ -6,6 +6,7 @@ import Project from './Project';
 import styles from './projects.module.scss';
 import OutlineButton from '../../buttons/OutlineButton';
 import ProjectButton from '../../buttons/ProjectButton';
+import { title } from 'process';
 
 const projects = [
   
@@ -387,6 +388,34 @@ const projects = [
 
       </>
     ),
+  },
+  {
+    title:'Cerebox',
+    imgSrc: '/project-imgs/cereboX.jpg',
+    code: 'https://github.com/ShahSau/cerebroX',
+    projectLink: 'https://inspiring-zuccutto-f2db33.netlify.app/',
+    type: 'Frontend',
+    tech: ['React', 'JavaScript', 'Typescript', 'TailwindCSS','Astro', 'ESLint', 'Prettier', 'Netlify'],
+    description:'A cutting-edge web application built using Astro, TypeScript, and TailwindCSS. The platform delivers high performance, modern design, and flexibility for developers looking to create scalable web experiences.',
+    modalContent: (
+      <>
+        <p>
+          High Performance: CerebroX leverages Astro's static site generation and server-side rendering capabilities to deliver fast load times and smooth interactions. The platform's optimized build process ensures efficient performance and seamless user experience.
+        </p>
+        <p>
+          Modern Design: Built with TailwindCSS, CerebroX features a sleek and modern design that prioritizes usability and aesthetics. The platform's responsive layout and clean interface provide an engaging and visually appealing experience for users.
+        </p>
+        <p>
+          Scalable Architecture: CerebroX's modular architecture and TypeScript support enable developers to build scalable and maintainable web applications. The platform's flexible structure allows for easy integration of new features and components, making it adaptable to various use cases.
+        </p>
+        <p>
+          Developer-Friendly: CerebroX offers a developer-friendly environment with support for TypeScript, ESLint, and Prettier. The platform's clean codebase and efficient tooling enhance productivity and code quality, enabling developers to build robust web applications with ease.
+        </p>
+        <p>
+          Flexible Deployment: Deployed on Netlify, CerebroX benefits from seamless integration with continuous deployment and hosting services. The platform's automated build and deployment processes ensure efficient updates and reliable performance for users.
+        </p>
+      </>
+    )
   },
   {
     title:'FitTrackr',
