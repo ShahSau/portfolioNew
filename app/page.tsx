@@ -1,37 +1,26 @@
-'use client';
+import Image from "next/image";
+import { Button } from "@/components/ui/button"
+import { Sidebar } from "@/components/SideBar";
 
-import React from 'react';
-import SideBar from './components/nav/SideBar';
-import Heading from './components/nav/Heading';
-import Hero from './components/home/hero/Hero';
-import About from './components/home/about/About';
-import Experience from './components/home/experience/Experience';
-import Projects from './components/home/projects/Projects';
-import Contact from './components/home/contact/Contact';
-import styles from './home.module.scss';
-
-
-function Home() {
+export default function Home() {
   return (
-    <div className={styles.home}>
-      <SideBar />
-      <main>
-        <Heading />
-        <Hero />
-        <About />
-        <Experience />
-        <Projects />
-        <Contact />
-        <div
-          style={{
-            height: '200px',
-            background:
-                'linear-gradient(180deg, var(--background), var(--background-dark))',
-          }}
+    <div className="flex">
+
+      <Sidebar />
+      <main className="flex-1 p-4 md:p-8 md:ml-64">
+        <h1 className="text-3xl font-bold mb-4">Home</h1>
+        <p className="text-gray-600">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+          fringilla, turpis ac aliquam luctus, arc
+        </p>
+        <Button>Click me</Button>
+        <Image
+          src="/placeholder.svg?height=200&width=200"
+          alt="placeholder"
+          width={200}
+          height={200}
         />
       </main>
     </div>
   );
 }
-
-export default Home;
