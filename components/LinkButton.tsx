@@ -1,0 +1,69 @@
+import  React, { useRef, useState } from "react";
+import { motion } from "framer-motion";
+import { Icon } from 'lucide-react';
+
+const CYCLES_PER_LETTER = 2;
+const SHUFFLE_TIME = 50;
+const CHARS = "abcdefghijklmnopqrstuvwxyz";
+
+
+const LinkButton = ({ icon, linkname }: { icon: typeof Icon, linkname: string }) => {
+  const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const TARGET_TEXT = linkname
+  const [text, setText] = useState(TARGET_TEXT);
+
+  const scramble = () => {
+    let pos = 0;
+
+    intervalRef.current = setInterval(() => {
+      const scrambled = TARGET_TEXT.split("")
+        .map((char, index) => {
+          if (pos / CYCLES_PER_LETTER > index) {
+            return char;
+          }
+
+          const randomCharIndex = Math.floor(Math.random() * CHARS.length);
+          const randomChar = CHARS[randomCharIndex];
+
+          return randomChar;
+        })
+        .join("");
+
+      setText(scrambled);
+      pos++;
+
+      if (pos >= TARGET_TEXT.length * CYCLES_PER_LETTER) {
+        stopScramble();
+      }
+    }, SHUFFLE_TIME);
+  };
+
+  const stopScramble = () => {
+    clearInterval(intervalRef.current || undefined);
+
+    setText(TARGET_TEXT);
+  };
+
+  return (
+    <motion.button
+      whileHover={{
+        scale: 1.025,
+      }}
+      whileTap={{
+        scale: 0.975,
+      }}
+      onMouseEnter={scramble}
+      onMouseLeave={stopScramble}
+      className="group relative overflow-hidden rounded-lg px-4 py-2  transition-colors hover:text-indigo-500"
+    >
+        <div className="relative z-10 flex items-center gap-2">
+          <span className="ml-3 mr-2">
+            {React.createElement(icon)}
+          </span>
+          <span>{text}</span>
+        </div>
+    </motion.button>
+  );
+};
+
+export default LinkButton;
