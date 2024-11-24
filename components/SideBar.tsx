@@ -3,47 +3,55 @@
 
 import { Github, Linkedin, SquareKanban, Home,User,Briefcase,Layers,MailOpen } from "lucide-react"
 import Link from "next/link"
+import LinkButton from "./LinkButton"
 
 export function Sidebar() {
 
   const NavItems = () => (
-    <ul className="">
-             {/* <li className="flex items-center  h-12 text-gray-500 hover:bg-gray-300 hover:text-gray-700 rounded-full cursor-pointer shadow-[-5px_-5px_10px_rgba(255,_255,_255,_0.8),_5px_5px_10px_rgba(0,_0,_0,_0.25)] transition-all hover:shadow-[-1px_-1px_5px_rgba(255,_255,_255,_0.6),_1px_1px_5px_rgba(0,_0,_0,_0.3),inset_-2px_-2px_5px_rgba(255,_255,_255,_1),inset_2px_2px_4px_rgba(0,_0,_0,_0.3)]">
-        <Home className="h-4 w-4 mr-4 ml-6"/>
-        <a href="#" className="">Home</a>
-        </li> */}
+    <ul>
 
       <li className="flex items-center  h-12 text-gray-500 hover:bg-gray-300 hover:text-gray-700 rounded-full cursor-pointer">
-        <Home className="h-4 w-4 mr-4 ml-6"/>
-        <a href="#" className="">Home</a>
+        <LinkButton 
+          linkname="Home"
+          icon={Home}
+        />
       </li>
 
       <li className="flex items-center  h-12 text-gray-500 hover:bg-gray-300 hover:text-gray-700 rounded-full cursor-pointer">
-        <User className="h-4 w-4 mr-4 ml-6"/>
-        <a href="#" className="">About</a>
-      </li>
-
-      <li className="flex items-center h-12 text-gray-500 hover:bg-gray-300 hover:text-gray-700 rounded-full cursor-pointer">
-            <Briefcase className="h-4 w-4 mr-4 ml-6"/>
-            <a href="#" className="">Experience</a>
-        
-      </li>
-
-      <li className="flex items-center  h-12 text-gray-500 hover:bg-gray-300 hover:text-gray-700 rounded-full cursor-pointer">
-        <SquareKanban className="h-4 w-4 mr-4 ml-6"/>
-        <a href="#" className="">Projects</a>
-      </li>
-
-      <li className="flex items-center  h-12 text-gray-500 hover:bg-gray-300 hover:text-gray-700 rounded-full cursor-pointer">
-        <Layers className="h-4 w-4 mr-4 ml-6"/>
-        <a href="#" className="">Stack</a>
+        <LinkButton 
+          linkname="About"
+          icon={User}
+        />
       </li>
       
       <li className="flex items-center  h-12 text-gray-500 hover:bg-gray-300 hover:text-gray-700 rounded-full cursor-pointer">
-        <MailOpen className="h-4 w-4 mr-4 ml-6"/>
-        <a href="#" className="">Contact</a>
+        <LinkButton 
+          linkname="Experience"
+          icon={Briefcase}
+        />
       </li>
 
+      <li className="flex items-center  h-12 text-gray-500 hover:bg-gray-300 hover:text-gray-700 rounded-full cursor-pointer">
+        <LinkButton 
+          linkname="Projects"
+          icon={SquareKanban}
+        />
+      </li>
+
+      <li className="flex items-center  h-12 text-gray-500 hover:bg-gray-300 hover:text-gray-700 rounded-full cursor-pointer">
+        <LinkButton 
+          linkname="Stack"
+          icon={Layers}
+        />
+      </li>
+
+      <li className="flex items-center  h-12 text-gray-500 hover:bg-gray-300 hover:text-gray-700 rounded-full cursor-pointer">
+        <LinkButton 
+          linkname="Contact"
+          icon={MailOpen}
+        />
+      </li>      
+      
     </ul>
 
   )
@@ -55,8 +63,8 @@ export function Sidebar() {
         {/**name and profession */}
         <div className="mb-8">
           <div className="ml-4 p-6">
-            <h2 className="text-xl font-bold ">Shahriar Saurov</h2>
-            <p className="text-md text-gray-600 pt-2">Software Developer</p>
+            <h2 className="text-[20px] font-bold ">Shahriar Saurov</h2>
+            <p className="text-sm text-gray-600 pt-2 pl-2">Software Developer</p>
           </div>
           <hr className="my-2 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-700 to-transparent opacity-25" />
         </div>
@@ -79,32 +87,9 @@ export function Sidebar() {
             </div>
         </div>
 
-        <div className="fixed ml-60 -mt-[400px] h-[1000px] min-h-[1em] w-px self-stretch bg-gradient-to-tr from-transparent via-neutral-700 to-transparent opacity-25"></div>
+        <div className="fixed ml-60 -mt-[420px] h-[1000px] min-h-[1em] w-px self-stretch bg-gradient-to-tr from-transparent via-neutral-700 to-transparent opacity-25"></div>
       </aside>
 
-      {/* <Sheet open={open} onOpenChange={setOpen}>
-        <SheetTrigger asChild>
-          <Button variant="outline" size="icon" className="md:hidden fixed top-4 left-4 z-40">
-            <Menu className="h-4 w-4" />
-          </Button>
-        </SheetTrigger>
-        <SheetContent side="left" className="w-64 bg-gray-100 p-4">
-          <div className="flex items-center mb-8">
-            <img
-              src="/placeholder.svg?height=50&width=50"
-              alt="Profile"
-              className="rounded-full w-12 h-12"
-            />
-            <div className="ml-4">
-              <h2 className="text-lg font-bold">Patrick Kombo</h2>
-              <p className="text-sm text-gray-600">Product Designer</p>
-            </div>
-          </div>
-          <nav>
-            <NavItems />
-          </nav>
-        </SheetContent>
-      </Sheet> */}
     </>
   )
 }
