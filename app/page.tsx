@@ -2,9 +2,10 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button"
 import { Sidebar } from "@/components/SideBar";
 import { SlideTabsAll } from "@/components/SlideTabs";
-import Hero from "@/components/Hero";
-import { About } from "@/components/About";
-
+import Hero from "@/app/section/Hero";
+import About  from "@/app/section/About";
+import JobTimeline from "@/app/section/JobTimeline";
+import TerminalContact from "@/components/Terminal";
 export default function Home() {
   return (
     <div className="flex">
@@ -19,6 +20,10 @@ export default function Home() {
           <Hero />
           {/**About section */}
           <About />
+          {/**Job Experience Timeline */}
+          <JobTimeline />
+
+          <TerminalContact />
             
         </div>
        

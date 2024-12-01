@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image"
-import VerticalCarousel  from "./VerticalCarousel";
+import VerticalCarousel  from "../../components/VerticalCarousel";
 import { useState } from "react";
 import { motion } from "framer-motion";
 

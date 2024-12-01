@@ -87,7 +87,8 @@ export function Sidebar() {
             </div>
         </div>
 
-        <div className="fixed ml-60 -mt-[420px] h-[1000px] min-h-[1em] w-px self-stretch bg-gradient-to-tr from-transparent via-neutral-700 to-transparent opacity-25"></div>
+        {/**vertical line */}
+        <div className="fixed ml-60 -mt-[420px] h-[870px] min-h-[1em] w-px self-stretch bg-gradient-to-tr from-transparent via-neutral-700 to-transparent opacity-25"></div>
       </aside>
 
     </>
