@@ -17,6 +17,7 @@ export default function Home() {
         <div className="p-4 md:p-8 md:ml-64">
           {/**Hero section */}
           <Hero />
+          {/**About section */}
           <About />
             
         </div>
