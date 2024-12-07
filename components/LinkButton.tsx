@@ -1,18 +1,18 @@
-import  React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
-import { Icon } from 'lucide-react';
+import { Icon } from "lucide-react";
+import  React, { useRef, useState } from "react";
 
 const CYCLES_PER_LETTER = 2;
 const SHUFFLE_TIME = 50;
 const CHARS = "abcdefghijklmnopqrstuvwxyz";
 
 
-const LinkButton = ({ icon, linkname }: { icon: typeof Icon, linkname: string }) => {
+const LinkButton: React.FC<{ icon: typeof Icon, linkname: string }> = ({ icon, linkname }) => {
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const TARGET_TEXT = linkname
   const [text, setText] = useState(TARGET_TEXT);
 
-  const scramble = () => {
+  const scramble = (): void => {
     let pos = 0;
 
     intervalRef.current = setInterval(() => {
@@ -38,7 +38,7 @@ const LinkButton = ({ icon, linkname }: { icon: typeof Icon, linkname: string })
     }, SHUFFLE_TIME);
   };
 
-  const stopScramble = () => {
+  const stopScramble = (): void => {
     clearInterval(intervalRef.current || undefined);
 
     setText(TARGET_TEXT);

@@ -1,12 +1,13 @@
-import Image from "next/image";
-import { Button } from "@/components/ui/button"
-import { Sidebar } from "@/components/SideBar";
-import { SlideTabsAll } from "@/components/SlideTabs";
-import Hero from "@/app/section/Hero";
+
+import { FC } from "react";
 import About  from "@/app/section/About";
+import Hero from "@/app/section/Hero";
 import JobTimeline from "@/app/section/JobTimeline";
 import TerminalContact from "@/app/section/Terminal";
-export default function Home() {
+import { Sidebar } from "@/components/SideBar";
+import { SlideTabsAll } from "@/components/SlideTabs";
+
+const Home: FC = () => {
   return (
     <div className="flex">
       {/**Sidebar in medium or bigger screen*/}
@@ -32,3 +33,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home;

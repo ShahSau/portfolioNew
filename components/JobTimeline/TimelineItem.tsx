@@ -1,9 +1,9 @@
 
-import { motion,useTransform,useTime } from 'framer-motion'
-import { useInView } from '../../app/hooks/useInView'
-import { CalendarDays,Building, MapPin } from 'lucide-react'
-import { JSX } from 'react'
-import Image from 'next/image'
+import { motion,useTransform,useTime } from "framer-motion"
+import { CalendarDays, MapPin } from "lucide-react"
+import Image from "next/image"
+import { JSX } from "react"
+import { useInView } from "../../app/hooks/useInView"
 
 
 interface TimelineItemProps {
@@ -36,7 +36,7 @@ const TimelineItem = ({ year, title, company, description1, description2,descrip
       animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
       transition={{ duration: 0.5, delay: index * 0.2 }}
       className={`mb-8 flex w-full flex-col sm:mb-12  ${
-        index % 2 === 0 ? 'sm:flex-row ' : 'sm:flex-row-reverse'
+        index % 2 === 0 ? "sm:flex-row " : "sm:flex-row-reverse"
       }`}
     >
       <div className="flex sm:w-1/2 md:opacity-0 z-10">
@@ -78,7 +78,7 @@ const TimelineItem = ({ year, title, company, description1, description2,descrip
           <p className="text-sm text-gray-600 sm:text-md md:text-lg mb-6">{description3}</p>
 
 
-          <div className='flex flex-wrap gap-4'>
+          <div className="flex flex-wrap gap-4">
             {tech.map((item,index) => (
                 <div className="relative" key={index}>
                     

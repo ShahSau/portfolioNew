@@ -1,13 +1,13 @@
 "use client";
 
-import Image from "next/image"
-import VerticalCarousel  from "../../components/VerticalCarousel";
-import { useState } from "react";
 import { motion } from "framer-motion";
+import Image from "next/image"
+import { useState } from "react";
+import { FC } from "react";
+import VerticalCarousel  from "../../components/VerticalCarousel";
 
 
-
-export default function Hero() {
+const Hero: FC = () => {
     const [isHovered, setIsHovered] = useState(false)
 
     const heartbeatVariants = {
@@ -85,3 +85,5 @@ export default function Hero() {
   )
 }
 
+
+export default Hero;

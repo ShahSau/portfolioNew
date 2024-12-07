@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { QuestionType, TerminalBodyProps } from "./types/interface";
+import CurLine from "./CurLine";
+import CurrentQuestion from "./CurrentQuestion";
 import InitialText from "./InitialText";
 import PreviousQuestions from "./PreviousQuestions";
-import CurrentQuestion from "./CurrentQuestion";
-import CurLine from "./CurLine";
 import Summary from "./Summary";
+import { QuestionType, TerminalBodyProps } from "./types/interface";
 
 
 const QUESTIONS: QuestionType[] = [
@@ -32,7 +32,7 @@ const QUESTIONS: QuestionType[] = [
   ];
 
 
-const TerminalBody = ({ containerRef, inputRef }: TerminalBodyProps) => {
+const TerminalBody = ({ containerRef, inputRef }: TerminalBodyProps): JSX.Element => {
     const [focused, setFocused] = useState(false);
     const [text, setText] = useState("");
   
@@ -40,7 +40,7 @@ const TerminalBody = ({ containerRef, inputRef }: TerminalBodyProps) => {
   
     const curQuestion = questions.find((q) => !q.complete);
   
-    const handleSubmitLine = (value: string) => {
+    const handleSubmitLine = (value: string): void => {
       if (curQuestion) {
         setQuestions((pv) =>
           pv.map((q) => {

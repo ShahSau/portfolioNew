@@ -1,23 +1,23 @@
+import { CircleCheck } from "lucide-react";
 import { useState } from "react";
 import { SummaryProps } from "./types/interface";
-import { CircleCheck } from "lucide-react";
 
 
-const Summary = ({ questions, setQuestions }: SummaryProps) => {
+const Summary = ({ questions, setQuestions }: SummaryProps): JSX.Element => {
     const [complete, setComplete] = useState(false);
   
-    const handleReset = () => {
+    const handleReset = (): void => {
       setQuestions((pv) => pv.map((q) => ({ ...q, value: "", complete: false })));
     };
   
-    const handleSend = () => {
+    const handleSend = (): void => {
       const formData = questions.reduce((acc, val) => {
         return { ...acc, [val.key]: val.value };
       }, {});
   
-      // Send this data to your server or whatever :)
+      // Send this data to server
+      // eslint-disable-next-line no-console
       console.log(formData);
-  
       setComplete(true);
     };
   

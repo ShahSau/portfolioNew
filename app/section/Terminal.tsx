@@ -1,8 +1,9 @@
 "use client"
-import { useRef } from "react";
-import TerminalHeader from "../../components/Contact/TerminalHeader";
+import { useRef,FC } from "react";
 import TerminalBody from "../../components/Contact/TerminalBody";
-const TerminalContact = () => {
+import TerminalHeader from "../../components/Contact/TerminalHeader";
+
+const TerminalContact: FC = () => {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const inputRef = useRef<HTMLInputElement | null>(null);
 
