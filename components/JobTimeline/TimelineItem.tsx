@@ -86,7 +86,7 @@ const TimelineItem = ({ year, title, company, description1, description2,descrip
                         <span>{item}</span>
                     </button>
                     <motion.div
-                        className="absolute -inset-[1px] rounded-md"
+                        className="absolute -inset-[1.5px] rounded-md"
                         style={{
                             background: rotatingBg,
                         }}

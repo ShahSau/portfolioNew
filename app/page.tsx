@@ -5,7 +5,7 @@ import { SlideTabsAll } from "@/components/SlideTabs";
 import Hero from "@/app/section/Hero";
 import About  from "@/app/section/About";
 import JobTimeline from "@/app/section/JobTimeline";
-import TerminalContact from "@/components/Terminal";
+import TerminalContact from "@/app/section/Terminal";
 export default function Home() {
   return (
     <div className="flex">
@@ -23,6 +23,7 @@ export default function Home() {
           {/**Job Experience Timeline */}
           <JobTimeline />
 
+          {/**Contact section */}
           <TerminalContact />
             
         </div>
