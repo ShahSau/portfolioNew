@@ -38,7 +38,8 @@ const CurLine = ({
   
     useEffect(() => {
       return () => setFocused(false);
-    },);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    },[]);
   
     return (
       <>
