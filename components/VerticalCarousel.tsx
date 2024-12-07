@@ -1,18 +1,18 @@
-'use client'
+"use client"
 
-import React, { useEffect, useState } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion, AnimatePresence } from "framer-motion"
+import React, { useEffect, useState } from "react"
 
 const images = [
-  '/images/code1.png',
-  '/images/code2.png',
-  '/images/code3.png',
-  '/images/code4.png',
-  '/images/code5.png',
+  "/images/code1.png",
+  "/images/code2.png",
+  "/images/code3.png",
+  "/images/code4.png",
+  "/images/code5.png",
 ]
 
 
-export default function VerticalCarousel() {
+export default function VerticalCarousel(): JSX.Element {
   const [currentIndex, setCurrentIndex] = useState(0)
 
   useEffect(() => {
@@ -31,9 +31,9 @@ export default function VerticalCarousel() {
           src={images[currentIndex]}
           alt={`Image ${currentIndex + 1}`}
           className="absolute w-full h-full object-cover"
-          initial={{ y: '100%' }}
+          initial={{ y: "100%" }}
           animate={{ y: 0 }}
-          exit={{ y: '-100%' }}
+          exit={{ y: "-100%" }}
           transition={{ duration: 0.5 }}
         />
       </AnimatePresence>

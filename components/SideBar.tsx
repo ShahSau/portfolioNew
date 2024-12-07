@@ -5,9 +5,9 @@ import { Github, Linkedin, SquareKanban, Home,User,Briefcase,Layers,MailOpen } f
 import Link from "next/link"
 import LinkButton from "./LinkButton"
 
-export function Sidebar() {
+export function Sidebar(): JSX.Element {
 
-  const NavItems = () => (
+  const NavItems = (): JSX.Element => (
     <ul>
 
       <li className="flex items-center  h-12 text-gray-500 hover:bg-gray-300 hover:text-gray-700 rounded-full cursor-pointer">

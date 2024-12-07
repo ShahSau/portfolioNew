@@ -1,6 +1,8 @@
+import { FC } from "react";
 import Block from "./Block";
 
-const AboutBlock = () => (
+
+const AboutBlock: FC = () => (
     <Block className="col-span-12 text-3xl leading-snug">
       <p>
         My passion is building cool stuff.{" "}

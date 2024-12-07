@@ -1,14 +1,14 @@
 "use client"
 
-import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
+import React, { FC, useRef, useState } from "react";
 
 interface TabProps {
     children: React.ReactNode;
     setPosition: React.Dispatch<React.SetStateAction<{ left: number; width: number; opacity: number }>>;
   }
 
-export const SlideTabsAll = () => {
+export const SlideTabsAll: FC = () => {
   return (
     <div className="md:hidden px-28 w-full backdrop-blur-md sticky top-0 py-2 z-40 ">
       <SlideTabs />
@@ -16,7 +16,7 @@ export const SlideTabsAll = () => {
   );
 };
 
-const SlideTabs = () => {
+const SlideTabs: FC = () => {
   const [position, setPosition] = useState({
     left: 0,
     width: 0,
@@ -46,7 +46,7 @@ const SlideTabs = () => {
 
 
 
-const Tab = ({ children, setPosition }: TabProps) => {
+const Tab: FC<TabProps> = ({ children, setPosition }) => {
   const ref = useRef<HTMLLIElement>(null);
 
   return (
@@ -78,7 +78,7 @@ interface CursorProps {
   };
 }
 
-const Cursor = ({ position }: CursorProps) => {
+const Cursor: FC<CursorProps> = ({ position }) => {
   return (
     <motion.li
       animate={{

@@ -14,15 +14,15 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'Shahriar Karim Saurov',
-  description: 'I am Shahriar, an accomplished experienced Full Stack Developer in Berlin, Germany who is passionate about transforming complex challenges into elegant digital solutions', 
+  title: "Shahriar Karim Saurov",
+  description: "I am Shahriar, an accomplished experienced Full Stack Developer in Berlin, Germany who is passionate about transforming complex challenges into elegant digital solutions", 
 };
 
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}>) {
+}>): JSX.Element {
   return (
     <html lang="en">
       <body

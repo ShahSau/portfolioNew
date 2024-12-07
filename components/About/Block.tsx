@@ -1,6 +1,6 @@
 "use client"
-import React from "react";
 import {  MotionProps,motion } from "framer-motion";
+import React, { FC } from "react";
 import { twMerge } from "tailwind-merge";
 
 
@@ -8,7 +8,7 @@ type BlockProps = {
     className?: string;
   } & MotionProps;
 
-const Block = ({ className, ...rest }: BlockProps) => {
+const Block: FC<BlockProps> = ({ className, ...rest }) => {
     return (
       <motion.div
         variants={{

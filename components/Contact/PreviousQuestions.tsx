@@ -1,8 +1,8 @@
+import {CircleCheck} from "lucide-react"
 import { Fragment } from "react";
-import {CircleCheck} from 'lucide-react'
-import {PreviousQuestionProps} from './types/interface'
+import {PreviousQuestionProps} from "./types/interface"
 
-const PreviousQuestions = ({ questions }: PreviousQuestionProps) => {
+const PreviousQuestions = ({ questions }: PreviousQuestionProps): JSX.Element => {
     return (
       <>
         {questions.map((q, i) => {

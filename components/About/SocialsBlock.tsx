@@ -1,6 +1,8 @@
-import Block from "./Block";
 import { Github,Linkedin } from "lucide-react";
-const SocialsBlock = () => (
+import { FC } from "react";
+import Block from "./Block";
+
+const SocialsBlock: FC = () => (
     <>
       <Block
         whileHover={{

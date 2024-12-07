@@ -1,10 +1,10 @@
-import { CurrentLineProps } from "./types/interface";
+  import { motion } from "framer-motion";
 import {
     ChangeEvent,
     FormEvent,
     useEffect,
   } from "react";
-  import { motion } from "framer-motion";
+import { CurrentLineProps } from "./types/interface";
 
 const CurLine = ({
     text,
@@ -15,14 +15,14 @@ const CurLine = ({
     command,
     handleSubmitLine,
     containerRef,
-  }: CurrentLineProps) => {
-    const scrollToBottom = () => {
+  }: CurrentLineProps): JSX.Element => {
+    const scrollToBottom = (): void => {
       if (containerRef.current) {
         containerRef.current.scrollTop = containerRef.current.scrollHeight;
       }
     };
   
-    const onSubmit = (e: FormEvent<HTMLFormElement>) => {
+    const onSubmit = (e: FormEvent<HTMLFormElement>):void => {
       e.preventDefault();
       handleSubmitLine(text);
       setText("");
@@ -31,14 +31,14 @@ const CurLine = ({
       }, 0);
     };
   
-    const onChange = (e: ChangeEvent<HTMLInputElement>) => {
+    const onChange = (e: ChangeEvent<HTMLInputElement>): void => {
       setText(e.target.value);
       scrollToBottom();
     };
   
     useEffect(() => {
       return () => setFocused(false);
-    }, []);
+    },);
   
     return (
       <>

@@ -1,7 +1,7 @@
 "use client"
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef } from "react"
 
-export function useInView(options = {}) {
+export function useInView(options = {}): readonly [React.RefObject<HTMLDivElement>, boolean] {
   const [isInView, setIsInView] = useState(false)
   const ref = useRef<HTMLDivElement>(null)
 

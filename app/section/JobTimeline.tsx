@@ -1,7 +1,8 @@
 "use client"
-import TimelineItems from '../../components/JobTimeline/TimelineItems'
+import { FC } from "react"
+import TimelineItems from "../../components/JobTimeline/TimelineItems"
 
-const JobTimeline=()=> {
+const JobTimeline: FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-100 to-gray-200 px-4 py-12 sm:px-6 lg:px-8">
       <div className="mx-auto ">

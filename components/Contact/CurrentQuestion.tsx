@@ -1,6 +1,6 @@
 import {CurrentQuestionProps} from "./types/interface";
 
-const CurrentQuestion = ({ curQuestion }: CurrentQuestionProps) => {
+const CurrentQuestion = ({ curQuestion }: CurrentQuestionProps): JSX.Element => {
     if (!curQuestion) return <></>;
   
     return (

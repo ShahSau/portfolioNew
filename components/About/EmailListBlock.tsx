@@ -1,6 +1,8 @@
-import Block from "./Block";
 import { Mail,Smartphone,Download } from "lucide-react";
-const EmailListBlock = () => (
+import { FC } from "react";
+import Block from "./Block";
+
+const EmailListBlock: FC = () => (
     <>
       <Block className="group col-span-12 flex flex-col items-center gap-4 md:col-span-4">
           <Smartphone className="text-5xl relative top-4 transition-all duration-300 ease-in-out group-hover:-translate-y-12 group-hover:opacity-0" />
