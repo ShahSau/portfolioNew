@@ -3,6 +3,7 @@ import { FC } from "react";
 import About  from "@/app/section/About";
 import Hero from "@/app/section/Hero";
 import JobTimeline from "@/app/section/JobTimeline";
+import Projects from "@/app/section/Projects";
 import TerminalContact from "@/app/section/Terminal";
 import { Sidebar } from "@/components/SideBar";
 import { SlideTabsAll } from "@/components/SlideTabs";
@@ -24,6 +25,8 @@ const Home: FC = () => {
           {/**Job Experience Timeline */}
           <JobTimeline />
 
+          {/**Projects section */}
+          <Projects />
           {/**Contact section */}
           <TerminalContact />
             
