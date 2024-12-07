@@ -1,15 +1,14 @@
 
 import {
-  useDragControls,
-  useMotionValue,
-  useAnimate,
-  useAnimation, useInView, motion
+  useAnimation, 
+  useInView,
+  motion
 } from "framer-motion";
 import { Github,SquareArrowUpRight,Youtube } from "lucide-react";
 import Link from "next/link";
-import React, { useEffect, useRef, useState, Dispatch, ReactNode, SetStateAction,  } from "react";
-import useMeasure from "react-use-measure";
-import DragCloseDrawerExample from "./try";
+import React, {useEffect, useRef, useState } from "react";
+
+
 import ProjectDetails from "./ProjectDetails";
 //import ProjectModal from './ProjectModal';
 
