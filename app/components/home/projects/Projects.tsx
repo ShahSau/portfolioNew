@@ -167,52 +167,52 @@ const projects = [
       </>
     ),
   },
-  {
-    title: 'Job Hunt',
-    imgSrc: '/project-imgs/jobhunt.png',
-    code: 'https://github.com/ShahSau/jobhunt',
-    projectLink: 'https://jobhunt-sfsp.vercel.app/',
-    type: 'FullStack',
-    tech:['Javascript', 'Python', 'React', 'NextJS', 'TailwindCSS', 'Django', 'Django REST' , 'Axios', 'JSON', 'JSON Web Token', 'PostgreSQL', 'Cookie', 'Mapbox'],
-    description:
-      "A job portal is build on Next.js (production-ready react framework), Django REST framework (a powerful and flexible framework for building Web APIs) and postgres.",
-    modalContent: (
-      <>
-        <p>
-          Revolutionize your job recruitment and candidate management process with our state-of-the-art web app. With a focus on JWT and cookies for secure authentication, dynamic map functionality, real-time updates, and comprehensive job statistics, our solution offers an unparalleled experience for both employers and candidates.
-        </p>
-        <ul>
-        <li>
-          Secure your login process with JWT and Cookies.
-        </li>
-        <li>
-        Curate your personalized job list with our Favorite Jobs feature. Easily save and revisit positions that pique your interest, facilitating prioritization and organization of your applications.
-        </li>
-        <li>
-          Access a comprehensive history of all your applied jobs in one centralized location.
-        </li>
-        <li>
-          Take full control of your job search by adding and deleting jobs as needed.
-        </li>
-        <li>
-          Leverage an intuitive map interface to visualize job locations and gain insights into geographical distribution.
-        </li>
-        <li>
-          Track the number of applicants for each job in real-time.
-        </li>
-        <li>
-          Personalize your job search experience with the ability to change between dark and light mode.
-        </li>
-        <li>
-          Access comprehensive statistics on various aspects of your job listings.
-        </li>
-        <li>
-         Provide detailed information on each candidate who applied for the job.
-        </li>
-        </ul>
-      </>
-    ),
-  },
+  // {
+  //   title: 'Job Hunt',
+  //   imgSrc: '/project-imgs/jobhunt.png',
+  //   code: 'https://github.com/ShahSau/jobhunt',
+  //   projectLink: 'https://jobhunt-sfsp.vercel.app/',
+  //   type: 'FullStack',
+  //   tech:['Javascript', 'Python', 'React', 'NextJS', 'TailwindCSS', 'Django', 'Django REST' , 'Axios', 'JSON', 'JSON Web Token', 'PostgreSQL', 'Cookie', 'Mapbox'],
+  //   description:
+  //     "A job portal is build on Next.js (production-ready react framework), Django REST framework (a powerful and flexible framework for building Web APIs) and postgres.",
+  //   modalContent: (
+  //     <>
+  //       <p>
+  //         Revolutionize your job recruitment and candidate management process with our state-of-the-art web app. With a focus on JWT and cookies for secure authentication, dynamic map functionality, real-time updates, and comprehensive job statistics, our solution offers an unparalleled experience for both employers and candidates.
+  //       </p>
+  //       <ul>
+  //       <li>
+  //         Secure your login process with JWT and Cookies.
+  //       </li>
+  //       <li>
+  //       Curate your personalized job list with our Favorite Jobs feature. Easily save and revisit positions that pique your interest, facilitating prioritization and organization of your applications.
+  //       </li>
+  //       <li>
+  //         Access a comprehensive history of all your applied jobs in one centralized location.
+  //       </li>
+  //       <li>
+  //         Take full control of your job search by adding and deleting jobs as needed.
+  //       </li>
+  //       <li>
+  //         Leverage an intuitive map interface to visualize job locations and gain insights into geographical distribution.
+  //       </li>
+  //       <li>
+  //         Track the number of applicants for each job in real-time.
+  //       </li>
+  //       <li>
+  //         Personalize your job search experience with the ability to change between dark and light mode.
+  //       </li>
+  //       <li>
+  //         Access comprehensive statistics on various aspects of your job listings.
+  //       </li>
+  //       <li>
+  //        Provide detailed information on each candidate who applied for the job.
+  //       </li>
+  //       </ul>
+  //     </>
+  //   ),
+  // },
   {
     title: 'Primeproperties',
     imgSrc: '/project-imgs/primeproperties.png',
