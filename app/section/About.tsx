@@ -9,7 +9,7 @@ import SocialsBlock from "../../components/About/SocialsBlock";
 
 const About: FC = () => {
   return (
-    <div className=" bg-zinc-100 px-4 py-12 text-zinc-50">
+    <div className=" bg-gray-100 px-4 py-12 text-zinc-50">
         <motion.div
             initial="initial"
             animate="animate"
