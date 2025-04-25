@@ -8,10 +8,10 @@ interface Props {
 
 const OutlineButton = ({ children, onClick }: Props): JSX.Element => {
   return (
-    <Button onClick={onClick} variant="outline" size="lg">
+    <Button onClick={onClick} variant="outline" size="lg" className="w-full">
       {children}
     </Button>
   );
-}
+};
 
 export default OutlineButton;

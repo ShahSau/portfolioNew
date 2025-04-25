@@ -4,12 +4,11 @@ import { Button } from "../ui/button";
 
 interface Props {
   children: string | JSX.Element;
-  onClick?: MouseEventHandler<HTMLButtonElement>;
 }
 
-const ProjectButton = ({ children, onClick }: Props): JSX.Element => {
+const ProjectButton = ({ children }: Props): JSX.Element => {
   return (
-    <Button onClick={onClick} variant="default" size="lg">
+    <Button variant="secondary" size="lg" className="w-full pointer-events-none">
       {children}
     </Button>
   );
