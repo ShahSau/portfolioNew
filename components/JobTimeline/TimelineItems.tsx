@@ -152,7 +152,6 @@ const TimelineItems: FC = () => {
         transition={{ duration: 0.5 }}
         className="relative wrap overflow-hidden p-4 md:p-10"
       >
-        <div className="absolute left-8 h-[4735px] border-2 border-gray-800 border-opacity-20 sm:left-1/2 sm:-translate-x-1/2 opacity-0 md:opacity-100" />
         {jobExperiences.map((job, index) => (
           <TimelineItem key={index} {...job} index={index} />
         ))}

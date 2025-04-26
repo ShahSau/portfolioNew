@@ -25,7 +25,7 @@ const Projects: FC = () => {
         role="list"
         className="mt-3 grid grid-cols-2 gap-5 md:grid-cols-4 mb-12"
       >
-        {["FullStack", "Backend", "Frontend", "Mobile"].map((type) => (
+        {["FullStack", "Frontend", "Backend", "Mobile"].map((type) => (
           <li key={type} className="col-span-1 flex rounded-md shadow-sm">
             {selected === type ? (
               <ProjectButton>{type}</ProjectButton>
