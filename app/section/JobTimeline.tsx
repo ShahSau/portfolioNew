@@ -1,10 +1,13 @@
-"use client"
-import { FC } from "react"
-import TimelineItems from "../../components/JobTimeline/TimelineItems"
+"use client";
+import { FC } from "react";
+import TimelineItems from "../../components/JobTimeline/TimelineItems";
 
 const JobTimeline: FC = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 px-4 py-12 sm:px-6 lg:px-8">
+    <div
+      id="experience"
+      className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 px-4 py-12 sm:px-6 lg:px-8"
+    >
       <div className="mx-auto ">
         <h1 className="mb-8 text-center text-3xl font-extrabold text-transparent sm:mb-12 sm:text-4xl">
           <span className="bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text">
@@ -16,7 +19,7 @@ const JobTimeline: FC = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default JobTimeline
+export default JobTimeline;

@@ -1,12 +1,14 @@
-"use client"
+"use client";
 
 import { motion } from "framer-motion";
 import React, { FC, useRef, useState } from "react";
 
 interface TabProps {
-    children: React.ReactNode;
-    setPosition: React.Dispatch<React.SetStateAction<{ left: number; width: number; opacity: number }>>;
-  }
+  children: React.ReactNode;
+  setPosition: React.Dispatch<
+    React.SetStateAction<{ left: number; width: number; opacity: number }>
+  >;
+}
 
 export const SlideTabsAll: FC = () => {
   return (
@@ -34,23 +36,21 @@ const SlideTabs: FC = () => {
       className="relative mx-auto flex w-fit rounded-full border-2 border-black bg-white p-2"
     >
       <Tab setPosition={setPosition}>Home</Tab>
-      <Tab setPosition={setPosition}>Pricing</Tab>
-      <Tab setPosition={setPosition}>Features</Tab>
-      <Tab setPosition={setPosition}>Docs</Tab>
-      <Tab setPosition={setPosition}>Blog</Tab>
+      <Tab setPosition={setPosition}>About</Tab>
+      <Tab setPosition={setPosition}>Experience</Tab>
+      <Tab setPosition={setPosition}>Projects</Tab>
+      <Tab setPosition={setPosition}>Contact</Tab>
 
       <Cursor position={position} />
     </ul>
   );
 };
 
-
-
 const Tab: FC<TabProps> = ({ children, setPosition }) => {
-  const ref = useRef<HTMLLIElement>(null);
+  const ref = useRef<HTMLAnchorElement>(null);
 
   return (
-    <li
+    <a
       ref={ref}
       onMouseEnter={() => {
         if (!ref?.current) return;
@@ -63,10 +63,11 @@ const Tab: FC<TabProps> = ({ children, setPosition }) => {
           opacity: 1,
         });
       }}
+      href={`#${typeof children === "string" ? children.toLowerCase() : ""}`}
       className="relative z-10 block cursor-pointer px-3 py-1.5 text-xs uppercase text-white mix-blend-difference md:px-5 md:py-3 md:text-base"
     >
       {children}
-    </li>
+    </a>
   );
 };
 

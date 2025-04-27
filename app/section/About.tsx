@@ -9,7 +9,10 @@ import SocialsBlock from "../../components/About/SocialsBlock";
 
 const About: FC = () => {
   return (
-    <div className="bg-gradient-to-br from-gray-50 to-gray-100 px-4 py-12 text-zinc-500">
+    <div
+      className="bg-gradient-to-br from-gray-50 to-gray-100 px-4 py-12 text-zinc-500"
+      id="about"
+    >
       <h1>some words about about ToDo</h1>
       <motion.div
         initial="initial"
