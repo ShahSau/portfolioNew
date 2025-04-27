@@ -1,0 +1,45 @@
+"use client";
+
+import { Github, Linkedin } from "lucide-react";
+import Link from "next/link";
+import NavItems from "./NavItems";
+
+export function Sidebar(): JSX.Element {
+  return (
+    <>
+      <aside className="hidden lg:block w-64 p-4 h-screen fixed overflow-hidden">
+        {/**name and profession */}
+        <div className="mb-8">
+          <div className="ml-4 p-6">
+            <h2 className="text-[20px] font-bold ">Shahriar Saurov</h2>
+            <p className="text-sm text-gray-600 pt-2 pl-2">
+              Software Developer
+            </p>
+          </div>
+          <hr className="my-2 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-700 to-transparent opacity-25" />
+        </div>
+
+        {/**nav items */}
+        <nav>
+          <NavItems />
+        </nav>
+
+        {/**social links */}
+        <div className="absolute bottom-6">
+          <hr className="my-6 w-56 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-700 to-transparent opacity-25" />
+          <div className="flex space-x-12 justify-center items-center">
+            <Link href="" passHref>
+              <Github className="h-6 w-6 cursor-pointer hover:text-gray-900 text-gray-500" />
+            </Link>
+            <Link href="" passHref>
+              <Linkedin className="h-6 w-6 cursor-pointer hover:text-[#0077b5] text-gray-500" />
+            </Link>
+          </div>
+        </div>
+
+        {/**vertical line */}
+        <div className="fixed ml-60 -mt-[420px] h-[870px] min-h-[1em] w-px self-stretch bg-gradient-to-tr from-transparent via-neutral-700 to-transparent opacity-25"></div>
+      </aside>
+    </>
+  );
+}

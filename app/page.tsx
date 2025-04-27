@@ -4,8 +4,8 @@ import Hero from "@/app/section/Hero";
 import JobTimeline from "@/app/section/JobTimeline";
 import Projects from "@/app/section/Projects";
 import TerminalContact from "@/app/section/TerminalContact";
-import { Sidebar } from "@/components/SideBar";
-import { SlideTabsAll } from "@/components/SlideTabs";
+import { Sidebar } from "@/components/Nav/SideBar";
+import { SlideTabsAll } from "@/components/Nav/SlideTabsAll";
 
 const Home: FC = () => {
   return (
@@ -16,7 +16,7 @@ const Home: FC = () => {
       <main className="flex-1">
         {/**Tabs in smaller screen*/}
         <SlideTabsAll />
-        <div className="p-4 md:p-8 md:ml-64">
+        <div className="p-4 lg:p-8 lg:ml-64">
           {/**Hero section */}
           <Hero />
           {/**About section */}
