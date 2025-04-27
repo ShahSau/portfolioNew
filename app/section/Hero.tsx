@@ -32,7 +32,7 @@ const Hero: FC = () => {
             <div className="relative w-[100px] h-[100px] rounded-full overflow-hidden group">
               <span className="">
                 <Image
-                  src="/images/image.jpg"
+                  src="/images/image.png"
                   alt="Profile"
                   fill
                   className="object-cover"
