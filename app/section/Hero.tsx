@@ -21,7 +21,10 @@ const Hero: FC = () => {
     },
   };
   return (
-    <div className="min-h-[100vh] w-full flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100 p-4 sm:p-6">
+    <div
+      id="home"
+      className="min-h-[100vh] w-full flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100 p-4 sm:p-6"
+    >
       <div className="max-w-3xl mx-auto">
         <div className="space-y-4 sm:space-y-6">
           <div className="flex flex-wrap justify-center items-center gap-2 sm:gap-3">

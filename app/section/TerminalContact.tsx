@@ -8,7 +8,10 @@ const TerminalContact: FC = () => {
   const inputRef = useRef<HTMLInputElement | null>(null);
 
   return (
-    <section className="px-4 py-12 bg-gradient-to-br from-gray-50 to-gray-100">
+    <section
+      id="contact"
+      className="px-4 py-12 bg-gradient-to-br from-gray-50 to-gray-100"
+    >
       <div
         ref={containerRef}
         onClick={() => {
