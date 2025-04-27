@@ -18,7 +18,7 @@ const Projects: FC = () => {
   }, []);
   return (
     <section
-      className="relative p-24 overflow-hidden md:p-[7.2rem_2.4rem]"
+      className="relative p-24 overflow-hidden md:p-[7.2rem_2.4rem] bg-gradient-to-br from-gray-50 to-gray-100"
       id="projects"
     >
       <ul

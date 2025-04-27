@@ -1,5 +1,5 @@
-"use client"
-import { useRef,FC } from "react";
+"use client";
+import { useRef, FC } from "react";
 import TerminalBody from "../../components/Contact/TerminalBody";
 import TerminalHeader from "../../components/Contact/TerminalHeader";
 
@@ -8,15 +8,7 @@ const TerminalContact: FC = () => {
   const inputRef = useRef<HTMLInputElement | null>(null);
 
   return (
-    <section
-      style={{
-        // backgroundImage:
-        //   "url(https://images.unsplash.com/photo-1482686115713-0fbcaced6e28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1734&q=80)",
-        // backgroundSize: "cover",
-        // backgroundPosition: "center",
-      }}
-      className="px-4 py-12 bg-gradient-to-br from-gray-100 to-gray-200"
-    >
+    <section className="px-4 py-12 bg-gradient-to-br from-gray-50 to-gray-100">
       <div
         ref={containerRef}
         onClick={() => {
@@ -32,6 +24,5 @@ const TerminalContact: FC = () => {
     </section>
   );
 };
-
 
 export default TerminalContact;
