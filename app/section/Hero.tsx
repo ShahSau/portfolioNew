@@ -23,11 +23,11 @@ const Hero: FC = () => {
   return (
     <div
       id="home"
-      className="min-h-[100vh] w-full flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100 p-4 sm:p-6"
+      className="min-h-[100vh] w-full flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100 p-4 md:p-6"
     >
       <div className="max-w-3xl mx-auto">
-        <div className="space-y-4 sm:space-y-6">
-          <div className="flex flex-wrap justify-center items-center gap-2 sm:gap-3">
+        <div className="space-y-4 md:space-y-6">
+          <div className="flex flex-wrap justify-center items-center gap-2 md:gap-3">
             <h1 className="text-4xl md:text-5xl lg:text-6xl">
               <span className="font-normal">I&apos;m </span>
               <span className="italic text-gray-500">Shahriar</span>
@@ -44,14 +44,12 @@ const Hero: FC = () => {
               <span className="absolute inset-0 border-4 border-transparent rounded-full group-hover:border-t-[#0eb7da] group-hover:border-r-[#0eb7da] group-hover:border-b-[#0eb7da] transition-[border-color] duration-[0.15s] ease-linear group-hover:delay-[0s,0.1s,0.2s]"></span>
               <span className="absolute inset-0 border-4 border-transparent rounded-full group-hover:border-t-[#0eb7da] group-hover:border-l-2 group-hover:border-r-2 group-hover:rotate-[260deg] transition-transform duration-[0.4s] ease-linear group-hover:delay-[0s,0.35s,0s]"></span>
             </div>
-            <span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
-              ,
-            </span>
+            <span className="text-4xl md:text-5xl lg:text-6xl">,</span>
           </div>
 
-          <div className="flex flex-wrap justify-center items-center gap-2 sm:gap-3">
+          <div className="flex flex-wrap justify-center items-center gap-2 md:gap-3">
             <span className="text-4xl md:text-5xl lg:text-6xl">a Software</span>
-            <div className="relative w-[70px] h-[70px] md:w-[80px] md:h-[80px] rounded-xl sm:rounded-2xl overflow-hidden">
+            <div className="relative w-[70px] h-[70px] md:w-[80px] md:h-[80px] rounded-xl md:rounded-2xl overflow-hidden">
               <VerticalCarousel />
             </div>
             <span className="text-4xl md:text-5xl lg:text-6xl italic text-gray-500">
@@ -59,11 +57,11 @@ const Hero: FC = () => {
             </span>
           </div>
 
-          <div className="flex flex-wrap justify-center items-center gap-2 sm:gap-3">
+          <div className="flex flex-wrap justify-center items-center gap-2 md:gap-3">
             <span className="text-4xl md:text-5xl lg:text-6xl">
-              based in Finland
+              based in Germany
             </span>
-            <div className="relative w-8 h-8 sm:w-10 sm:h-10 md:w-14 md:h-14 rounded-xl sm:rounded-2xl overflow-hidden">
+            <div className="relative w-10 h-10 md:w-14 md:h-14 rounded-xl md:rounded-2xl overflow-hidden">
               <motion.div
                 className="p-4 w-full h-full shadow-lg cursor-pointer"
                 onHoverStart={() => setIsHovered(true)}
@@ -73,8 +71,8 @@ const Hero: FC = () => {
                 aria-label={isHovered ? "Animated beating heart" : " icon"}
               >
                 <Image
-                  src="/images/finland.png"
-                  alt="Finland"
+                  src="/images/germany.png"
+                  alt="Germany"
                   fill
                   className="object-cover"
                 />
