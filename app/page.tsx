@@ -16,7 +16,7 @@ const Home: FC = () => {
       <main className="flex-1">
         {/**Tabs in smaller screen*/}
         <SlideTabsAll />
-        <div className="p-4 lg:p-8 lg:ml-64">
+        <div className="p-4 lg:ml-52">
           {/**Hero section */}
           <Hero />
           {/**About section */}

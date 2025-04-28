@@ -7,7 +7,7 @@ import NavItems from "./NavItems";
 export function Sidebar(): JSX.Element {
   return (
     <>
-      <aside className="hidden lg:block w-64 p-4 h-screen fixed overflow-hidden">
+      <aside className="hidden lg:block w-52 p-4 h-screen fixed overflow-hidden">
         {/**name and profession */}
         <div className="mb-8">
           <div className="ml-4 p-6">
@@ -36,9 +36,6 @@ export function Sidebar(): JSX.Element {
             </Link>
           </div>
         </div>
-
-        {/**vertical line */}
-        <div className="fixed ml-60 -mt-[420px] h-[870px] min-h-[1em] w-px self-stretch bg-gradient-to-tr from-transparent via-neutral-700 to-transparent opacity-25"></div>
       </aside>
     </>
   );
