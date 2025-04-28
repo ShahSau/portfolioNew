@@ -6,6 +6,7 @@ import EmailListBlock from "../../components/About/EmailListBlock";
 import HeaderBlock from "../../components/About/HeaderBlock";
 import LocationBlock from "../../components/About/LocationBlock";
 import SocialsBlock from "../../components/About/SocialsBlock";
+import Header from "@/components/Header";
 
 const About: FC = () => {
   return (
@@ -13,7 +14,13 @@ const About: FC = () => {
       className="bg-gradient-to-br from-gray-50 to-gray-100 px-4 py-12 text-zinc-500"
       id="about"
     >
-      <h1>some words about about ToDo</h1>
+      <Header
+        tag="About Me"
+        title="A Glimpse Into My World"
+        desc0="Learn more about who I am, What I do and what inspires me."
+        desc1="Let's connect and explore the possibilities together!"
+        desc2="I am always open to new opportunities and collaborations."
+      />
       <motion.div
         initial="initial"
         animate="animate"

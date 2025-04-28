@@ -44,7 +44,7 @@ const Details: FC<DetailsProps> = ({ project }) => {
       </motion.div>
 
       <div className="bg-white relative z-10">
-        <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 py-16 md:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 relative">
             <div className="relative order-2 md:order-1">
               <motion.div

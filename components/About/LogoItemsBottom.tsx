@@ -12,7 +12,6 @@ import {
   SiNgrx,
   SiTailwindcss,
   SiMaterialdesignicons,
-  SiMaterialdesign,
   SiHtml5,
   SiCss3,
 } from "react-icons/si";
@@ -36,7 +35,6 @@ const LogoItemsBottom: FC = () => (
       SiNgrx,
       SiTailwindcss,
       SiMaterialdesignicons,
-      SiMaterialdesign,
       SiHtml5,
       TbBrandReactNative,
       SiCss3,

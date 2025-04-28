@@ -44,7 +44,7 @@ const TimelineItem = ({
       initial={{ opacity: 0, y: 50 }}
       animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
       transition={{ duration: 0.5, delay: index * 0.2 }}
-      className={`mb-8 flex w-full flex-col sm:mb-12`}
+      className={`mb-8 flex w-full flex-col md:mb-12`}
     >
       <div className="flex w-1/2 z-10">
         <div className="mr-4 mb-2">
@@ -69,18 +69,18 @@ const TimelineItem = ({
           isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }
         }
         transition={{ duration: 0.5, delay: index * 0.2 + 0.1 }}
-        className="w-full pl-16 sm:pl-0 sm:pr-0"
+        className="w-full pl-16 md:pl-0 md:pr-0"
       >
         <div className="rounded-lg p-6 shadow-xl transition-shadow duration-300 hover:shadow-2xl">
-          <h3 className="mb-2 text-xl font-bold text-gray-800 sm:text-2xl">
+          <h3 className="mb-2 text-xl font-bold text-gray-800 md:text-2xl">
             {title}
           </h3>
           <div className="mb-4 flex items-center text-gray-600">
             <Image
               src={image}
-              width={20}
-              height={20}
-              className="mr-2 h-5 w-5"
+              width={24}
+              height={24}
+              className="mr-2 h-6 w-6 rounded-full"
               alt={`${company} logo`}
             />
             <span>{company}</span>
@@ -89,13 +89,13 @@ const TimelineItem = ({
             <MapPin className="mr-2 h-5 w-5" />
             <span>{location}</span>
           </div>
-          <p className="text-sm text-gray-600 sm:text-md md:text-lg mb-6">
+          <p className="text-md text-gray-600 md:text-lg mb-6">
             {description1}
           </p>
-          <p className="text-sm text-gray-600 sm:text-md md:text-lg mb-6">
+          <p className="text-md text-gray-600 md:text-lg mb-6">
             {description2}
           </p>
-          <p className="text-sm text-gray-600 sm:text-md md:text-lg mb-6">
+          <p className="text-md text-gray-600 md:text-lg mb-6">
             {description3}
           </p>
 
