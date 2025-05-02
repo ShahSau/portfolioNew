@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
-import { motion, AnimatePresence } from "framer-motion"
-import React, { useEffect, useState } from "react"
+import { motion, AnimatePresence } from "framer-motion";
+import React, { useEffect, useState } from "react";
 
 const images = [
   "/images/code1.png",
@@ -9,19 +9,18 @@ const images = [
   "/images/code3.png",
   "/images/code4.png",
   "/images/code5.png",
-]
-
+];
 
 export default function VerticalCarousel(): JSX.Element {
-  const [currentIndex, setCurrentIndex] = useState(0)
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length)
-    }, 1500) // Change image every 1.5 seconds
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 1500); // Change image every 1.5 seconds
 
-    return () => clearInterval(interval)
-  }, [])
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <div className="relative h-full w-full overflow-hidden">
@@ -38,6 +37,5 @@ export default function VerticalCarousel(): JSX.Element {
         />
       </AnimatePresence>
     </div>
-  )
+  );
 }
-

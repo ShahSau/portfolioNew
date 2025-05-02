@@ -16,9 +16,10 @@ interface LogoItemProps {
 const LogoItem: FC<LogoItemProps> = ({ Icon, Text }) => {
   const [isHovered, setIsHovered] = useState(false);
   return (
-    <span className="w-full  h-16 md:h-24 flex justify-center items-center text-black transition-colors"
-    onMouseEnter={() => setIsHovered(true)}
-    onMouseLeave={() => setIsHovered(false)}
+    <span
+      className="w-full  h-16 md:h-24 flex justify-center items-center text-black transition-colors"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
     >
       <Icon className="text-4xl md:text-5xl" />
       {isHovered && (
