@@ -10,12 +10,12 @@ const HeaderBlock: FC = () => (
       Node.js, Next.js), Python (Django), and Go (Gin, Fiber), crafting both
       intuitive frontends and high-performance backends. My toolkit also
       includes working with databases like MongoDB and PostgreSQL, API design
-      with GraphQL, RESTApi, and backend technologies like Prisma, Redis, and Kafka. I'm
-      experienced in testing with Cypress and Jest, and I deploy containerized
-      solutions using Docker and Kubernetes across AWS, GCP environments. Passionate
-      about clean code, scalable architecture, and impactful solutions, I love
-      turning complex challenges into seamless user experiences. Let's build
-      something great together!
+      with GraphQL, RESTApi, and backend technologies like Prisma, Redis, and
+      Kafka. I'm experienced in testing with Cypress and Jest, and I deploy
+      containerized solutions using Docker and Kubernetes across AWS, GCP
+      environments. Passionate about clean code, scalable architecture, and
+      impactful solutions, I love turning complex challenges into seamless user
+      experiences. Let's build something great together!
     </h1>
   </Block>
 );
