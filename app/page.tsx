@@ -9,7 +9,7 @@ import { SlideTabsAll } from "@/components/Nav/SlideTabsAll";
 
 const Home: FC = () => {
   return (
-    <div className="flex">
+    <div className="flex flex-col lg:flex-row">
       {/**Sidebar in medium or bigger screen*/}
       <Sidebar />
 

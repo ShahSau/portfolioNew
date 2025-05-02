@@ -19,7 +19,7 @@ const SlideTabs: FC = () => {
           opacity: 0,
         }));
       }}
-      className="relative mx-auto flex w-fit rounded-full border-2 border-black bg-white p-2"
+      className="relative mx-auto flex w-fit rounded-full border-2 border-black bg-white md:p-2"
     >
       <Tab setPosition={setPosition}>Home</Tab>
       <Tab setPosition={setPosition}>About</Tab>

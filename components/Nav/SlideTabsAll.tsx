@@ -12,7 +12,7 @@ interface TabProps {
 
 export const SlideTabsAll: FC = () => {
   return (
-    <div className="lg:hidden px-28 w-full backdrop-blur-md sticky top-0 py-2 z-40 ">
+    <div className="block lg:hidden md:px-28 p-0 w-full backdrop-blur-md top-0 md:sticky py-2 z-40 ">
       <SlideTabs />
     </div>
   );
