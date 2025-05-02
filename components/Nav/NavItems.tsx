@@ -1,16 +1,12 @@
 "use client";
 
 import {
-  Github,
-  Linkedin,
   SquareKanban,
   Home,
   User,
   Briefcase,
-  Layers,
   MailOpen,
 } from "lucide-react";
-import Link from "next/link";
 import LinkButton from "./LinkButton";
 
 const NavItems = (): JSX.Element => (
