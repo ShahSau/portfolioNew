@@ -8,10 +8,10 @@ export function Sidebar(): JSX.Element {
   return (
     <>
       <aside className="hidden lg:block w-52 p-4 h-screen fixed overflow-hidden">
-        {/**name and profession */}
+        {/* Name and profession */}
         <div className="mb-8">
           <div className="ml-4 p-6">
-            <h2 className="text-[20px] font-bold ">Shahriar Saurov</h2>
+            <h2 className="text-[20px] font-bold">Shahriar Saurov</h2>
             <p className="text-sm text-gray-600 pt-2 pl-2">
               Software Developer
             </p>
@@ -19,12 +19,12 @@ export function Sidebar(): JSX.Element {
           <hr className="my-2 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-700 to-transparent opacity-25" />
         </div>
 
-        {/**nav items */}
+        {/* Nav items */}
         <nav>
           <NavItems />
         </nav>
 
-        {/**social links */}
+        {/* Social links */}
         <div className="absolute bottom-6">
           <hr className="my-6 w-56 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-700 to-transparent opacity-25" />
           <div className="flex space-x-12 justify-center items-center">
@@ -37,6 +37,8 @@ export function Sidebar(): JSX.Element {
           </div>
         </div>
       </aside>
+      {/* Vertical Line (separate from <aside>) */}
+      <div className="hidden lg:block fixed left-56 top-0 h-screen w-px bg-gradient-to-b from-transparent via-neutral-700 to-transparent opacity-25" />
     </>
   );
 }

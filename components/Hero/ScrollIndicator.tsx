@@ -26,7 +26,7 @@ const ScrollIndicator: React.FC = () => {
   return (
     <div
       style={{ left: "50%" }}
-      className="fixed bottom-6 transform flex flex-col items-center animate-fade-in lg:left-[calc(50%+50px)]"
+      className="fixed bottom-6 transform flex flex-col items-center animate-fade-in lg:left-[calc(55%+50px)]"
     >
       <div className="flex flex-col items-center">
         <div className="w-6 h-10 border-2 border-gray-600 rounded-full flex justify-center p-1 mb-2">

@@ -5,9 +5,9 @@ const LETTER_DELAY = 0.025;
 const BOX_FADE_DURATION = 0.125;
 
 const FADE_DELAY = 5;
-const MAIN_FADE_DURATION = 0.25;
+const MAIN_FADE_DURATION = 0.05;
 
-const SWAP_DELAY_IN_MS = 5500;
+const SWAP_DELAY_IN_MS = 4500;
 
 const Typewrite = ({ lines }: { lines: string[] }) => {
   const [linesIndex, setLinesIndex] = useState(0);
