@@ -4,6 +4,7 @@ const projects = [
     imgSrc: "/project-imgs/alphacore.png",
     code: "https://github.com/ShahSau/alphaCore",
     projectLink: "https://alpha-core.vercel.app/",
+    youtubeLink: "",
     type: "FullStack",
     tech: [
       "React",
@@ -75,6 +76,7 @@ const projects = [
     imgSrc: "/project-imgs/CulinaryBliss.png",
     code: "https://github.com/ShahSau/culinary-bliss",
     projectLink: "https://culinary-bliss.onrender.com/swagger/index.html",
+    youtubeLink: "",
     type: "Backend",
     tech: [
       "Go lang",
@@ -147,6 +149,7 @@ const projects = [
     imgSrc: "/project-imgs/turbo.png",
     code: "https://github.com/ShahSau/turbo",
     projectLink: "https://turbo-flax.vercel.app",
+    youtubeLink: "",
     type: "FullStack",
     tech: [
       "Javascript",
@@ -239,6 +242,7 @@ const projects = [
     imgSrc: "/project-imgs/jobhunt.png",
     code: "https://github.com/ShahSau/jobhunt",
     projectLink: "https://jobhunt-sfsp.vercel.app/",
+    youtubeLink: "",
     type: "FullStack",
     tech: [
       "Javascript",
@@ -307,6 +311,7 @@ const projects = [
     imgSrc: "/project-imgs/primeproperties.png",
     code: "https://github.com/ShahSau/prime-properties",
     projectLink: "https://prime-properties.onrender.com",
+    youtubeLink: "",
     type: "FullStack",
     tech: [
       "Javascript",
@@ -386,6 +391,7 @@ const projects = [
     code: "https://github.com/ShahSau/EthnicElegance",
     projectLink:
       "https://ethnicelegance.onrender.com/v1/ecommerce/swagger/index.html",
+    youtubeLink: "",
     type: "Backend",
     tech: [
       "Go lang",
@@ -444,6 +450,7 @@ const projects = [
     imgSrc: "/project-imgs/gameboy.png",
     code: "https://github.com/ShahSau/gameboy",
     projectLink: "https://gameboy-ruddy.vercel.app/",
+    youtubeLink: "",
     type: "Frontend",
     tech: [
       "React",
@@ -490,6 +497,7 @@ const projects = [
     imgSrc: "/project-imgs/superstore_dashboard.png",
     code: "https://github.com/ShahSau/superstore_dashboard",
     projectLink: "https://superstore-dashboard.vercel.app/",
+    youtubeLink: "",
     type: "Frontend",
     tech: [
       "React",
@@ -547,6 +555,7 @@ const projects = [
     imgSrc: "/project-imgs/Entertainmentvibe.jpg",
     code: "https://github.com/ShahSau/entertainment-vibe",
     projectLink: "https://entertainment-vibe.vercel.app/",
+    youtubeLink: "",
     type: "Frontend",
     tech: [
       "React",
@@ -606,6 +615,7 @@ const projects = [
     imgSrc: "/project-imgs/cereboX.jpg",
     code: "https://github.com/ShahSau/cerebroX",
     projectLink: "https://inspiring-zuccutto-f2db33.netlify.app/",
+    youtubeLink: "",
     type: "Frontend",
     tech: [
       "React",
@@ -662,6 +672,7 @@ const projects = [
     code: "https://github.com/ShahSau/FitTrackr",
     projectLink:
       "https://expo.dev/preview/update?message=small%20cleanup&updateRuntimeVersion=1.0.0&createdAt=2024-09-15T15%3A58%3A14.624Z&slug=exp&projectId=565f15fa-79c3-4ff6-8e3b-2b0eebbae44c&group=f7e476a2-beaf-4804-a922-9b2b8ceace4d",
+    youtubeLink: "",
     type: "Mobile",
     tech: [
       "React Native",
