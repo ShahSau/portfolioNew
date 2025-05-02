@@ -24,6 +24,7 @@ interface Props {
   title: string;
   code: string;
   time: number;
+  youtubeLink: string;
 }
 
 const Project = ({
@@ -35,6 +36,7 @@ const Project = ({
   tech,
   time,
   modalContent,
+  youtubeLink,
 }: Props): JSX.Element => {
   const [hovered, setHovered] = useState(false);
 
@@ -57,7 +59,7 @@ const Project = ({
       },
       {
         type: "youtube",
-        url: "https://www.youtube.com/watch?v=example",
+        url: youtubeLink,
       },
       {
         type: "demo",
@@ -133,14 +135,16 @@ const Project = ({
               </Link>
             )}
 
-            <Link
-              href={""}
-              target="_blank"
-              rel="nofollow"
-              className="opacity-75 transition-opacity duration-200 hover:opacity-100 hover:text-red-500"
-            >
-              <Youtube size="1.4rem" />
-            </Link>
+            {youtubeLink !== "" && (
+              <Link
+                href={""}
+                target="_blank"
+                rel="nofollow"
+                className="opacity-75 transition-opacity duration-200 hover:opacity-100 hover:text-red-500"
+              >
+                <Youtube size="1.4rem" />
+              </Link>
+            )}
           </div>
           <div className="flex flex-wrap gap-3 text-sm text-gray-600 my-2">
             {tech.join(" - ")}
