@@ -5,6 +5,7 @@ import OutlineButton from "@/components/Projects/OutlineButton";
 import ProjectButton from "@/components/Projects/ProjectButton";
 import projects from "@/components/Projects/ProjectsData";
 import Project from "@/components/Projects/Project";
+import Header from "@/components/Header";
 
 const Projects: FC = () => {
   const [displayedProjects, setDisplayedProjects] = useState(
@@ -21,6 +22,13 @@ const Projects: FC = () => {
       className="relative p-24 overflow-hidden md:p-[7.2rem_2.4rem] bg-gradient-to-br from-gray-50 to-gray-100"
       id="projects"
     >
+      <Header
+        tag="My Projects"
+        title="A Showcase of My Work"
+        desc0="Explore my projects and the technologies I love."
+        desc1="Each project reflects my skills and passion for coding."
+        desc2="From web applications to mobile apps, I enjoy building solutions."
+      />
       <ul
         role="list"
         className="mt-3 grid grid-cols-2 gap-5 md:grid-cols-4 mb-12"
