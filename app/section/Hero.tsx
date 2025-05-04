@@ -30,7 +30,7 @@ const Hero: FC = () => {
           <div className="flex flex-wrap justify-center items-center gap-2 md:gap-3">
             <h1 className="text-4xl md:text-5xl lg:text-6xl">
               <span className="font-normal">I&apos;m </span>
-              <span className="italic text-gray-500">Shahriar</span>
+              <span className="italic">Shahriar</span>
             </h1>
             <div className="relative w-[100px] h-[100px] rounded-full overflow-hidden group">
               <span className="">
@@ -48,11 +48,11 @@ const Hero: FC = () => {
           </div>
 
           <div className="flex flex-wrap justify-center items-center gap-2 md:gap-3">
-            <span className="text-4xl md:text-5xl lg:text-6xl">a Software</span>
+            <span className="text-4xl md:text-5xl lg:text-6xl italic">a Software</span>
             <div className="relative w-[70px] h-[70px] md:w-[80px] md:h-[80px] rounded-xl md:rounded-2xl overflow-hidden">
               <VerticalCarousel />
             </div>
-            <span className="text-4xl md:text-5xl lg:text-6xl italic text-gray-500">
+            <span className="text-4xl md:text-5xl lg:text-6xl italic">
               Developer
             </span>
           </div>

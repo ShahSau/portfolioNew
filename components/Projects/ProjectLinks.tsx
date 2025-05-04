@@ -16,6 +16,8 @@ const ProjectLinks: React.FC<ProjectLinksProps> = ({ links }) => {
         return <Youtube className="w-5 h-5" />;
       case "demo":
         return <ExternalLink className="w-5 h-5" />;
+      case "docker":
+        return <ExternalLink className="w-5 h-5" />;
       default:
         return <ExternalLink className="w-5 h-5" />;
     }

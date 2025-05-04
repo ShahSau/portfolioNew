@@ -5,6 +5,7 @@ const projects = [
     code: "https://github.com/ShahSau/alphaCore",
     projectLink: "https://alpha-core.vercel.app/",
     youtubeLink: "",
+    dockerLink: "",
     type: "FullStack",
     tech: [
       "React",
@@ -77,6 +78,7 @@ const projects = [
     code: "https://github.com/ShahSau/culinary-bliss",
     projectLink: "https://culinary-bliss.onrender.com/swagger/index.html",
     youtubeLink: "",
+    dockerLink: "",
     type: "Backend",
     tech: [
       "Go lang",
@@ -150,6 +152,7 @@ const projects = [
     code: "https://github.com/ShahSau/turbo",
     projectLink: "https://turbo-flax.vercel.app",
     youtubeLink: "",
+    dockerLink: "",
     type: "FullStack",
     tech: [
       "Javascript",
@@ -243,6 +246,7 @@ const projects = [
     code: "https://github.com/ShahSau/jobhunt",
     projectLink: "https://jobhunt-sfsp.vercel.app/",
     youtubeLink: "",
+    dockerLink: "",
     type: "FullStack",
     tech: [
       "Javascript",
@@ -312,6 +316,7 @@ const projects = [
     code: "https://github.com/ShahSau/prime-properties",
     projectLink: "https://prime-properties.onrender.com",
     youtubeLink: "",
+    dockerLink: "",
     type: "FullStack",
     tech: [
       "Javascript",
@@ -392,6 +397,7 @@ const projects = [
     projectLink:
       "https://ethnicelegance.onrender.com/v1/ecommerce/swagger/index.html",
     youtubeLink: "",
+    dockerLink: "",
     type: "Backend",
     tech: [
       "Go lang",
@@ -451,6 +457,7 @@ const projects = [
     code: "https://github.com/ShahSau/gameboy",
     projectLink: "https://gameboy-ruddy.vercel.app/",
     youtubeLink: "",
+    dockerLink: "",
     type: "Frontend",
     tech: [
       "React",
@@ -498,6 +505,7 @@ const projects = [
     code: "https://github.com/ShahSau/superstore_dashboard",
     projectLink: "https://superstore-dashboard.vercel.app/",
     youtubeLink: "",
+    dockerLink: "",
     type: "Frontend",
     tech: [
       "React",
@@ -556,6 +564,7 @@ const projects = [
     code: "https://github.com/ShahSau/entertainment-vibe",
     projectLink: "https://entertainment-vibe.vercel.app/",
     youtubeLink: "",
+    dockerLink: "",
     type: "Frontend",
     tech: [
       "React",
@@ -616,6 +625,7 @@ const projects = [
     code: "https://github.com/ShahSau/cerebroX",
     projectLink: "https://inspiring-zuccutto-f2db33.netlify.app/",
     youtubeLink: "",
+    dockerLink: "",
     type: "Frontend",
     tech: [
       "React",
@@ -673,6 +683,7 @@ const projects = [
     projectLink:
       "https://expo.dev/preview/update?message=small%20cleanup&updateRuntimeVersion=1.0.0&createdAt=2024-09-15T15%3A58%3A14.624Z&slug=exp&projectId=565f15fa-79c3-4ff6-8e3b-2b0eebbae44c&group=f7e476a2-beaf-4804-a922-9b2b8ceace4d",
     youtubeLink: "",
+    dockerLink: "",
     type: "Mobile",
     tech: [
       "React Native",

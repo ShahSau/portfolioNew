@@ -1,5 +1,5 @@
 import { useAnimation, useInView, motion } from "framer-motion";
-import { Github, SquareArrowUpRight, Youtube } from "lucide-react";
+import { Container, Github, SquareArrowUpRight, Youtube } from "lucide-react";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 
@@ -25,6 +25,7 @@ interface Props {
   code: string;
   time: number;
   youtubeLink: string;
+  dockerLink: string;
 }
 
 const Project = ({
@@ -37,6 +38,7 @@ const Project = ({
   time,
   modalContent,
   youtubeLink,
+  dockerLink,
 }: Props): JSX.Element => {
   const [hovered, setHovered] = useState(false);
 
@@ -143,6 +145,20 @@ const Project = ({
                 className="opacity-75 transition-opacity duration-200 hover:opacity-100 hover:text-red-500"
               >
                 <Youtube size="1.4rem" />
+              </Link>
+            )}
+            {dockerLink !== "" && (
+              <Link
+                href={""}
+                target="_blank"
+                rel="nofollow"
+                className="opacity-75 transition-opacity duration-200 hover:opacity-100 hover:text-blue-800"
+              >
+                <img
+                  src="/images/docker.svg"
+                  alt="Docker"
+                  className="w-10 h-10"
+                />
               </Link>
             )}
           </div>

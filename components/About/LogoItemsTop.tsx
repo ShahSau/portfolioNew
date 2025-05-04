@@ -6,7 +6,7 @@ import {
   SiNodedotjs,
   SiExpress,
   SiNestjs,
-  SiNextui,
+  SiDocker,
   SiNextdotjs,
   SiDjango,
   SiMongodb,
@@ -37,6 +37,7 @@ const LogoItemsTop: FC = () => (
       SiPostgresql,
       SiGin,
       SiGraphql,
+      SiDocker,
     ].map((Icon, index) => (
       <LogoItem key={index} Icon={Icon} Text={IconToTextMap(Icon)} />
     ))}
