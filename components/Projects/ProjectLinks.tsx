@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Github, Youtube, ExternalLink } from "lucide-react";
+import { IoLogoDocker } from "react-icons/io5";
+import { LuGithub, LuYoutube, LuExternalLink } from "react-icons/lu";
 import { ProjectLink } from "../../app/types/project";
 
 interface ProjectLinksProps {
@@ -11,15 +12,15 @@ const ProjectLinks: React.FC<ProjectLinksProps> = ({ links }) => {
   const getLinkIcon = (type: string) => {
     switch (type) {
       case "github":
-        return <Github className="w-5 h-5" />;
+        return <LuGithub className="w-5 h-5" />;
       case "youtube":
-        return <Youtube className="w-5 h-5" />;
+        return <LuYoutube className="w-5 h-5" />;
       case "demo":
-        return <ExternalLink className="w-5 h-5" />;
+        return <LuExternalLink className="w-5 h-5" />;
       case "docker":
-        return <ExternalLink className="w-5 h-5" />;
+        return <IoLogoDocker className="w-5 h-5" />;
       default:
-        return <ExternalLink className="w-5 h-5" />;
+        return <LuExternalLink className="w-5 h-5" />;
     }
   };
 

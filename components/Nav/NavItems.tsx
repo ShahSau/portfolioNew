@@ -1,30 +1,30 @@
 "use client";
 
 import {
-  SquareKanban,
-  Home,
-  User,
-  Briefcase,
-  MailOpen,
-} from "lucide-react";
+  LuSquareKanban,
+  LuUser,
+  LuBriefcase,
+  LuMailOpen,
+} from "react-icons/lu";
+import { GoHomeFill } from "react-icons/go";
 import LinkButton from "./LinkButton";
 
 const NavItems = (): JSX.Element => (
   <ul>
     <li className="flex items-center  h-12 text-gray-500 hover:bg-gray-300 hover:text-gray-700 rounded-full cursor-pointer">
-      <LinkButton linkname="Home" icon={Home} />
+      <LinkButton linkname="Home" icon={GoHomeFill} />
     </li>
 
     <li className="flex items-center  h-12 text-gray-500 hover:bg-gray-300 hover:text-gray-700 rounded-full cursor-pointer">
-      <LinkButton linkname="About" icon={User} />
+      <LinkButton linkname="About" icon={LuUser} />
     </li>
 
     <li className="flex items-center  h-12 text-gray-500 hover:bg-gray-300 hover:text-gray-700 rounded-full cursor-pointer">
-      <LinkButton linkname="Experience" icon={Briefcase} />
+      <LinkButton linkname="Experience" icon={LuBriefcase} />
     </li>
 
     <li className="flex items-center  h-12 text-gray-500 hover:bg-gray-300 hover:text-gray-700 rounded-full cursor-pointer">
-      <LinkButton linkname="Projects" icon={SquareKanban} />
+      <LinkButton linkname="Projects" icon={LuSquareKanban} />
     </li>
 
     {/* <li className="flex items-center  h-12 text-gray-500 hover:bg-gray-300 hover:text-gray-700 rounded-full cursor-pointer">
@@ -35,7 +35,7 @@ const NavItems = (): JSX.Element => (
       </li> */}
 
     <li className="flex items-center  h-12 text-gray-500 hover:bg-gray-300 hover:text-gray-700 rounded-full cursor-pointer">
-      <LinkButton linkname="Contact" icon={MailOpen} />
+      <LinkButton linkname="Contact" icon={LuMailOpen} />
     </li>
   </ul>
 );

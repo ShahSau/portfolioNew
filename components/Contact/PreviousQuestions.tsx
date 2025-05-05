@@ -1,4 +1,4 @@
-import { CircleCheck } from "lucide-react";
+import { LuCircleCheck } from "react-icons/lu";
 import { Fragment } from "react";
 import { PreviousQuestionProps } from "./types/interface";
 
@@ -18,7 +18,7 @@ const PreviousQuestions = ({
                 )}
               </p>
               <p className="text-emerald-300">
-                <CircleCheck className="inline-block mr-2" />
+                <LuCircleCheck className="inline-block mr-2" />
                 <span>{q.value}</span>
               </p>
             </Fragment>

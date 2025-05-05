@@ -1,6 +1,7 @@
 "use client";
 
-import { Github, Linkedin } from "lucide-react";
+import React from "react";
+import { LuGithub, LuLinkedin } from "react-icons/lu";
 import Link from "next/link";
 import NavItems from "./NavItems";
 
@@ -34,7 +35,7 @@ export function Sidebar(): JSX.Element {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <Github className="h-6 w-6 cursor-pointer hover:text-gray-900 text-gray-500" />
+              <LuGithub className="h-6 w-6 cursor-pointer hover:text-gray-900 text-gray-500" />
             </Link>
             <Link
               href="https://www.linkedin.com/in/shahriar-saurov/"
@@ -42,7 +43,7 @@ export function Sidebar(): JSX.Element {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <Linkedin className="h-6 w-6 cursor-pointer hover:text-[#0077b5] text-gray-500" />
+              <LuLinkedin className="h-6 w-6 cursor-pointer hover:text-[#0077b5] text-gray-500" />
             </Link>
           </div>
         </div>

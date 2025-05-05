@@ -1,7 +1,6 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { MapPin } from "lucide-react";
 import { FC } from "react";
 import Block from "./Block";
 

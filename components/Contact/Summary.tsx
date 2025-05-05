@@ -1,5 +1,5 @@
 import emailjs from "@emailjs/browser";
-import { CircleCheck } from "lucide-react";
+import { LuCircleCheck } from "react-icons/lu";
 import { useState } from "react";
 import { SummaryProps } from "./types/interface";
 
@@ -57,7 +57,7 @@ const Summary = ({ questions, setQuestions }: SummaryProps): JSX.Element => {
       {complete ? (
         messageSent ? (
           <p className="text-emerald-300">
-            <CircleCheck className="inline-block mr-2" />
+            <LuCircleCheck className="inline-block mr-2" />
             <span>
               Sent! I got your message and will get back to you soon. 😎
             </span>

@@ -1,4 +1,4 @@
-import { Github, Linkedin } from "lucide-react";
+import { LuGithub, LuLinkedin } from "react-icons/lu";
 import { FC } from "react";
 import Block from "./Block";
 import Link from "next/link";
@@ -19,7 +19,7 @@ const SocialsBlock: FC = () => (
         target="_blank"
         className="grid place-content-center text-3xl hover:text-[#0077b5]"
       >
-        <Linkedin />
+        <LuLinkedin />
       </Link>
     </Block>
     <Block
@@ -36,7 +36,7 @@ const SocialsBlock: FC = () => (
         target="_blank"
         className="grid place-content-center text-3xl hover:text-gray-900"
       >
-        <Github />
+        <LuGithub />
       </Link>
     </Block>
   </>

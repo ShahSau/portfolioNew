@@ -1,5 +1,5 @@
 import { motion, useTransform, useTime } from "framer-motion";
-import { CalendarDays, MapPin } from "lucide-react";
+import { LuCalendarDays, LuMapPin } from "react-icons/lu";
 import Image from "next/image";
 import { JSX } from "react";
 import { useInView } from "../../app/hooks/useInView";
@@ -54,7 +54,7 @@ const TimelineItem = ({
             transition={{ duration: 0.5, delay: index * 0.2 + 0.3 }}
             className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-r from-purple-500 to-indigo-600 shadow-xl"
           >
-            <CalendarDays className="h-6 w-6 text-white" />
+            <LuCalendarDays className="h-6 w-6 text-white" />
           </motion.div>
         </div>
         <div className="pt-2">
@@ -86,7 +86,7 @@ const TimelineItem = ({
             <span>{company}</span>
           </div>
           <div className="mb-4 flex items-center text-gray-600">
-            <MapPin className="mr-2 h-5 w-5" />
+            <LuMapPin className="mr-2 h-5 w-5" />
             <span>{location}</span>
           </div>
           <p className="text-md text-gray-600 md:text-lg mb-6">

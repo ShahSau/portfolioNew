@@ -1,5 +1,6 @@
 import { useAnimation, useInView, motion } from "framer-motion";
-import { Container, Github, SquareArrowUpRight, Youtube } from "lucide-react";
+import { LuGithub, LuYoutube, LuExternalLink } from "react-icons/lu";
+import { IoLogoDocker } from "react-icons/io5";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 
@@ -123,7 +124,7 @@ const Project = ({
               rel="nofollow"
               className="opacity-75 transition-opacity duration-200 hover:opacity-100 hover:text-gray-900"
             >
-              <Github size="1.4rem" />
+              <LuGithub size="1.4rem" />
             </Link>
 
             {projectLink !== "" && (
@@ -133,7 +134,7 @@ const Project = ({
                 rel="nofollow"
                 className="opacity-75 transition-opacity duration-200 hover:opacity-100 hover:text-blue-500"
               >
-                <SquareArrowUpRight size="1.4rem" />
+                <LuExternalLink size="1.4rem" />
               </Link>
             )}
 
@@ -144,7 +145,7 @@ const Project = ({
                 rel="nofollow"
                 className="opacity-75 transition-opacity duration-200 hover:opacity-100 hover:text-red-500"
               >
-                <Youtube size="1.4rem" />
+                <LuYoutube size="1.4rem" />
               </Link>
             )}
             {dockerLink !== "" && (
@@ -154,11 +155,7 @@ const Project = ({
                 rel="nofollow"
                 className="opacity-75 transition-opacity duration-200 hover:opacity-100 hover:text-blue-800"
               >
-                <img
-                  src="/images/docker.svg"
-                  alt="Docker"
-                  className="w-10 h-10"
-                />
+                <IoLogoDocker size="1.4rem" />
               </Link>
             )}
           </div>

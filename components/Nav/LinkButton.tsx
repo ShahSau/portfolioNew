@@ -1,12 +1,11 @@
 import { motion } from "framer-motion";
-import { Icon } from "lucide-react";
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, ElementType } from "react";
 
 const CYCLES_PER_LETTER = 2;
 const SHUFFLE_TIME = 50;
 const CHARS = "abcdefghijklmnopqrstuvwxyz";
 
-const LinkButton: React.FC<{ icon: typeof Icon; linkname: string }> = ({
+const LinkButton: React.FC<{ icon: ElementType; linkname: string }> = ({
   icon,
   linkname,
 }) => {

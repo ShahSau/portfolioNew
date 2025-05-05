@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { MousePointer } from "lucide-react";
 
 const ScrollIndicator: React.FC = () => {
   const [isVisible, setIsVisible] = useState(true);
