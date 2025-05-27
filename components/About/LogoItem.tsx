@@ -23,7 +23,7 @@ const LogoItem: FC<LogoItemProps> = ({ Icon, Text }) => {
     >
       <Icon className="text-4xl md:text-5xl" />
       {isHovered && (
-        <p className="hidden md:block absolute mt-16 text-sm">{Text}</p>
+        <p className="hidden md:hidden absolute mt-16 text-sm">{Text}</p>
       )}
     </span>
   );
