@@ -1,21 +1,31 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { useScrollAnimation } from '@/hooks/useScrollAnimation';
-import { personalInfo } from '@/data/portfolio';
-import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter } from 'lucide-react';
-import { useLanguage } from '@/contexts/LanguageContext';
+import { useState } from "react";
+import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import { personalInfo } from "@/data/portfolio";
+import {
+  Mail,
+  Phone,
+  MapPin,
+  Send,
+  Github,
+  Linkedin,
+  Twitter,
+} from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
+import Link from "next/link";
+import SocialLink from "./Hero/SocialLink";
 
 export const Contact = () => {
   const { ref, isVisible } = useScrollAnimation(0.2);
   const { t } = useLanguage();
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
+    name: "",
+    email: "",
+    message: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitMessage, setSubmitMessage] = useState('');
+  const [submitMessage, setSubmitMessage] = useState("");
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -23,9 +33,9 @@ export const Contact = () => {
 
     setTimeout(() => {
       setSubmitMessage(t.contact.success);
-      setFormData({ name: '', email: '', message: '' });
+      setFormData({ name: "", email: "", message: "" });
       setIsSubmitting(false);
-      setTimeout(() => setSubmitMessage(''), 5000);
+      setTimeout(() => setSubmitMessage(""), 5000);
     }, 1000);
   };
 
@@ -47,11 +57,12 @@ export const Contact = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div
           className={`text-center mb-16 ${
-            isVisible ? 'animate-fade-in' : 'opacity-0'
+            isVisible ? "animate-fade-in" : "opacity-0"
           }`}
         >
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-            {t.contact.title} <span className="gradient-text">{t.contact.touch}</span>
+            {t.contact.title}{" "}
+            <span className="gradient-text">{t.contact.touch}</span>
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-purple-600 to-violet-500 mx-auto rounded-full mb-6"></div>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
@@ -61,9 +72,7 @@ export const Contact = () => {
 
         <div className="grid md:grid-cols-2 gap-12">
           <div
-            className={`${
-              isVisible ? 'animate-slide-in-left' : 'opacity-0'
-            }`}
+            className={`${isVisible ? "animate-slide-in-left" : "opacity-0"}`}
           >
             <div className="glass-effect rounded-2xl p-8 h-full">
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
@@ -79,12 +88,12 @@ export const Contact = () => {
                     <p className="font-semibold text-gray-900 dark:text-white mb-1">
                       {t.contact.email}
                     </p>
-                    <a
+                    <Link
                       href={`mailto:${personalInfo.email}`}
                       className="text-purple-600 dark:text-purple-400 hover:underline"
                     >
                       {personalInfo.email}
-                    </a>
+                    </Link>
                   </div>
                 </div>
 
@@ -122,45 +131,32 @@ export const Contact = () => {
 
               <div className="border-t border-gray-200 dark:border-gray-700 pt-6">
                 <p className="font-semibold text-gray-900 dark:text-white mb-4">
-                  Follow Me
+                  {t.hero.connect}
                 </p>
-                <div className="flex space-x-4">
-                  <a
-                    href={personalInfo.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-3 bg-gray-200 dark:bg-gray-700 rounded-full hover:bg-gradient-to-br hover:from-purple-500 hover:to-violet-500 hover:text-white transition-all hover:scale-110"
-                    aria-label="GitHub"
-                  >
-                    <Github className="w-5 h-5" />
-                  </a>
-                  <a
-                    href={personalInfo.linkedin}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-3 bg-gray-200 dark:bg-gray-700 rounded-full hover:bg-gradient-to-br hover:from-purple-500 hover:to-violet-500 hover:text-white transition-all hover:scale-110"
-                    aria-label="LinkedIn"
-                  >
-                    <Linkedin className="w-5 h-5" />
-                  </a>
-                  <a
-                    href={personalInfo.twitter}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-3 bg-gray-200 dark:bg-gray-700 rounded-full hover:bg-gradient-to-br hover:from-purple-500 hover:to-violet-500 hover:text-white transition-all hover:scale-110"
-                    aria-label="Twitter"
-                  >
-                    <Twitter className="w-5 h-5" />
-                  </a>
+                <div className="flex items-center space-x-4">
+                  <SocialLink
+                    link={personalInfo.github}
+                    Icon={Github}
+                    arialabel="GitHub"
+                  />
+
+                  <SocialLink
+                    link={personalInfo.linkedin}
+                    Icon={Linkedin}
+                    arialabel="LinkedIn"
+                  />
+                  <SocialLink
+                    link={personalInfo.twitter}
+                    Icon={Twitter}
+                    arialabel="Twitter"
+                  />
                 </div>
               </div>
             </div>
           </div>
 
           <div
-            className={`${
-              isVisible ? 'animate-slide-in-right' : 'opacity-0'
-            }`}
+            className={`${isVisible ? "animate-slide-in-right" : "opacity-0"}`}
           >
             <form
               onSubmit={handleSubmit}

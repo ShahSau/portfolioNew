@@ -1,9 +1,10 @@
-'use client';
+"use client";
 
-import { useScrollAnimation } from '@/hooks/useScrollAnimation';
-import { experiences } from '@/data/portfolio';
-import { Briefcase, Calendar } from 'lucide-react';
-import { useLanguage } from '@/contexts/LanguageContext';
+import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import { experiences } from "@/data/portfolio";
+import { Briefcase, Calendar, MapPin } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
+import Image from "next/image";
 
 export const Experience = () => {
   const { ref, isVisible } = useScrollAnimation(0.2);
@@ -18,11 +19,12 @@ export const Experience = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div
           className={`text-center mb-16 ${
-            isVisible ? 'animate-fade-in' : 'opacity-0'
+            isVisible ? "animate-fade-in" : "opacity-0"
           }`}
         >
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-            {t.experience.title} <span className="gradient-text">{t.experience.experience}</span>
+            {t.experience.title}{" "}
+            <span className="gradient-text">{t.experience.experience}</span>
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-purple-600 to-violet-500 mx-auto rounded-full"></div>
         </div>
@@ -37,9 +39,9 @@ export const Experience = () => {
                 className={`relative ${
                   isVisible
                     ? index % 2 === 0
-                      ? 'animate-slide-in-left'
-                      : 'animate-slide-in-right'
-                    : 'opacity-0'
+                      ? "animate-slide-in-left"
+                      : "animate-slide-in-right"
+                    : "opacity-0"
                 }`}
                 style={{ animationDelay: `${index * 100}ms` }}
               >
@@ -57,14 +59,26 @@ export const Experience = () => {
                               </h3>
                               <div className="flex items-center space-x-2 text-purple-600 dark:text-purple-400 mb-2">
                                 <Briefcase className="w-4 h-4" />
-                                <span className="font-semibold">{exp.company}</span>
+                                <span className="font-semibold">
+                                  {exp.company}
+                                </span>
                               </div>
                               <div className="flex items-center space-x-2 text-gray-500 dark:text-gray-400">
                                 <Calendar className="w-4 h-4" />
                                 <span className="text-sm">{exp.period}</span>
                               </div>
+                              <div className="flex items-center space-x-2 text-gray-500 dark:text-gray-400">
+                                <MapPin className="w-4 h-4" />
+                                <span className="text-sm">{exp.location}</span>
+                              </div>
                             </div>
-                            <div className="text-4xl">{exp.logo}</div>
+                            <Image
+                              src={exp.logo}
+                              alt={exp.company}
+                              width={50}
+                              height={50}
+                              className="rounded-full"
+                            />
                           </div>
                           <p className="text-gray-600 dark:text-gray-400 mb-4">
                             {getExperienceDescription(exp.id)}
@@ -92,14 +106,26 @@ export const Experience = () => {
                               </h3>
                               <div className="flex items-center space-x-2 text-purple-600 dark:text-purple-400 mb-2">
                                 <Briefcase className="w-4 h-4" />
-                                <span className="font-semibold">{exp.company}</span>
+                                <span className="font-semibold">
+                                  {exp.company}
+                                </span>
                               </div>
                               <div className="flex items-center space-x-2 text-gray-500 dark:text-gray-400">
                                 <Calendar className="w-4 h-4" />
                                 <span className="text-sm">{exp.period}</span>
                               </div>
+                              <div className="flex items-center space-x-2 text-gray-500 dark:text-gray-400">
+                                <MapPin className="w-4 h-4" />
+                                <span className="text-sm">{exp.location}</span>
+                              </div>
                             </div>
-                            <div className="text-4xl">{exp.logo}</div>
+                            <Image
+                              src={exp.logo}
+                              alt={exp.company}
+                              width={50}
+                              height={50}
+                              className="rounded-full"
+                            />
                           </div>
                           <p className="text-gray-600 dark:text-gray-400 mb-4">
                             {getExperienceDescription(exp.id)}
