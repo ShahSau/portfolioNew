@@ -1,16 +1,12 @@
-import { Skill, Project, Experience, Testimonial } from "../types/portfolio";
-
-export const skills: Skill[] = [
-  { name: "React", level: 95, category: "Frontend" },
-  { name: "TypeScript", level: 90, category: "Frontend" },
-  { name: "Next.js", level: 88, category: "Frontend" },
-  { name: "Tailwind CSS", level: 92, category: "Frontend" },
-  { name: "Node.js", level: 85, category: "Backend" },
-  { name: "Python", level: 80, category: "Backend" },
-  { name: "PostgreSQL", level: 82, category: "Backend" },
-  { name: "AWS", level: 75, category: "DevOps" },
-  { name: "Docker", level: 78, category: "DevOps" },
-];
+import { Project, Experience } from "../types/portfolio";
+import {
+  Code2,
+  Database,
+  Wrench,
+  Server,
+  Laptop,
+  Package,
+} from "lucide-react";
 
 export const projects: Project[] = [
   {
@@ -224,3 +220,125 @@ export const personalInfo = {
   linkedin: "https://linkedin.com/in/shahriar-saurov",
   twitter: "https://twitter.com/shah_sau",
 };
+
+export const fadeIn = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: { duration: 0.6, ease: "easeInOut" },
+  },
+};
+
+export const slideInLeft = {
+  hidden: { opacity: 0, x: -50 },
+  visible: {
+    opacity: 1,
+    x: 0,
+    transition: { duration: 0.7, ease: "easeOut" },
+  },
+};
+
+export const slideInRight = {
+  hidden: { opacity: 0, x: 50 },
+  visible: {
+    opacity: 1,
+    x: 0,
+    transition: { duration: 0.7, ease: "easeOut" },
+  },
+};
+
+export const skillCategories = [
+  {
+    title: "Languages",
+    icon: Laptop,
+    iconColor: "text-blue-400",
+    skills: ["Python", "JavaScript", "TypeScript", "Go", "C"],
+  },
+  {
+    title: "Frontend",
+    icon: Code2,
+    iconColor: "text-cyan-400",
+    skills: [
+      "React",
+      "Next.js",
+      "Redux",
+      "Angular",
+      "RxJS",
+      "Tailwind CSS",
+      "Material UI",
+      "Sass",
+      "Framer Motion",
+      "OpenLayers",
+      "Zustand",
+      "Zod",
+    ],
+  },
+  {
+    title: "Backend",
+    icon: Server,
+    iconColor: "text-green-400",
+    skills: [
+      "Node.js",
+      "Express.js",
+      "NestJS",
+      "Django",
+      "Django REST",
+      "FastAPI",
+      "Go Fiber",
+      "Gin",
+      "REST API",
+      "GraphQL",
+      "tRPC",
+      "JWT",
+    ],
+  },
+  {
+    title: "Database",
+    icon: Database,
+    iconColor: "text-purple-400",
+    skills: [
+      "PostgreSQL",
+      "MongoDB",
+      "SQLite",
+      "MySQL",
+      "Prisma",
+      "Socket.io",
+      "Redis",
+      "Apache Kafka",
+      "Supabase",
+    ],
+  },
+  {
+    title: "DevOps & Testing",
+    icon: Wrench,
+    iconColor: "text-orange-400",
+    skills: [
+      "AWS",
+      "Azure",
+      "Vercel",
+      "Firebase",
+      "Cypress",
+      "Jest",
+      "Playwright",
+      "Vitest",
+      "Nginx",
+      "GitHub Actions",
+      "GitLab CI",
+      "Kubernetes",
+      "Docker",
+    ],
+  },
+  {
+    title: "Others",
+    icon: Package,
+    iconColor: "text-pink-400",
+    skills: [
+      "Linux",
+      "Webpack",
+      "Git",
+      "Grafana",
+      "React Native",
+      "Apollo GraphQL",
+    ],
+  },
+];
