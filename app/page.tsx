@@ -3,7 +3,7 @@
 import { useDarkMode } from '@/hooks/useDarkMode';
 import { Navigation } from '@/components/Navigation';
 import { Hero } from '@/components/Hero/Hero';
-import { About } from '@/components/About';
+import { About } from '@/components/About/About';
 import { Experience } from '@/components/Experience';
 import { Projects } from '@/components/Projects';
 import { Contact } from '@/components/Contact';

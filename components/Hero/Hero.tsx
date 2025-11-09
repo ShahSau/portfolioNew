@@ -6,6 +6,7 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import ScrollIndicator from "./ScrollIndicator";
 import Link from "next/link";
 import SocialLink from "./SocialLink";
+import BeamWelcome from "../BeamWelcome";
 
 export const Hero = () => {
   const { t } = useLanguage();
@@ -22,13 +23,7 @@ export const Hero = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
         <div className="text-center">
           <div className="animate-fade-in">
-            <div className="inline-block mb-8 p-1 gap-2 bg-gradient-to-r from-purple-600 to-violet-500 rounded-full">
-              <div className="bg-white dark:bg-gray-800 rounded-full px-6 py-2">
-                <p className="text-sm font-medium text-gray-700 dark:text-gray-300">
-                  {t.hero.welcome}
-                </p>
-              </div>
-            </div>
+            <BeamWelcome text={t.hero.welcome} />
           </div>
 
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 animate-slide-up">
