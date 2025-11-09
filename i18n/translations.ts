@@ -23,9 +23,19 @@ export const translations = {
       quickFacts: "Quick Facts",
       location: "Location",
       experience: "Experience",
+      focusArea: "Focus Areas",
+      interests: "Interests",
       education: "Education",
       languages: "Languages",
-      skills: "Skills",
+      skills: "My Technology Stack",
+      skillsDescription:
+        "I build scalable and performant applications using a modern, component-based stack. Here are the primary tools and technologies I use daily.",
+      skillsConclusion:
+        "Always learning, always evolving. Technology never stops, and neither do I.",
+      aboutMyJourney:
+        "Passionate full-stack developer with 5+ years of experience building scalable web applications. I love turning complex problems into simple, beautiful solutions.",
+      missionStatementDescription:
+        "My mission is to create digital experiences that make a difference, combining technical excellence with user-centric design.",
     },
     experience: {
       title: "Work",
@@ -77,7 +87,7 @@ export const translations = {
       welcome: "Willkommen zu meinem Portfolio",
       hi: "Hallo, ich bin",
       getInTouch: "Kontakt aufnehmen",
-      connect: 'Lass uns verbinden',
+      connect: "Lass uns verbinden",
       viewProjects: "Projekte ansehen",
       bio: "Innovativer, aufgabenorientierter, erfahrener Full-Stack-Entwickler mit einer Leidenschaft dafür, komplexe Herausforderungen in elegante Lösungen zu verwandeln.",
     },
@@ -89,9 +99,19 @@ export const translations = {
       quickFacts: "Fakten",
       location: "Standort",
       experience: "Erfahrung",
+      focusArea: "Fokusbereiche",
+      interests: "Interessen",
       education: "Ausbildung",
       languages: "Sprachen",
-      skills: "Fähigkeiten",
+      skills: "Meine Technologiestack",
+      skillsDescription:
+        "Ich entwickle skalierbare und leistungsfähige Anwendungen mit einem modernen, komponentenbasierten Stack. Hier sind die wichtigsten Werkzeuge und Technologien, die ich täglich verwende.",
+      skillsConclusion:
+        "Ständig lernend, ständig entwickelnd. Technologie hört nie auf, und ich auch nicht.",
+      aboutMyJourney:
+        "Leidenschaftlicher Full-Stack-Entwickler mit über 5 Jahren Erfahrung in der Entwicklung skalierbarer Webanwendungen. Ich liebe es, komplexe Probleme in einfache, schöne Lösungen zu verwandeln.",
+      missionStatementDescription:
+        "Meine Mission ist es, digitale Erlebnisse zu schaffen, die einen Unterschied machen, indem ich technische Exzellenz mit benutzerzentriertem Design kombiniere.",
     },
     experience: {
       title: "Berufliche",
@@ -156,9 +176,19 @@ export const translations = {
       quickFacts: "Faktoja",
       location: "Sijainti",
       experience: "Kokemus",
+      focusArea: "Painopistealueet",
+      interests: "Kiinnostuksen kohteet",
       education: "Koulutus",
       languages: "Kielet",
-      skills: "Taidot",
+      skills: "Teknologiakokonaisuuteni",
+      skillsDescription:
+        "Rakennan skaalautuvia ja suorituskykyisiä sovelluksia modernilla, komponenttipohjaisella pinolla. Tässä ovat tärkeimmät työkalut ja teknologiat, joita käytän päivittäin.",
+      skillsConclusion:
+        "Aina oppimassa, aina kehittymässä. Teknologia ei koskaan pysähdy, eikä minäkään.",
+      aboutMyJourney:
+        "Intohtoinen full-stack-kehittäjä, jolla on yli 5 vuoden kokemus skaalautuvien web-sovellusten rakentamisesta. Rakastan muuttaa monimutkaiset ongelmat yksinkertaisiksi, kauniiksi ratkaisuiksi.",
+      missionStatementDescription:
+        "Missiooni on luoda digitaalisia kokemuksia, jotka tekevät eron, yhdistämällä tekninen erinomaisuus käyttäjäkeskeiseen suunnitteluun.",
     },
     experience: {
       title: "Työ",
@@ -406,7 +436,6 @@ export const projectTranslations = {
     ],
   },
 } as const;
-
 
 export type Language = keyof typeof translations;
 export type TranslationKeys = typeof translations.en;

@@ -210,32 +210,6 @@ export const experiences: Experience[] = [
   },
 ];
 
-export const testimonials: Testimonial[] = [
-  {
-    id: "1",
-    name: "Sarah Johnson",
-    position: "Product Manager",
-    company: "Tech Innovations Inc.",
-    text: "An exceptional developer who consistently delivers high-quality work. Their technical expertise and problem-solving abilities are outstanding.",
-    avatar: "👩‍💼",
-  },
-  {
-    id: "2",
-    name: "Michael Chen",
-    position: "CTO",
-    company: "Digital Solutions GmbH",
-    text: "One of the most talented developers I have worked with. Great at translating business requirements into elegant technical solutions.",
-    avatar: "��‍💻",
-  },
-  {
-    id: "3",
-    name: "Emma Davis",
-    position: "Tech Lead",
-    company: "StartUp Ventures",
-    text: "A reliable team player with excellent communication skills. Always willing to go the extra mile to ensure project success.",
-    avatar: "👩‍🔬",
-  },
-];
 
 export const personalInfo = {
   name: "Shahriar",
