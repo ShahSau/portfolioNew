@@ -7,13 +7,16 @@ export interface Skill {
 export interface Project {
   id: string;
   title: string;
+  image: string;
+  githubUrl: string;
+  liveUrl: string;
+  youtubeLink: string;
+  dockerLink: string;
+  type: string;
+  technologies: string[];
   description: string;
   longDescription: string;
-  image: string;
-  technologies: string[];
-  liveUrl?: string;
-  githubUrl?: string;
-  featured: boolean;
+  featured?: boolean;
 }
 
 export interface Experience {

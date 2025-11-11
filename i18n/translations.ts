@@ -47,10 +47,12 @@ export const translations = {
       allProjects: "All Projects",
       featuredOnly: "Featured Only",
       featured: "Featured",
-      viewProject: "View Project",
-      viewCode: "View Code",
+      viewProject: "Demo",
+      viewCode: "Code",
       technologies: "Technologies",
       close: "Close",
+      about: "About This Project",
+      technologiesUsed: "Technologies Used",
     },
     contact: {
       title: "Get In",
@@ -123,10 +125,12 @@ export const translations = {
       allProjects: "Alle Projekte",
       featuredOnly: "Nur Hervorgehobene",
       featured: "Hervorgehoben",
-      viewProject: "Projekt ansehen",
-      viewCode: "Code ansehen",
+      viewProject: "Ansehen",
+      viewCode: "Code",
       technologies: "Technologien",
       close: "Schließen",
+      about: "Über dieses Projekt",
+      technologiesUsed: "Verwendete Technologien",
     },
     contact: {
       title: "Kontakt",
@@ -200,10 +204,12 @@ export const translations = {
       allProjects: "Kaikki projektit",
       featuredOnly: "Vain valitut",
       featured: "Valikoitu",
-      viewProject: "Näytä projekti",
-      viewCode: "Näytä koodi",
+      viewProject: "Demo",
+      viewCode: "koodi",
       technologies: "Teknologiat",
       close: "Sulje",
+      about: "Tietoa tästä projektista",
+      technologiesUsed: "Käytetyt teknologiat",
     },
     contact: {
       title: "Ota",
@@ -310,42 +316,72 @@ export const projectTranslations = {
     projects: [
       {
         id: "1",
-        description: "Full-stack e-commerce solution with real-time inventory",
+        description: "A SASS platform depecting the power of AI. This platform uses OpenAI's GPT-3 and other AI models to generate contents.",
         longDescription:
-          "A comprehensive e-commerce platform built with React, Node.js, and PostgreSQL. Features include real-time inventory management, secure payment processing, and an admin dashboard.",
+          "Take your platform to new heights with our comprehensive suite of AI-powered features and seamless payment integration. Produce unique and personalized music compositions utilizing advanced AI algorithms tailored to diverse musical preferences. Effortlessly create professional-grade logos, customized email templates, and digital portraits.",
       },
       {
         id: "2",
         description:
-          "Collaborative project management tool with real-time updates",
+          "A robust and scalable backend system built using Go and the Gin framework, designed to support a comprehensive restaurant management platform.",
         longDescription:
-          "A modern task management application with team collaboration features, real-time notifications, and advanced filtering capabilities.",
+          "Secure Authentication: Implemented JWT (JSON Web Token) for secure and stateless user authentication. Menu Management: CRUD operations for managing the restaurant menu, including categories, items, prices, and availability.Restaurant Management: Manage restaurant details, including name, location, hours of operation, and more.Role Management: Assign and manage roles (e.g., admin, staff) to control access levels and permissions.",
       },
       {
         id: "3",
-        description: "ML-powered content creation tool for marketers",
+        description: "Seamless User Experience and Comprehensive Business Solutions with NextAuth, Stripe Integration, and Multi-Language Support.",
         longDescription:
-          "An AI-powered platform that helps content creators and marketers generate high-quality content using advanced language models.",
+          "Enhance your platform's functionality with a feature-rich set designed to elevate user experience and empower businesses. Our solution seamlessly integrates NextAuth for secure Google and GitHub logins, Stripe for smooth payments, and offers multi-currency and multi-language support. Whether you're renting cars, booking car repair services, or selling car equipment, our platform provides a unified and user-friendly experience.",
       },
       {
         id: "4",
         description:
-          "Business intelligence dashboard with live data visualization",
+          "A job portal is build on Next.js, Django REST framework and postgres.",
         longDescription:
-          "A comprehensive analytics dashboard providing real-time insights into business metrics with interactive charts and custom reports.",
+          "Revolutionize your job recruitment and candidate management process with our state-of-the-art web app. With a focus on JWT and cookies for secure authentication, dynamic map functionality, real-time updates, and comprehensive job statistics, our solution offers an unparalleled experience for both employers and candidates.",
       },
       {
         id: "5",
-        description: "Multi-platform content scheduling and analytics tool",
+        description: "Elevated User Experience and Robust Security: A Feature-Packed MERN app with Multilingual Support, JWT Authentication, and Role-Based Authorization.",
         longDescription:
-          "Schedule and manage content across multiple social media platforms with analytics tracking and engagement metrics.",
+          "This solution focuses on providing an elevated user experience and secure authentication through several key features. It ensures user comfort with multi-language support (English, German, Finnish) and visually appealing advanced UI animations using Framer Motion. Robust security is maintained via JWT authentication and Firebase, which is complemented by easy Google Login for streamlined onboarding. The application's efficiency is optimized with Redux for state management, and users can enjoy personalized features like a favorites list and secure, role-based access control. Finally, the platform includes practical functions like integrated email communication and seamless image uploads via Cloudinary.",
       },
       {
         id: "6",
-        description: "Mobile-first fitness and nutrition tracking application",
+        description: "A robust and scalable backend system built using Go and the Gin framework, designed to support a comprehensive eCommerce platform.",
         longDescription:
-          "Track workouts, nutrition, and progress with personalized recommendations and social features for motivation.",
+          "This platform is built on secure user management, utilizing JWT (JSON Web Token) for robust authentication and authorization. Upon successful login, tokens are generated and validated on every request, ensuring secure, stateless user sessions and restricted access to protected routes. Registered users can log in, register, and manage their profiles, while also being able to browse products, place new orders, view history, and track status. Finally, the system includes admin-specific authentication that grants access to a dedicated dashboard for managing and updating all order fulfillment processes.",
       },
+      {
+        id: "7",
+        description: "Gameboy is a vibrant and engaging free-to-play gaming platform info webapp crafted using modern web technologies like JavaScript, Next.js, React, Framer Motion, and Chakra UI.",
+        longDescription:
+          "Gameboy is a dynamic, free-to-play gaming platform info web app designed to offer a seamless and immersive experience. Built with modern technologies like JavaScript, Next.js, and React, the application ensures fast load times and a responsive user interface by leveraging server-side rendering. Framer Motion is utilized to enhance user engagement with fluid animations and transitions. Gameboy provides access to a diverse selection of games anytime, anywhere, delivering pure gaming pleasure without downloads or hassle.",
+      },
+      {
+        id: "8",
+        description: "A dashboard to visualize the sales data of a superstore. This dashboard is designed to provide insights into the sales data of a superstore.",
+        longDescription:
+          "This data dashboard prioritizes high performance and scalability, utilizing Vite and React for fast build times and efficient rendering, even with large datasets. It offers interactive data visualization through Recharts, providing users with customizable and dynamic charts for effective data analysis. The application guarantees type safety and reliability by implementing TypeScript, which reduces bugs and enhances code maintainability. Finally, a modern, fully responsive UI is ensured via TailwindCSS, offering a user-friendly and accessible experience supported by a modular and extensible architecture.",
+      },
+      {
+        id: "9",
+        description: "Entertainment Vibe is a web app that is designed to provide a seamless user experience, the app allows users to explore an extensive collection of movies with detailed information, including synopses, ratings, and cast details.",
+        longDescription:
+          "Entertainment Vibe is a movie information application offering a seamless user experience via a user-friendly and responsive interface built with Chakra UI. It provides access to a vast and diverse movie collection powered by the TMDB API, including detailed information, ratings, and cast details. Users can efficiently discover films using a dynamic search functionality that allows filtering by title, genre, and more. Leveraging Vite's fast build toolchain, the app ensures high performance, quick loading times, and smooth, efficient rendering across all devices.",
+      },
+      {
+        id: "10",
+        description: "A cutting-edge web application built using Astro, TypeScript, and TailwindCSS. The platform delivers high performance, modern design, and flexibility for developers looking to create scalable web experiences.",
+        longDescription:
+          "CerebroX is a high-performance web platform built using Astro for static site generation and server-side rendering, ensuring fast load times and smooth user interactions. Its design is sleek and modern thanks to TailwindCSS, offering a responsive, clean interface that prioritizes usability and aesthetics. The platform features a scalable, modular architecture enhanced by TypeScript, which supports easy maintenance and integration of new features. Finally, CerebroX offers a developer-friendly environment with efficient tooling and benefits from flexible deployment via Netlify for seamless updates and reliable performance.",
+      },
+      {
+        id: "11",
+        description: "FitTrackr is a mobile app designed to help users track their fitness progress and achieve their health goals.",
+        longDescription:
+          "FitTrackr is a cross-platform fitness application built with React Native, working seamlessly on both Android and iOS devices. The core functionality centers on detailed workout logging, allowing users to track exercises with sets, reps, duration, and intensity. Users can create and modify custom workout plans tailored to their goals. The app ensures progress tracking by visualizing fitness data through charts and summaries. Finally, a secure user authentication system guarantees data privacy and access control.",
+      }
     ],
   },
   de: {
@@ -353,43 +389,73 @@ export const projectTranslations = {
       {
         id: "1",
         description:
-          "Full-Stack E-Commerce-Lösung mit Echtzeit-Bestandsverwaltung",
+          "Eine SASS-Plattform, die die Leistungsfähigkeit von KI demonstriert. Diese Plattform nutzt OpenAIs GPT-3 und andere KI-Modelle zur Inhaltsgenerierung.",
         longDescription:
-          "Eine umfassende E-Commerce-Plattform, entwickelt mit React, Node.js und PostgreSQL. Funktionen umfassen Echtzeit-Bestandsverwaltung, sichere Zahlungsabwicklung und ein Admin-Dashboard.",
+          "Bringen Sie Ihre Plattform mit unserer umfassenden Suite KI-gestützter Funktionen und nahtloser Zahlungsintegration auf ein neues Niveau. Erstellen Sie einzigartige und personalisierte Musikkompositionen mithilfe fortschrittlicher KI-Algorithmen, die auf verschiedene musikalische Vorlieben zugeschnitten sind. Erstellen Sie mühelos professionelle Logos, maßgeschneiderte E-Mail-Vorlagen und digitale Porträts.",
       },
       {
         id: "2",
         description:
-          "Kollaboratives Projektmanagement-Tool mit Echtzeit-Updates",
+          "Ein robustes und skalierbares Backend-System, das mit Go und dem Gin-Framework entwickelt wurde und eine umfassende Restaurant-Management-Plattform unterstützt.",
         longDescription:
-          "Eine moderne Aufgabenverwaltungsanwendung mit Teamzusammenarbeitsfunktionen, Echtzeit-Benachrichtigungen und erweiterten Filtermöglichkeiten.",
+          "Sichere Authentifizierung: Implementierung von JWT (JSON Web Token) für eine sichere und zustandslose Benutzer-Authentifizierung. Menüverwaltung: CRUD-Operationen zur Verwaltung des Restaurantmenüs, einschließlich Kategorien, Artikel, Preise und Verfügbarkeit. Restaurantverwaltung: Verwaltung von Restaurantdetails, einschließlich Name, Standort, Öffnungszeiten und mehr. Rollenverwaltung: Zuweisung und Verwaltung von Rollen (z.B. Admin, Mitarbeiter) zur Steuerung von Zugriffslevels und Berechtigungen.",
       },
       {
         id: "3",
-        description: "ML-gestütztes Content-Erstellungstool für Vermarkter",
+        description: "Nahtloses Benutzererlebnis und umfassende Geschäftslösungen mit NextAuth, Stripe-Integration und Mehrsprachigkeit.",
         longDescription:
-          "Eine KI-gestützte Plattform, die Content-Erstellern und Vermarktern hilft, hochwertige Inhalte mithilfe fortschrittlicher Sprachmodelle zu generieren.",
+          "Verbessern Sie die Funktionalität Ihrer Plattform mit einem funktionsreichen Set, das darauf ausgelegt ist, die Benutzererfahrung zu verbessern und Unternehmen zu stärken. Unsere Lösung integriert nahtlos NextAuth für sichere Google- und GitHub-Anmeldungen, Stripe für reibungslose Zahlungen und bietet Mehrwährungs- und Mehrsprachigkeit. Egal, ob Sie Autos vermieten, Autoreparaturdienste buchen oder Autozubehör verkaufen, unsere Plattform bietet ein einheitliches und benutzerfreundliches Erlebnis.",
       },
       {
         id: "4",
         description:
-          "Business Intelligence Dashboard mit Live-Datenvisualisierung",
+          "Ein Jobportal, das auf Next.js, Django REST Framework und Postgres aufgebaut ist.",
         longDescription:
-          "Ein umfassendes Analyse-Dashboard, das Echtzeiteinblicke in Geschäftskennzahlen mit interaktiven Diagrammen und benutzerdefinierten Berichten bietet.",
+          "Revolutionieren Sie Ihren Einstellungs- und Kandidatenmanagementprozess mit unserer hochmodernen Webanwendung. Mit Fokus auf JWT und Cookies für sichere Authentifizierung, dynamische Kartenfunktionen, Echtzeit-Updates und umfassende Jobstatistiken bietet unsere Lösung ein unvergleichliches Erlebnis für Arbeitgeber und Kandidaten.",
       },
       {
         id: "5",
         description:
-          "Plattformübergreifendes Content-Planungs- und Analysetool",
+          "Erhöhte Benutzererfahrung und robuste Sicherheit: Eine funktionsreiche MERN-App mit Mehrsprachigkeit, JWT-Authentifizierung und rollenbasierter Autorisierung.",
         longDescription:
-          "Planen und verwalten Sie Inhalte über mehrere Social-Media-Plattformen mit Analyse-Tracking und Engagement-Metriken.",
+          "Diese Lösung konzentriert sich auf die Bereitstellung einer verbesserten Benutzererfahrung und sicheren Authentifizierung durch mehrere wichtige Funktionen. Sie gewährleistet den Benutzerkomfort mit mehrsprachiger Unterstützung (Englisch, Deutsch, Finnisch) und visuell ansprechenden fortschrittlichen UI-Animationen mit Framer Motion. Robuste Sicherheit wird durch JWT-Authentifizierung und Firebase aufrechterhalten, die durch eine einfache Google-Anmeldung für einen reibungslosen Onboarding-Prozess ergänzt wird. Die Effizienz der Anwendung wird mit Redux für das State Management optimiert, und die Benutzer können personalisierte Funktionen wie eine Favoritenliste und eine sichere, rollenbasierte Zugriffskontrolle genießen. Schließlich umfasst die Plattform praktische Funktionen wie integrierte E-Mail-Kommunikation und nahtlose Bild-Uploads über Cloudinary.",
       },
       {
         id: "6",
-        description: "Mobile-First Fitness- und Ernährungs-Tracking-App",
+        description: "Ein robustes und skalierbares Backend-System, das mit Go und dem Gin-Framework entwickelt wurde und eine umfassende eCommerce-Plattform unterstützt.",
         longDescription:
-          "Verfolgen Sie Workouts, Ernährung und Fortschritte mit personalisierten Empfehlungen und sozialen Funktionen zur Motivation.",
+          "Diese Plattform basiert auf einem sicheren Benutzermanagement und nutzt JWT (JSON Web Token) für eine robuste Authentifizierung und Autorisierung. Nach erfolgreicher Anmeldung werden Tokens generiert und bei jeder Anfrage validiert, um sichere, zustandslose Benutzersitzungen und eingeschränkten Zugriff auf geschützte Routen zu gewährleisten. Registrierte Benutzer können sich anmelden, registrieren und ihre Profile verwalten, während sie auch Produkte durchsuchen, neue Bestellungen aufgeben, den Verlauf einsehen und den Status verfolgen können. Schließlich umfasst das System eine spezifische Authentifizierung für Administratoren, die den Zugriff auf ein dediziertes Dashboard zur Verwaltung und Aktualisierung aller Bestellabwicklungsprozesse gewährt.",
       },
+      {
+        id: "7",
+        description: "Gameboy ist eine lebendige und ansprechende Free-to-Play-Gaming-Plattform-Info-Webanwendung, die mit modernen Webtechnologien wie JavaScript, Next.js, React, Framer Motion und Chakra UI entwickelt wurde.",
+        longDescription:
+          "Gameboy ist eine dynamische, kostenlose Gaming-Plattform-Info-Webanwendung, die darauf ausgelegt ist, ein nahtloses und immersives Erlebnis zu bieten. Die Anwendung wurde mit modernen Technologien wie JavaScript, Next.js und React entwickelt und gewährleistet schnelle Ladezeiten sowie eine reaktionsschnelle Benutzeroberfläche durch serverseitiges Rendering. Framer Motion wird genutzt, um das Benutzerengagement mit flüssigen Animationen und Übergängen zu verbessern. Gameboy bietet jederzeit und überall Zugriff auf eine vielfältige Auswahl an Spielen und ermöglicht reines Gaming-Vergnügen ohne Downloads oder Aufwand.",
+      },
+      {
+        id: "8",
+        description: "Ein Dashboard zur Visualisierung der Verkaufsdaten eines Supermarktes. Dieses Dashboard soll Einblicke in die Verkaufsdaten eines Supermarktes bieten.",
+        longDescription:
+          "Dieses Dashboard priorisiert hohe Leistung und Skalierbarkeit und nutzt Vite und React für schnelle Build-Zeiten und effizientes Rendering, selbst bei großen Datensätzen. Es bietet interaktive Datenvisualisierung durch Recharts und ermöglicht den Benutzern anpassbare und dynamische Diagramme für eine effektive Datenanalyse. Die Anwendung garantiert Typensicherheit und Zuverlässigkeit durch die Implementierung von TypeScript, was Fehler reduziert und die Wartbarkeit des Codes verbessert. Schließlich wird eine moderne, vollständig responsive Benutzeroberfläche über TailwindCSS sichergestellt, die ein benutzerfreundliches und zugängliches Erlebnis bietet, das von einer modularen und erweiterbaren Architektur unterstützt wird.",
+      },
+      {
+        id: "9",
+        description: "Entertainment Vibe ist eine Webanwendung, die darauf ausgelegt ist, ein nahtloses Benutzererlebnis zu bieten. Die App ermöglicht es den Benutzern, eine umfangreiche Sammlung von Filmen mit detaillierten Informationen, einschließlich Zusammenfassungen, Bewertungen und Besetzungsdetails, zu erkunden.",
+        longDescription:
+          "Entertainment Vibe ist eine Film-Informationsanwendung, die ein nahtloses Benutzererlebnis über eine benutzerfreundliche und responsive Oberfläche bietet, die mit Chakra UI erstellt wurde. Sie bietet Zugriff auf eine umfangreiche und vielfältige Filmsammlung, die von der TMDB API unterstützt wird, einschließlich detaillierter Informationen, Bewertungen und Besetzungsdetails. Benutzer können Filme effizient entdecken, indem sie eine dynamische Suchfunktion nutzen, die das Filtern nach Titel, Genre und mehr ermöglicht. Durch die Nutzung von Vite's schneller Build-Toolchain gewährleistet die App hohe Leistung, schnelle Ladezeiten und ein reibungsloses, effizientes Rendering auf allen Geräten.",
+      },
+      {
+        id: "10",
+        description: "Eine hochmoderne Webanwendung, die mit Astro, TypeScript und TailwindCSS entwickelt wurde. Die Plattform bietet hohe Leistung, modernes Design und Flexibilität für Entwickler, die skalierbare Web-Erlebnisse schaffen möchten.",
+        longDescription:
+          "CerebroX ist eine leistungsstarke Webplattform, die mit Astro für die statische Seitengenerierung und serverseitiges Rendering entwickelt wurde und schnelle Ladezeiten sowie reibungslose Benutzerinteraktionen gewährleistet. Ihr Design ist dank TailwindCSS schlank und modern und bietet eine responsive, saubere Oberfläche, die Benutzerfreundlichkeit und Ästhetik priorisiert. Die Plattform verfügt über eine skalierbare, modulare Architektur, die durch TypeScript verbessert wird und eine einfache Wartung und Integration neuer Funktionen unterstützt. Schließlich bietet CerebroX eine entwicklerfreundliche Umgebung mit effizienten Tools und profitiert von flexibler Bereitstellung über Netlify für nahtlose Updates und zuverlässige Leistung.",
+      },
+      {
+        id: "11",
+        description: "FitTrackr ist eine mobile App, die Benutzern hilft, ihren Fitnessfortschritt zu verfolgen und ihre Gesundheitsziele zu erreichen.",
+        longDescription:
+          "FitTrackr ist eine plattformübergreifende Fitnessanwendung, die mit React Native entwickelt wurde und nahtlos auf Android- und iOS-Geräten funktioniert. Die Kernfunktionalität konzentriert sich auf detaillierte Trainingsprotokollierung, die es Benutzern ermöglicht, Übungen mit Sätzen, Wiederholungen, Dauer und Intensität zu verfolgen. Benutzer können benutzerdefinierte Trainingspläne erstellen und anpassen, die auf ihre Ziele zugeschnitten sind. Die App gewährleistet die Fortschrittsverfolgung, indem sie Fitnessdaten durch Diagramme und Zusammenfassungen visualisiert. Schließlich garantiert ein sicheres Benutzerauthentifizierungssystem Datenschutz und Zugriffskontrolle.",
+      }
     ],
   },
   fi: {
@@ -397,42 +463,72 @@ export const projectTranslations = {
       {
         id: "1",
         description:
-          "Full-stack verkkokaupparatkaisu reaaliaikaisella varastonhallinnalla",
+          "SASS-alusta, joka testaa tekoälyn tehoa. Tämä alusta käyttää OpenAI:n GPT-3:a ja muita tekoälymalleja sisällön luomiseen.",
         longDescription:
-          "Kattava verkkokauppa-alusta, joka on rakennettu Reactilla, Node.js:llä ja PostgreSQL:llä. Ominaisuuksiin kuuluvat reaaliaikainen varastonhallinta, turvallinen maksujenkäsittely ja hallintapaneeli.",
+          "Vie alustasi uusiin korkeuksiin kattavalla tekoälypohjaisten ominaisuuksien ja saumattoman maksujen integroinnin sarjalla. Tuota ainutlaatuisia ja personoituja musiikkikappaleita hyödyntämällä edistyneitä tekoälyalgoritmeja, jotka on räätälöity erilaisiin musiikkimieltymyksiin. Luo vaivattomasti ammattitason logoja, räätälöityjä sähköpostipohjia ja digitaalisia muotokuvia.",
       },
       {
         id: "2",
         description:
-          "Yhteistyöhön perustuva projektinhallintatyökalu reaaliaikaisilla päivityksillä",
+          "Vankka ja skaalautuva backend-järjestelmä, joka on rakennettu Go:lla ja Gin-kehyksellä tukemaan kattavaa ravintolanhallinta-alustaa.",
         longDescription:
-          "Moderni tehtävienhallintasovellus, jossa on tiimityöominaisuuksia, reaaliaikaiset ilmoitukset ja edistyneet suodatusmahdollisuudet.",
+          "Turvallinen todennus: Toteutettu JWT (JSON Web Token) turvalliseen ja tilattomaan käyttäjätodennukseen. Valikon hallinta: CRUD-toiminnot ravintolan valikon hallintaan, mukaan lukien kategoriat, tuotteet, hinnat ja saatavuus. Ravintolan hallinta: Hallinnoi ravintolan tietoja, mukaan lukien nimi, sijainti, aukioloajat ja paljon muuta. Roolien hallinta: Määritä ja hallinnoi rooleja (esim. admin, henkilökunta) pääsyn tasojen ja käyttöoikeuksien hallitsemiseksi.",
       },
       {
         id: "3",
-        description: "ML-pohjainen sisällönluontityökalu markkinoijille",
+        description: "Saumaton käyttäjäkokemus ja kattavat liiketoimintaratkaisut NextAuthin, Stripen integroinnin ja monikielisen tuen avulla.",
         longDescription:
-          "Tekoälypohjainen alusta, joka auttaa sisällöntuottajia ja markkinoijia luomaan laadukasta sisältöä edistyneillä kielimalleilla.",
+          "Paranna alustasi toiminnallisuutta ominaisuusrikkaalla sarjalla, joka on suunniteltu parantamaan käyttäjäkokemusta ja vahvistamaan yrityksiä. Ratkaisumme integroi saumattomasti NextAuthin turvallisia Google- ja GitHub-kirjautumisia varten, Stripen sujuvia maksuja varten, ja tarjoaa monivaluutta- ja monikielisen tuen. Olitpa sitten vuokraamassa autoja, varaamassa autonkorjauspalveluita tai myymässä autojen varusteita, alustamme tarjoaa yhtenäisen ja käyttäjäystävällisen kokemuksen.",
       },
       {
         id: "4",
         description:
-          "Liiketoimintatiedon hallintapaneeli reaaliaikaisella datavisualisoinnilla",
+          "Työpaikkaportaalin on rakennettu Next.js:llä, Django REST -kehyksellä ja Postgresilla.",
         longDescription:
-          "Kattava analytiikkapaneeli, joka tarjoaa reaaliaikaisia näkemyksiä liiketoimintamittareista interaktiivisilla kaavioilla ja mukautetuilla raporteilla.",
+          "Vallankumouksellista työpaikkojen rekrytointi- ja ehdokashallintaprosessisi huippuluokan web-sovelluksellamme. Keskittyen JWT:hen ja evästeisiin turvallista todennusta varten, dynaamiseen karttatoiminnallisuuteen, reaaliaikaisiin päivityksiin ja kattaviin työtilastoihin, ratkaisumme tarjoaa vertaansa vailla olevan kokemuksen sekä työnantajille että ehdokkaille.",
       },
       {
         id: "5",
-        description: "Monialustainen sisällön ajastus- ja analytiikkatyökalu",
+        description: "Parannettu käyttäjäkokemus ja vankka turvallisuus: Ominaisuuksilla täytetty MERN-sovellus, jossa on monikielinen tuki, JWT-todennus ja roolipohjainen valtuutus.",
         longDescription:
-          "Aikatauluta ja hallitse sisältöä useilla sosiaalisen median alustoilla analytiikkaseurannalla ja sitoutumismittareilla.",
+          "Tämä ratkaisu keskittyy parannetun käyttäjäkokemuksen ja turvallisen todennuksen tarjoamiseen useiden keskeisten ominaisuuksien kautta. Se varmistaa käyttäjämukavuuden monikielisellä tuella (englanti, saksa, suomi) ja visuaalisesti houkuttelevilla edistyneillä käyttöliittymäanimaatioilla Framer Motionin avulla. Vankka turvallisuus ylläpidetään JWT-todennuksella ja Firebasella, jota täydentää helppo Google-kirjautuminen sujuvaa käyttöönottoa varten. Sovelluksen tehokkuus optimoidaan Reduxilla tilanhallintaan, ja käyttäjät voivat nauttia personoiduista ominaisuuksista, kuten suosikkilistasta ja turvallisesta, roolipohjaisesta pääsynhallinnasta. Lopuksi alusta sisältää käytännöllisiä toimintoja, kuten integroidun sähköpostiviestinnän ja saumattomat kuvanlataukset Cloudinaryn kautta.",
       },
       {
         id: "6",
-        description: "Mobile-first kunto- ja ravintoseurantasovellus",
+        description: "Vankka ja skaalautuva backend-järjestelmä, joka on rakennettu Go:lla ja Gin-kehyksellä tukemaan kattavaa eCommerce-alustaa.",
         longDescription:
-          "Seuraa harjoituksia, ravintoa ja edistymistä personoiduilla suosituksilla ja sosiaalisilla ominaisuuksilla motivaatioon.",
+          "Tämä alusta perustuu turvalliseen käyttäjähallintaan, hyödyntäen JWT:tä (JSON Web Token) vankkaan todennukseen ja valtuutukseen. Onnistuneen kirjautumisen jälkeen luodaan tokeneita, jotka validoidaan jokaisessa pyynnössä, varmistaen turvalliset, tilattomat käyttäjäsessiot ja rajoitetun pääsyn suojatuille reiteille. Rekisteröityneet käyttäjät voivat kirjautua sisään, rekisteröityä ja hallita profiilejaan sekä selata tuotteita, tehdä uusia tilauksia, tarkastella historiaa ja seurata tilauksen tilaa. Lopuksi järjestelmä sisältää ylläpitäjille tarkoitetun todennuksen, joka myöntää pääsyn omistettuun hallintapaneeliin kaikkien tilausten täyttöprosessien hallintaan ja päivittämiseen.",
       },
+      {
+        id: "7",
+        description: "Gameboy on elävä ja mukaansatempaava ilmainen pelialustasovellus, joka on luotu nykyaikaisilla verkkoteknologioilla, kuten JavaScript, Next.js, React, Framer Motion ja Chakra UI.",
+        longDescription:
+          "Gameboy on dynaaminen, ilmainen pelialustasovellus, joka on suunniteltu tarjoamaan saumaton ja mukaansatempaava kokemus. Sovellus on rakennettu nykyaikaisilla teknologioilla, kuten JavaScriptillä, Next.js:llä ja Reactilla, ja se varmistaa nopeat latausajat ja reagoivan käyttöliittymän hyödyntämällä palvelinpuolen renderöintiä. Framer Motionia käytetään parantamaan käyttäjien sitoutumista sulavilla animaatioilla ja siirtymillä. Gameboy tarjoaa pääsyn monipuoliseen pelivalikoimaan milloin tahansa ja missä tahansa, tarjoten puhdasta pelinautintoa ilman latauksia tai vaivaa.",
+      },
+      {
+        id: "8",
+        description: "Koontinäyttö superkaupan myyntitietojen visualisointiin. Tämä koontinäyttö on suunniteltu tarjoamaan näkemyksiä superkaupan myyntitiedoista.",
+        longDescription:
+          "Tämä sovellus hyödyntää mukautettavia ja dynaamisia kaavioita tehokkaaseen tietoanalyysiin. Sovellus takaa tyyppiturvallisuuden ja luotettavuuden TypeScriptin avulla, mikä vähentää virheitä ja parantaa koodin ylläpidettävyyttä. Lopuksi moderni, täysin responsiivinen käyttöliittymä varmistetaan TailwindCSS:n avulla, tarjoten käyttäjäystävällisen ja saavutettavan kokemuksen, jota tukee modulaarinen ja laajennettavissa oleva arkkitehtuuri.",
+      },
+      {
+        id: "9",
+        description: "Entertainment Vibe on verkkosovellus, joka on suunniteltu tarjoamaan saumaton käyttäjäkokemus. Sovellus mahdollistaa käyttäjien tutustua laajaan elokuvakokoelmaan, johon sisältyy yksityiskohtaista tietoa, kuten yhteenvetoja, arvioita ja näyttelijätietoja.",
+        longDescription:
+          "Entertainment Vibe on käyttäjäystävällinen ja responsiivinen käyttöliittymä, joka on rakennettu Chakra UI:lla. Se tarjoaa pääsyn laajaan ja monipuoliseen elokuvakokoelmaan, jota tukee TMDB API, mukaan lukien yksityiskohtaiset tiedot, arvostelut ja näyttelijätiedot. Käyttäjät voivat tehokkaasti löytää elokuvia dynaamisen hakutoiminnon avulla, joka mahdollistaa suodattamisen otsikon, genren ja muiden kriteerien mukaan. Hyödyntämällä Vite:n nopeaa rakennustyökalua, sovellus varmistaa korkean suorituskyvyn, nopeat latausajat ja sujuvan, tehokkaan renderöinnin kaikilla laitteilla.",
+      },
+      {
+        id: "10",
+        description: "Huipputeknologian verkkosovellus, joka on rakennettu käyttäen Astroa, TypeScriptiä ja TailwindCSS:ää. Alusta tarjoaa korkean suorituskyvyn, modernin muotoilun ja joustavuuden kehittäjille, jotka haluavat luoda skaalautuvia verkkokokemuksia.",
+        longDescription:
+          "CerebroX on huipputeknologian verkkosovellus, joka on rakennettu käyttäen Astroa staattiseen sivugenerointiin ja palvelinpuolen renderöintiin, varmistaen nopeat latausajat ja sujuvat käyttäjävuorovaikutukset. Sen muotoilu on tyylikäs ja moderni, kiitos TailwindCSS:n, tarjoten responsiivisen, puhtaan käyttöliittymän, joka priorisoi käytettävyyttä ja estetiikkaa. Alustalla on skaalautuva, modulaarinen arkkitehtuuri, jota TypeScript parantaa, mikä tukee helppoa ylläpitoa ja uusien ominaisuuksien integrointia. Lopuksi CerebroX tarjoaa kehittäjäystävällisen ympäristön tehokkailla työkaluilla ja hyötyy joustavasta käyttöönotosta Netlify:n kautta saumattomien päivitysten ja luotettavan suorituskyvyn varmistamiseksi.",
+      },
+      {
+        id: "11",
+        description: "FitTrackr on mobiilisovellus, joka on suunniteltu auttamaan käyttäjiä seuraamaan kuntoiluaan ja saavuttamaan terveys- ja hyvinvointitavoitteensa.",
+        longDescription:
+          "FitTrackr on monialustainen kuntoilusovellus, joka on rakennettu React Native:lla ja toimii saumattomasti sekä Android- että iOS-laitteilla. Keskeinen toiminnallisuus keskittyy yksityiskohtaiseen harjoituslokitukseen, mikä mahdollistaa käyttäjien seurata harjoituksia sarjojen, toistojen, keston ja intensiivisyyden avulla. Käyttäjät voivat luoda ja muokata mukautettuja harjoitusohjelmia, jotka on räätälöity heidän tavoitteidensa mukaan. Sovellus varmistaa edistymisen seurannan visualisoimalla kuntoilutiedot kaavioiden ja yhteenvetojen avulla. Lopuksi turvallinen käyttäjätodennusjärjestelmä takaa tietosuojan ja pääsynhallinnan.",
+      }
     ],
   },
 } as const;
