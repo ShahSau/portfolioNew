@@ -18,6 +18,7 @@ export const projects: Project[] = [
     youtubeLink: "",
     dockerLink: "",
     type: "FullStack",
+    featured: true,
     technologies: [
       "React",
       "TypeScript",
@@ -70,6 +71,7 @@ export const projects: Project[] = [
     youtubeLink: "",
     dockerLink: "",
     type: "FullStack",
+    featured: true,
     technologies: [
       "Javascript",
       "Sharp",

@@ -3,22 +3,25 @@
 import { useState } from "react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { projects } from "@/data/portfolio";
-import { ExternalLink, Github, X } from "lucide-react";
+import { ExternalLink, Github, X, Youtube, Box } from "lucide-react";
 import { Project } from "@/types/portfolio";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 export const Projects = () => {
   const { ref, isVisible } = useScrollAnimation(0.2);
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
-  const [filter, setFilter] = useState("all");
+  const [filter, setFilter] = useState("featured");
   const { t, getProjectDescription } = useLanguage();
 
   const allTypes = projects.map((project) => project.type);
-
   const buttonType = Array.from(new Set(allTypes));
 
-  // const filteredProjects =
-  //   filter === 'featured' ? projects.filter((p) => p.featured) : projects;
+  const filteredProjects = projects.filter((project) => {
+    if (filter === "featured") {
+      return !!project.featured;
+    }
+    return project.type === filter;
+  });
 
   return (
     <section
@@ -57,7 +60,7 @@ export const Projects = () => {
                 className={`px-6 py-2 rounded-full font-medium transition-all ${
                   filter === type
                     ? "bg-gradient-to-r from-purple-600 to-violet-500 text-white shadow-lg"
-                    : "bg-gray-200 dark:bg-gray-800 text-gray-800 dark:text-gray-200 hover:bg-gray-300 dark:hover:bg-gray-700"
+                    : "bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600"
                 }`}
               >
                 {type}
@@ -67,7 +70,7 @@ export const Projects = () => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => (
+          {filteredProjects.map((project, index) => (
             <div
               key={project.id}
               className={`group glass-effect rounded-2xl overflow-hidden card-hover cursor-pointer ${
@@ -199,7 +202,7 @@ export const Projects = () => {
                 </div>
               </div>
 
-              <div className="flex space-x-4">
+              <div className="flex flex-wrap gap-4">
                 {selectedProject.liveUrl && (
                   <a
                     href={selectedProject.liveUrl}
@@ -222,6 +225,32 @@ export const Projects = () => {
                   >
                     <Github className="w-5 h-5" />
                     <span className="font-medium">{t.projects.viewCode}</span>
+                  </a>
+                )}
+                {selectedProject.youtubeLink && (
+                  <a
+                    href={selectedProject.youtubeLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center space-x-2 px-6 py-3 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full hover:bg-gray-300 dark:hover:bg-gray-600 hover:scale-105 transition-all"
+                  >
+                    <Youtube className="w-5 h-5" />
+                    <span className="font-medium">
+                       YouTube
+                    </span>
+                  </a>
+                )}
+                {selectedProject.dockerLink && (
+                  <a
+                    href={selectedProject.dockerLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center space-x-2 px-6 py-3 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full hover:bg-gray-300 dark:hover:bg-gray-600 hover:scale-105 transition-all"
+                  >
+                    <Box className="w-5 h-5" />
+                    <span className="font-medium">
+                      Docker
+                    </span>
                   </a>
                 )}
               </div>
