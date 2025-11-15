@@ -70,11 +70,17 @@ export const translations = {
       send: "Send Message",
       sending: "Sending...",
       success: "Thank you for your message! I will get back to you soon.",
+      initialText:"Hey there! We're excited to link 🔗"
     },
     footer: {
       rights: "All rights reserved.",
       builtWith: "Built with",
       and: "and",
+      in: "in",
+    },
+    terminal:{
+      emailText: "To start, could you give us ",
+      emailPostFix:"your email address?"
     },
   },
   de: {
@@ -149,11 +155,17 @@ export const translations = {
       sending: "Sende...",
       success:
         "Vielen Dank für Ihre Nachricht! Ich werde mich bald bei Ihnen melden.",
+      initialText:"Hallo! Wir freuen uns, 🔗 zu verbinden",
     },
     footer: {
       rights: "Alle Rechte vorbehalten.",
       builtWith: "Erstellt mit",
       and: "und",
+      in: "in",
+    },
+     terminal:{
+      emailText: "Um zu beginnen, könnten Sie uns bitte ",
+      emailPostFix:"Ihre E-Mail-Adresse geben?"
     },
   },
   fi: {
@@ -227,12 +239,18 @@ export const translations = {
       send: "Lähetä viesti",
       sending: "Lähetetään...",
       success: "Kiitos viestistäsi! Otan sinuun yhteyttä pian.",
+      initialText:"Hei! Olemme innoissamme saadessamme 🔗 yhteyden",
     },
     footer: {
       rights: "Kaikki oikeudet pidätetään.",
       builtWith: "Rakennettu",
       and: "ja",
+      in: "sisällä",
     },
+    terminal:{
+      emailText: "Aloittaaksemme, voisitko antaa meille ",
+      emailPostFix:"sähköpostiosoitteesi?"
+    }
   },
 } as const;
 
