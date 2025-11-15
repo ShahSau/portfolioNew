@@ -1,37 +1,35 @@
-import { FC } from "react";
-import About from "@/app/section/About";
-import Hero from "@/app/section/Hero";
-import JobTimeline from "@/app/section/JobTimeline";
-import Projects from "@/app/section/Projects";
-import TerminalContact from "@/app/section/TerminalContact";
-import { Sidebar } from "@/components/Nav/SideBar";
-import { SlideTabsAll } from "@/components/Nav/SlideTabsAll";
+'use client';
 
-const Home: FC = () => {
+import { useDarkMode } from '@/hooks/useDarkMode';
+import { Navigation } from '@/components/Navigation';
+import { Hero } from '@/components/Hero/Hero';
+import { About } from '@/components/About/About';
+import { Experience } from '@/components/Experience';
+import { Projects } from '@/components/Projects';
+import { Contact } from '@/components/Contact';
+import { Footer } from '@/components/Footer';
+import { ScrollProgress } from '@/components/ScrollProgress';
+import { BackToTop } from '@/components/BackToTop';
+import { LanguageProvider } from '@/contexts/LanguageContext';
+
+export default function Home() {
+  const { isDark, toggle } = useDarkMode();
+
   return (
-    <div className="flex flex-col lg:flex-row">
-      {/**Sidebar in medium or bigger screen*/}
-      <Sidebar />
-
-      <main className="flex-1">
-        {/**Tabs in smaller screen*/}
-        <SlideTabsAll />
-        <div className="p-4 lg:ml-52">
-          {/**Hero section */}
+    <LanguageProvider>
+      <div className={`${isDark ? 'dark' : ''}`}>
+        <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors">
+          <ScrollProgress />
+          <Navigation isDark={isDark} toggleDark={toggle} />
           <Hero />
-          {/**About section */}
           <About />
-          {/**Job Experience Timeline */}
-          <JobTimeline />
-
-          {/**Projects section */}
+          <Experience />
           <Projects />
-          {/**Contact section */}
-          <TerminalContact />
+          <Contact />
+          <Footer />
+          <BackToTop />
         </div>
-      </main>
-    </div>
+      </div>
+    </LanguageProvider>
   );
-};
-
-export default Home;
+}
