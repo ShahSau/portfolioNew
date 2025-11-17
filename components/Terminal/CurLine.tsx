@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ChangeEvent, FormEvent, useEffect } from "react";
+
 import { CurrentLineProps } from "./types/interface";
 
 const CurLine = ({

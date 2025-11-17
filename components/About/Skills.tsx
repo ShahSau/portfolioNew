@@ -1,7 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
+
 import { skillCategories } from "@/data/portfolio";
+
 import SkillCategory from "./SkillCategory";
 
 interface AboutMeProps {

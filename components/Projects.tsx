@@ -1,9 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import { ExternalLink, Github, X, Youtube, Box } from "lucide-react";
+
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { projects } from "@/data/portfolio";
-import { ExternalLink, Github, X, Youtube, Box } from "lucide-react";
 import { Project } from "@/types/portfolio";
 import { useLanguage } from "@/contexts/LanguageContext";
 
@@ -235,9 +236,7 @@ export const Projects = () => {
                     className="flex items-center space-x-2 px-6 py-3 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full hover:bg-gray-300 dark:hover:bg-gray-600 hover:scale-105 transition-all"
                   >
                     <Youtube className="w-5 h-5" />
-                    <span className="font-medium">
-                       YouTube
-                    </span>
+                    <span className="font-medium">YouTube</span>
                   </a>
                 )}
                 {selectedProject.dockerLink && (
@@ -248,9 +247,7 @@ export const Projects = () => {
                     className="flex items-center space-x-2 px-6 py-3 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full hover:bg-gray-300 dark:hover:bg-gray-600 hover:scale-105 transition-all"
                   >
                     <Box className="w-5 h-5" />
-                    <span className="font-medium">
-                      Docker
-                    </span>
+                    <span className="font-medium">Docker</span>
                   </a>
                 )}
               </div>

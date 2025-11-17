@@ -1,6 +1,7 @@
 "use client";
 
 import { useLanguage } from "@/contexts/LanguageContext";
+
 import { AboutMe } from "./AboutMe";
 import { Skills } from "./Skills";
 
@@ -16,7 +17,7 @@ export const About = () => {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: `radial-gradient(circle at 2px 2px, currentColor 1px, transparent 0)`,
+            backgroundImage: "radial-gradient(circle at 2px 2px, currentColor 1px, transparent 0)",
             backgroundSize: "40px 40px",
           }}
         ></div>

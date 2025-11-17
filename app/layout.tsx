@@ -1,5 +1,9 @@
-import './globals.css';
-import { generateMetadata, generatePersonSchema, generateWebsiteSchema } from '@/lib/metadata';
+import "./globals.css";
+import {
+  generateMetadata,
+  generatePersonSchema,
+  generateWebsiteSchema,
+} from "@/lib/metadata";
 
 export const metadata = generateMetadata();
 
@@ -23,9 +27,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
       </head>
-      <body>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

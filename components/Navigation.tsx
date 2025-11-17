@@ -2,9 +2,10 @@
 
 import { useState, useEffect } from "react";
 import { Menu, X, Moon, Sun, Globe } from "lucide-react";
+import { motion } from "framer-motion";
+
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Language } from "@/i18n/translations";
-import { motion } from "framer-motion";
 interface NavigationProps {
   isDark: boolean;
   toggleDark: () => void;

@@ -1,6 +1,7 @@
 "use client";
 
 import { Heart } from "lucide-react";
+
 import { personalInfo } from "@/data/portfolio";
 import { useLanguage } from "@/contexts/LanguageContext";
 

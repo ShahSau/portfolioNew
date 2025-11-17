@@ -1,12 +1,6 @@
+import { Code2, Database, Wrench, Server, Laptop, Package } from "lucide-react";
+
 import { Project, Experience } from "../types/portfolio";
-import {
-  Code2,
-  Database,
-  Wrench,
-  Server,
-  Laptop,
-  Package,
-} from "lucide-react";
 
 export const projects: Project[] = [
   {
@@ -38,7 +32,7 @@ export const projects: Project[] = [
     description:
       "A SASS platform depecting the power of AI. This platform uses OpenAI's GPT-3 and other AI models to generate contents.",
     longDescription:
-      "Take your platform to new heights with our comprehensive suite of AI-powered features and seamless payment integration. Produce unique and personalized music compositions utilizing advanced AI algorithms tailored to diverse musical preferences. Effortlessly create professional-grade logos, customized email templates, and digital portraits."
+      "Take your platform to new heights with our comprehensive suite of AI-powered features and seamless payment integration. Produce unique and personalized music compositions utilizing advanced AI algorithms tailored to diverse musical preferences. Effortlessly create professional-grade logos, customized email templates, and digital portraits.",
   },
   {
     id: "2",
@@ -50,7 +44,7 @@ export const projects: Project[] = [
     dockerLink: "",
     type: "Backend",
     technologies: [
-     "Go lang",
+      "Go lang",
       "Gin",
       "Swagger",
       "JSON Web Token (JWT)",
@@ -60,7 +54,7 @@ export const projects: Project[] = [
     description:
       "A robust and scalable backend system built using Go and the Gin framework, designed to support a comprehensive restaurant management platform.",
     longDescription:
-      "Secure Authentication: Implemented JWT (JSON Web Token) for secure and stateless user authentication. Menu Management: CRUD operations for managing the restaurant menu, including categories, items, prices, and availability.Restaurant Management: Manage restaurant details, including name, location, hours of operation, and more.Role Management: Assign and manage roles (e.g., admin, staff) to control access levels and permissions."
+      "Secure Authentication: Implemented JWT (JSON Web Token) for secure and stateless user authentication. Menu Management: CRUD operations for managing the restaurant menu, including categories, items, prices, and availability.Restaurant Management: Manage restaurant details, including name, location, hours of operation, and more.Role Management: Assign and manage roles (e.g., admin, staff) to control access levels and permissions.",
   },
   {
     id: "3",
@@ -95,7 +89,7 @@ export const projects: Project[] = [
     description:
       "Seamless User Experience and Comprehensive Business Solutions with NextAuth, Stripe Integration, and Multi-Language Support.",
     longDescription:
-      "Enhance your platform's functionality with a feature-rich set designed to elevate user experience and empower businesses. Our solution seamlessly integrates NextAuth for secure Google and GitHub logins, Stripe for smooth payments, and offers multi-currency and multi-language support. Whether you're renting cars, booking car repair services, or selling car equipment, our platform provides a unified and user-friendly experience."
+      "Enhance your platform's functionality with a feature-rich set designed to elevate user experience and empower businesses. Our solution seamlessly integrates NextAuth for secure Google and GitHub logins, Stripe for smooth payments, and offers multi-currency and multi-language support. Whether you're renting cars, booking car repair services, or selling car equipment, our platform provides a unified and user-friendly experience.",
   },
   {
     id: "4",
@@ -124,7 +118,7 @@ export const projects: Project[] = [
     description:
       "A job portal is build on Next.js, Django REST framework and postgres.",
     longDescription:
-      "Revolutionize your job recruitment and candidate management process with our state-of-the-art web app. With a focus on JWT and cookies for secure authentication, dynamic map functionality, real-time updates, and comprehensive job statistics, our solution offers an unparalleled experience for both employers and candidates."
+      "Revolutionize your job recruitment and candidate management process with our state-of-the-art web app. With a focus on JWT and cookies for secure authentication, dynamic map functionality, real-time updates, and comprehensive job statistics, our solution offers an unparalleled experience for both employers and candidates.",
   },
   {
     id: "5",
@@ -155,14 +149,15 @@ export const projects: Project[] = [
     description:
       "Elevated User Experience and Robust Security: A Feature-Packed MERN app with Multilingual Support, JWT Authentication, and Role-Based Authorization.",
     longDescription:
-      "This solution focuses on providing an elevated user experience and secure authentication through several key features. It ensures user comfort with multi-language support (English, German, Finnish) and visually appealing advanced UI animations using Framer Motion. Robust security is maintained via JWT authentication and Firebase, which is complemented by easy Google Login for streamlined onboarding. The application's efficiency is optimized with Redux for state management, and users can enjoy personalized features like a favorites list and secure, role-based access control. Finally, the platform includes practical functions like integrated email communication and seamless image uploads via Cloudinary."
+      "This solution focuses on providing an elevated user experience and secure authentication through several key features. It ensures user comfort with multi-language support (English, German, Finnish) and visually appealing advanced UI animations using Framer Motion. Robust security is maintained via JWT authentication and Firebase, which is complemented by easy Google Login for streamlined onboarding. The application's efficiency is optimized with Redux for state management, and users can enjoy personalized features like a favorites list and secure, role-based access control. Finally, the platform includes practical functions like integrated email communication and seamless image uploads via Cloudinary.",
   },
   {
     id: "6",
     title: "Ethnic Elegance",
     image: "/project-imgs/ethnicelegance.png",
     githubUrl: "https://github.com/ShahSau/EthnicElegance",
-    liveUrl: "https://ethnicelegance.onrender.com/v1/ecommerce/swagger/index.html",
+    liveUrl:
+      "https://ethnicelegance.onrender.com/v1/ecommerce/swagger/index.html",
     youtubeLink: "",
     dockerLink: "",
     type: "Backend",
@@ -172,12 +167,12 @@ export const projects: Project[] = [
       "Swagger",
       "JSON Web Token (JWT)",
       "MongoDB",
-      "JSON"
+      "JSON",
     ],
     description:
       "A robust and scalable backend system built using Go and the Gin framework, designed to support a comprehensive eCommerce platform.",
     longDescription:
-      "This platform is built on secure user management, utilizing JWT (JSON Web Token) for robust authentication and authorization. Upon successful login, tokens are generated and validated on every request, ensuring secure, stateless user sessions and restricted access to protected routes. Registered users can log in, register, and manage their profiles, while also being able to browse products, place new orders, view history, and track status. Finally, the system includes admin-specific authentication that grants access to a dedicated dashboard for managing and updating all order fulfillment processes."
+      "This platform is built on secure user management, utilizing JWT (JSON Web Token) for robust authentication and authorization. Upon successful login, tokens are generated and validated on every request, ensuring secure, stateless user sessions and restricted access to protected routes. Registered users can log in, register, and manage their profiles, while also being able to browse products, place new orders, view history, and track status. Finally, the system includes admin-specific authentication that grants access to a dedicated dashboard for managing and updating all order fulfillment processes.",
   },
   {
     id: "7",
@@ -198,12 +193,12 @@ export const projects: Project[] = [
       "ESLint",
       "Prettier",
       "Vercel",
-      "JSON"
+      "JSON",
     ],
     description:
       "Gameboy is a vibrant and engaging free-to-play gaming platform info webapp crafted using modern web technologies like JavaScript, Next.js, React, Framer Motion, and Chakra UI.",
     longDescription:
-      "Gameboy is a dynamic, free-to-play gaming platform info web app designed to offer a seamless and immersive experience. Built with modern technologies like JavaScript, Next.js, and React, the application ensures fast load times and a responsive user interface by leveraging server-side rendering. Framer Motion is utilized to enhance user engagement with fluid animations and transitions. Gameboy provides access to a diverse selection of games anytime, anywhere, delivering pure gaming pleasure without downloads or hassle."
+      "Gameboy is a dynamic, free-to-play gaming platform info web app designed to offer a seamless and immersive experience. Built with modern technologies like JavaScript, Next.js, and React, the application ensures fast load times and a responsive user interface by leveraging server-side rendering. Framer Motion is utilized to enhance user engagement with fluid animations and transitions. Gameboy provides access to a diverse selection of games anytime, anywhere, delivering pure gaming pleasure without downloads or hassle.",
   },
   {
     id: "8",
@@ -228,7 +223,7 @@ export const projects: Project[] = [
     description:
       "A dashboard to visualize the sales data of a superstore. This dashboard is designed to provide insights into the sales data of a superstore.",
     longDescription:
-      "This data dashboard prioritizes high performance and scalability, utilizing Vite and React for fast build times and efficient rendering, even with large datasets. It offers interactive data visualization through Recharts, providing users with customizable and dynamic charts for effective data analysis. The application guarantees type safety and reliability by implementing TypeScript, which reduces bugs and enhances code maintainability. Finally, a modern, fully responsive UI is ensured via TailwindCSS, offering a user-friendly and accessible experience supported by a modular and extensible architecture."
+      "This data dashboard prioritizes high performance and scalability, utilizing Vite and React for fast build times and efficient rendering, even with large datasets. It offers interactive data visualization through Recharts, providing users with customizable and dynamic charts for effective data analysis. The application guarantees type safety and reliability by implementing TypeScript, which reduces bugs and enhances code maintainability. Finally, a modern, fully responsive UI is ensured via TailwindCSS, offering a user-friendly and accessible experience supported by a modular and extensible architecture.",
   },
   {
     id: "9",
@@ -255,7 +250,7 @@ export const projects: Project[] = [
     description:
       "Entertainment Vibe is a web app that is designed to provide a seamless user experience, the app allows users to explore an extensive collection of movies with detailed information, including synopses, ratings, and cast details.",
     longDescription:
-      "Entertainment Vibe is a movie information application offering a seamless user experience via a user-friendly and responsive interface built with Chakra UI. It provides access to a vast and diverse movie collection powered by the TMDB API, including detailed information, ratings, and cast details. Users can efficiently discover films using a dynamic search functionality that allows filtering by title, genre, and more. Leveraging Vite's fast build toolchain, the app ensures high performance, quick loading times, and smooth, efficient rendering across all devices."
+      "Entertainment Vibe is a movie information application offering a seamless user experience via a user-friendly and responsive interface built with Chakra UI. It provides access to a vast and diverse movie collection powered by the TMDB API, including detailed information, ratings, and cast details. Users can efficiently discover films using a dynamic search functionality that allows filtering by title, genre, and more. Leveraging Vite's fast build toolchain, the app ensures high performance, quick loading times, and smooth, efficient rendering across all devices.",
   },
   {
     id: "10",
@@ -279,14 +274,15 @@ export const projects: Project[] = [
     description:
       "A cutting-edge web application built using Astro, TypeScript, and TailwindCSS. The platform delivers high performance, modern design, and flexibility for developers looking to create scalable web experiences.",
     longDescription:
-      "CerebroX is a high-performance web platform built using Astro for static site generation and server-side rendering, ensuring fast load times and smooth user interactions. Its design is sleek and modern thanks to TailwindCSS, offering a responsive, clean interface that prioritizes usability and aesthetics. The platform features a scalable, modular architecture enhanced by TypeScript, which supports easy maintenance and integration of new features. Finally, CerebroX offers a developer-friendly environment with efficient tooling and benefits from flexible deployment via Netlify for seamless updates and reliable performance."
+      "CerebroX is a high-performance web platform built using Astro for static site generation and server-side rendering, ensuring fast load times and smooth user interactions. Its design is sleek and modern thanks to TailwindCSS, offering a responsive, clean interface that prioritizes usability and aesthetics. The platform features a scalable, modular architecture enhanced by TypeScript, which supports easy maintenance and integration of new features. Finally, CerebroX offers a developer-friendly environment with efficient tooling and benefits from flexible deployment via Netlify for seamless updates and reliable performance.",
   },
   {
     id: "11",
     title: "FitTrackr",
     image: "/project-imgs/FitTracker.png",
     githubUrl: "https://github.com/ShahSau/FitTrackr",
-    liveUrl: "https://expo.dev/preview/update?message=small%20cleanup&updateRuntimeVersion=1.0.0&createdAt=2024-09-15T15%3A58%3A14.624Z&slug=exp&projectId=565f15fa-79c3-4ff6-8e3b-2b0eebbae44c&group=f7e476a2-beaf-4804-a922-9b2b8ceace4d",
+    liveUrl:
+      "https://expo.dev/preview/update?message=small%20cleanup&updateRuntimeVersion=1.0.0&createdAt=2024-09-15T15%3A58%3A14.624Z&slug=exp&projectId=565f15fa-79c3-4ff6-8e3b-2b0eebbae44c&group=f7e476a2-beaf-4804-a922-9b2b8ceace4d",
     youtubeLink: "",
     dockerLink: "",
     type: "Mobile",
@@ -306,9 +302,8 @@ export const projects: Project[] = [
     description:
       "FitTrackr is a mobile app designed to help users track their fitness progress and achieve their health goals.",
     longDescription:
-      "FitTrackr is a cross-platform fitness application built with React Native, working seamlessly on both Android and iOS devices. The core functionality centers on detailed workout logging, allowing users to track exercises with sets, reps, duration, and intensity. Users can create and modify custom workout plans tailored to their goals. The app ensures progress tracking by visualizing fitness data through charts and summaries. Finally, a secure user authentication system guarantees data privacy and access control."
+      "FitTrackr is a cross-platform fitness application built with React Native, working seamlessly on both Android and iOS devices. The core functionality centers on detailed workout logging, allowing users to track exercises with sets, reps, duration, and intensity. Users can create and modify custom workout plans tailored to their goals. The app ensures progress tracking by visualizing fitness data through charts and summaries. Finally, a secure user authentication system guarantees data privacy and access control.",
   },
-  
 ];
 
 export const experiences: Experience[] = [
@@ -406,7 +401,7 @@ export const experiences: Experience[] = [
     position: "Software Engineer",
     period: "April, 2020 - September, 2021",
     description:
-      'As a consultant full-stack software engineer, I collaborated on diverse client projects, ensuring applications were customer-centric and exceptional. Utilizing React, Express, Jest, Redux, TypeScript, Node.js, AWS, and Terraform, I enhanced the functionality and scalability of clients products. I played a key role in developing a cutting-edge web application for a leading telecommunications company, leveraging React, Express, Node.js, MongoDB, and AWS to deliver a high-performance solution. My contributions were instrumental in optimizing the application"s performance and user experience.My focus was on crafting solutions that exceeded client expectations, delivering excellence in every aspect of development.',
+      "As a consultant full-stack software engineer, I collaborated on diverse client projects, ensuring applications were customer-centric and exceptional. Utilizing React, Express, Jest, Redux, TypeScript, Node.js, AWS, and Terraform, I enhanced the functionality and scalability of clients products. I played a key role in developing a cutting-edge web application for a leading telecommunications company, leveraging React, Express, Node.js, MongoDB, and AWS to deliver a high-performance solution. My contributions were instrumental in optimizing the application's performance and user experience.My focus was on crafting solutions that exceeded client expectations, delivering excellence in every aspect of development.",
     logo: "/images/integrify.jpeg",
     location: "Helsinki, Finland",
     technologies: [
@@ -430,7 +425,6 @@ export const experiences: Experience[] = [
     ],
   },
 ];
-
 
 export const personalInfo = {
   name: "Shahriar",

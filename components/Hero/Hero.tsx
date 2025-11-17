@@ -1,12 +1,15 @@
 "use client";
 
 import { Github, Linkedin, Twitter, Mail } from "lucide-react";
+import Link from "next/link";
+
 import { personalInfo } from "@/data/portfolio";
 import { useLanguage } from "@/contexts/LanguageContext";
-import ScrollIndicator from "./ScrollIndicator";
-import Link from "next/link";
-import SocialLink from "./SocialLink";
+
 import BeamWelcome from "../BeamWelcome";
+
+import SocialLink from "./SocialLink";
+import ScrollIndicator from "./ScrollIndicator";
 
 export const Hero = () => {
   const { t } = useLanguage();

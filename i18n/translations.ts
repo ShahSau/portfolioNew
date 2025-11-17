@@ -275,7 +275,7 @@ export const experienceTranslations = {
       {
         id: "4",
         description:
-          'As a consultant full-stack software engineer, I collaborated on diverse client projects, ensuring applications were customer-centric and exceptional. Utilizing React, Express, Jest, Redux, TypeScript, Node.js, AWS, and Terraform, I enhanced the functionality and scalability of clients products. I played a key role in developing a cutting-edge web application for a leading telecommunications company, leveraging React, Express, Node.js, MongoDB, and AWS to deliver a high-performance solution. My contributions were instrumental in optimizing the application"s performance and user experience.My focus was on crafting solutions that exceeded client expectations, delivering excellence in every aspect of development.',
+          "As a consultant full-stack software engineer, I collaborated on diverse client projects, ensuring applications were customer-centric and exceptional. Utilizing React, Express, Jest, Redux, TypeScript, Node.js, AWS, and Terraform, I enhanced the functionality and scalability of clients products. I played a key role in developing a cutting-edge web application for a leading telecommunications company, leveraging React, Express, Node.js, MongoDB, and AWS to deliver a high-performance solution. My contributions were instrumental in optimizing the application's performance and user experience.My focus was on crafting solutions that exceeded client expectations, delivering excellence in every aspect of development.",
       },
     ],
   },

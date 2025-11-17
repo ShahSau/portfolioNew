@@ -1,8 +1,5 @@
 "use client";
 
-import { useState } from "react";
-import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import { personalInfo } from "@/data/portfolio";
 import {
   Mail,
   Phone,
@@ -12,8 +9,12 @@ import {
   Linkedin,
   Twitter,
 } from "lucide-react";
-import { useLanguage } from "@/contexts/LanguageContext";
 import Link from "next/link";
+
+import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import { personalInfo } from "@/data/portfolio";
+import { useLanguage } from "@/contexts/LanguageContext";
+
 import SocialLink from "./Hero/SocialLink";
 import TerminalContact from "./Terminal/TerminalContact";
 

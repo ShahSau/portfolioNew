@@ -1,5 +1,6 @@
 "use client";
 import { useRef } from "react";
+
 import TerminalBody from "./TerminalBody";
 import TerminalHeader from "./TerminalHeader";
 
@@ -12,10 +13,7 @@ const TerminalContact: React.FC<TerminalContactProps> = ({ translation }) => {
   const inputRef = useRef<HTMLInputElement | null>(null);
 
   return (
-    <section
-      id="contact"
-      className="px-4 py-2"
-    >
+    <section id="contact" className="px-4 py-2">
       <div
         ref={containerRef}
         onClick={() => {
@@ -26,7 +24,11 @@ const TerminalContact: React.FC<TerminalContactProps> = ({ translation }) => {
         {/*Header */}
         <TerminalHeader />
         {/*Body */}
-        <TerminalBody inputRef={inputRef} containerRef={containerRef} t={translation} />
+        <TerminalBody
+          inputRef={inputRef}
+          containerRef={containerRef}
+          t={translation}
+        />
       </div>
     </section>
   );

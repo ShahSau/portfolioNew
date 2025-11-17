@@ -1,13 +1,14 @@
 "use client";
 
+import { MapPin, Briefcase, Target, Heart } from "lucide-react";
+import { motion } from "framer-motion";
+
 import {
   personalInfo,
   fadeIn,
   slideInLeft,
   slideInRight,
 } from "@/data/portfolio";
-import { MapPin, Briefcase, Target, Heart } from "lucide-react";
-import { motion } from "framer-motion";
 
 interface AboutMeProps {
   t: any;

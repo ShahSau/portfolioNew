@@ -1,10 +1,11 @@
 "use client";
 
+import Image from "next/image";
+import { Briefcase, Calendar, MapPin } from "lucide-react";
+
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { experiences } from "@/data/portfolio";
-import { Briefcase, Calendar, MapPin } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
-import Image from "next/image";
 
 export const Experience = () => {
   const { ref, isVisible } = useScrollAnimation(0.2);

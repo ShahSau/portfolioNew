@@ -1,5 +1,6 @@
-import {Check} from "lucide-react"
+import { Check } from "lucide-react";
 import { Fragment } from "react";
+
 import { PreviousQuestionProps } from "./types/interface";
 
 const PreviousQuestions = ({

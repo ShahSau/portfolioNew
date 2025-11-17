@@ -1,6 +1,7 @@
 import emailjs from "@emailjs/browser";
-import {Check} from "lucide-react"
+import { Check } from "lucide-react";
 import { useState } from "react";
+
 import { SummaryProps } from "./types/interface";
 
 const Summary = ({ questions, setQuestions }: SummaryProps): JSX.Element => {
