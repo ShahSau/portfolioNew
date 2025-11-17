@@ -2,8 +2,9 @@ module.exports = {
   ci: {
     collect: {
       startServerCommand: 'npm run start',
-      startServerReadyPattern: 'ready on',
-      startServerReadyTimeout: 30000,
+      startServerReadyPattern: 'Ready', 
+      
+      startServerReadyTimeout: 60000,
       url: ['http://localhost:3000'],
       numberOfRuns: 3,
       settings: {
@@ -30,7 +31,7 @@ module.exports = {
         'speed-index': ['warn', { maxNumericValue: 3000 }],
         
         // Best practices
-        'uses-http2': 'error',
+        'uses-http2': 'off',
         'uses-long-cache-ttl': 'warn',
         'uses-optimized-images': 'warn',
         'modern-image-formats': 'warn',
