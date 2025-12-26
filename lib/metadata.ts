@@ -36,7 +36,7 @@ export const siteConfig = {
     "Problem Solving",
     "Tech Enthusiast",
     "Continuous Learning",
-    "Open Source Contributor",,
+    "Open Source Contributor",
     "Mentorship",
     "System Design",
     "Backend Architecture",
