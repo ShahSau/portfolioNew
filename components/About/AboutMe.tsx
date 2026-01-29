@@ -25,7 +25,7 @@ export const AboutMe = ({ t }: AboutMeProps) => {
     {
       icon: <Briefcase className="w-5 h-5" />,
       title: t.about.experience,
-      value: "5+ years of professional experience",
+      value: "6+ years of professional experience",
       gradient: "from-violet-600 to-purple-600",
     },
     {
@@ -74,7 +74,7 @@ export const AboutMe = ({ t }: AboutMeProps) => {
 
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center">
               {t.about.myJourney}
-              <span className="ml-3 text-3xl font-bold gradient-text">5+</span>
+              <span className="ml-3 text-3xl font-bold gradient-text">6+</span>
               <span className="ml-2 text-sm text-gray-500 dark:text-gray-400">
                 years
               </span>

@@ -33,7 +33,7 @@ export const translations = {
       skillsConclusion:
         "Always learning, always evolving. Technology never stops, and neither do I.",
       aboutMyJourney:
-        "Passionate full-stack developer with 5+ years of experience building scalable web applications. I love turning complex problems into simple, beautiful solutions.",
+        "Passionate full-stack developer with 6+ years of experience building scalable web applications. I love turning complex problems into simple, beautiful solutions.",
       missionStatementDescription:
         "My mission is to create digital experiences that make a difference, combining technical excellence with user-centric design.",
     },

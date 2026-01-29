@@ -432,7 +432,7 @@ export const personalInfo = {
   location: "Germany",
   email: "shahriarksaurov@gmail.com",
   phone: "+49 1782189734",
-  bio: "Passionate full-stack developer with 5+ years of experience building scalable web applications. I love turning complex problems into simple, beautiful solutions.",
+  bio: "Passionate full-stack developer with 6+ years of experience building scalable web applications. I love turning complex problems into simple, beautiful solutions.",
   mission:
     "My mission is to create digital experiences that make a difference, combining technical excellence with user-centric design.",
   github: "https://github.com/ShahSau",
