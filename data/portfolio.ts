@@ -185,20 +185,22 @@ export const projects: Project[] = [
     type: "Frontend",
     technologies: [
       "React",
-      "NextJS",
+      "TypeScript",
       "RestApi",
-      "ChakraUI",
+      "TailwindCSS",
       "Jest",
       "Framer Motion",
       "ESLint",
       "Prettier",
       "Vercel",
+      "Vite",
+      "TailwindCSS",
       "JSON",
     ],
     description:
-      "Gameboy is a vibrant and engaging free-to-play gaming platform info webapp crafted using modern web technologies like JavaScript, Next.js, React, Framer Motion, and Chakra UI.",
+      "Gameboy is a vibrant and engaging free-to-play gaming platform info webapp crafted using modern web technologies like JavaScript, TypeScript, React, Framer Motion, TailwindCSS, Vite and Cypress",
     longDescription:
-      "Gameboy is a dynamic, free-to-play gaming platform info web app designed to offer a seamless and immersive experience. Built with modern technologies like JavaScript, Next.js, and React, the application ensures fast load times and a responsive user interface by leveraging server-side rendering. Framer Motion is utilized to enhance user engagement with fluid animations and transitions. Gameboy provides access to a diverse selection of games anytime, anywhere, delivering pure gaming pleasure without downloads or hassle.",
+      "Gameboy is a dynamic, free-to-play gaming platform info web app designed to offer a seamless and immersive experience. Built with modern technologies like JavaScript, Typescript, and React, the application ensures fast load times and a responsive user interface by leveraging server-side rendering. Framer Motion is utilized to enhance user engagement with fluid animations and transitions. Gameboy provides access to a diverse selection of games anytime, anywhere, delivering pure gaming pleasure without downloads or hassle.",
   },
   {
     id: "8",

@@ -372,7 +372,7 @@ export const projectTranslations = {
       },
       {
         id: "7",
-        description: "Gameboy is a vibrant and engaging free-to-play gaming platform info webapp crafted using modern web technologies like JavaScript, Next.js, React, Framer Motion, and Chakra UI.",
+        description: "Gameboy is a vibrant and engaging free-to-play gaming platform info webapp crafted using modern web technologies like JavaScript, TypeScript, React, Framer Motion, TailwindCSS, Vite and Cypress.",
         longDescription:
           "Gameboy is a dynamic, free-to-play gaming platform info web app designed to offer a seamless and immersive experience. Built with modern technologies like JavaScript, Next.js, and React, the application ensures fast load times and a responsive user interface by leveraging server-side rendering. Framer Motion is utilized to enhance user engagement with fluid animations and transitions. Gameboy provides access to a diverse selection of games anytime, anywhere, delivering pure gaming pleasure without downloads or hassle.",
       },
@@ -446,7 +446,7 @@ export const projectTranslations = {
       },
       {
         id: "7",
-        description: "Gameboy ist eine lebendige und ansprechende Free-to-Play-Gaming-Plattform-Info-Webanwendung, die mit modernen Webtechnologien wie JavaScript, Next.js, React, Framer Motion und Chakra UI entwickelt wurde.",
+        description: "Gameboy ist eine lebendige und ansprechende Free-to-Play-Gaming-Plattform-Info-Webanwendung, die mit modernen Webtechnologien wie JavaScript, TypeScript, React, Framer Motion, TailwindCSS, Vite and Cypress.",
         longDescription:
           "Gameboy ist eine dynamische, kostenlose Gaming-Plattform-Info-Webanwendung, die darauf ausgelegt ist, ein nahtloses und immersives Erlebnis zu bieten. Die Anwendung wurde mit modernen Technologien wie JavaScript, Next.js und React entwickelt und gewährleistet schnelle Ladezeiten sowie eine reaktionsschnelle Benutzeroberfläche durch serverseitiges Rendering. Framer Motion wird genutzt, um das Benutzerengagement mit flüssigen Animationen und Übergängen zu verbessern. Gameboy bietet jederzeit und überall Zugriff auf eine vielfältige Auswahl an Spielen und ermöglicht reines Gaming-Vergnügen ohne Downloads oder Aufwand.",
       },
@@ -519,7 +519,7 @@ export const projectTranslations = {
       },
       {
         id: "7",
-        description: "Gameboy on elävä ja mukaansatempaava ilmainen pelialustasovellus, joka on luotu nykyaikaisilla verkkoteknologioilla, kuten JavaScript, Next.js, React, Framer Motion ja Chakra UI.",
+        description: "Gameboy on elävä ja mukaansatempaava ilmainen pelialustasovellus, joka on luotu nykyaikaisilla verkkoteknologioilla, kuten JavaScript, TypeScript, React, Framer Motion, TailwindCSS, Vite and Cypress.",
         longDescription:
           "Gameboy on dynaaminen, ilmainen pelialustasovellus, joka on suunniteltu tarjoamaan saumaton ja mukaansatempaava kokemus. Sovellus on rakennettu nykyaikaisilla teknologioilla, kuten JavaScriptillä, Next.js:llä ja Reactilla, ja se varmistaa nopeat latausajat ja reagoivan käyttöliittymän hyödyntämällä palvelinpuolen renderöintiä. Framer Motionia käytetään parantamaan käyttäjien sitoutumista sulavilla animaatioilla ja siirtymillä. Gameboy tarjoaa pääsyn monipuoliseen pelivalikoimaan milloin tahansa ja missä tahansa, tarjoten puhdasta pelinautintoa ilman latauksia tai vaivaa.",
       },
