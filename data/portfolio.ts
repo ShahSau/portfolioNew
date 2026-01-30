@@ -181,7 +181,7 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/ShahSau/gameboy",
     liveUrl: "https://gameboy-ruddy.vercel.app/",
     youtubeLink: "",
-    dockerLink: "",
+    dockerLink: "https://github.com/shahsau/gameboy/pkgs/container/gameboy",
     type: "Frontend",
     technologies: [
       "React",

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { ExternalLink, Github, X, Youtube, Box } from "lucide-react";
+import { ExternalLink, Github, X, Youtube, Box, ContainerIcon } from "lucide-react";
 
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { projects } from "@/data/portfolio";
@@ -134,6 +134,20 @@ export const Projects = () => {
                       <Github className="w-4 h-4" />
                       <span className="text-sm font-medium">
                         {t.projects.viewCode}
+                      </span>
+                    </a>
+                  )}
+                  {project.dockerLink && (
+                    <a
+                      href={project.dockerLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={(e) => e.stopPropagation()}
+                      className="flex items-center space-x-1 text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-300 transition-colors"
+                    >
+                      <ContainerIcon className="w-4 h-4" />
+                      <span className="text-sm font-medium">
+                        Docker
                       </span>
                     </a>
                   )}
